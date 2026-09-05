@@ -16,7 +16,7 @@ export interface IOAuthToken extends Document {
   tokenHash:         string;                   // SHA-256 of the raw access token
   refreshTokenHash?: string;                   // SHA-256 of the raw refresh token (optional)
   clientId:          string;                   // The OAuth client that issued this
-  userId:            mongoose.Types.ObjectId;  // The Eromify user this token belongs to
+  userId:            mongoose.Types.ObjectId;  // The Creatify AI user this token belongs to
   scopes:            string[];
   expiresAt:         Date;                     // TTL — auto-deleted by MongoDB
   refreshExpiresAt?: Date;                     // Refresh token expiry (separate TTL)

@@ -57,7 +57,7 @@ export default function AdminLogin({
             <Shield size={24} color="#a3a6ff" />
           </div>
           <h1 style={{ fontSize: "24px", fontWeight: 700, color: "#dee5ff", margin: "0 0 6px", letterSpacing: "-0.3px" }}>
-            Eromify Admin
+            Creatify AI Admin
           </h1>
           <p style={{ fontSize: "14px", color: "#a3aac4", margin: 0 }}>
             Sign in to access the control panel
@@ -84,7 +84,7 @@ export default function AdminLogin({
                 name="email"
                 type="email"
                 required
-                placeholder="admin@eromify.com"
+                placeholder="admin@Creatify AI.com"
                 style={{
                   width: "100%",
                   background: "rgba(0,0,0,0.40)",

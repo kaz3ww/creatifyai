@@ -96,7 +96,7 @@ export const useAvatarStore = create<AvatarStore>()(
       },
     }),
     {
-      name: 'eromify-avatars',
+      name: 'Creatify AI-avatars',
     }
   )
 );

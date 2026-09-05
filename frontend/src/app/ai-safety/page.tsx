@@ -93,7 +93,7 @@ export default function AISafetyPolicyPage() {
                 1. Introduction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Eromify is committed to the safe, responsible, and ethical use of artificial intelligence. We believe in providing powerful tools for creativity while putting robust guardrails in place to prevent harm and abuse.
+                Creatify AI is committed to the safe, responsible, and ethical use of artificial intelligence. We believe in providing powerful tools for creativity while putting robust guardrails in place to prevent harm and abuse.
               </p>
             </section>
 
@@ -105,7 +105,7 @@ export default function AISafetyPolicyPage() {
                 Generating deepfakes, impersonating real people without their consent, and manipulating images of real individuals is strictly prohibited.
               </p>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Users are strictly forbidden from uploading images of real people to alter them in any way that violates their privacy, dignity, or rights, including but not limited to the creation of sexualized content. Eromify's generative features are intended for the creation of fictional AI influencers only. 
+                Users are strictly forbidden from uploading images of real people to alter them in any way that violates their privacy, dignity, or rights, including but not limited to the creation of sexualized content. Creatify AI's generative features are intended for the creation of fictional AI influencers only. 
               </p>
             </section>
 

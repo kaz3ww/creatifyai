@@ -89,7 +89,7 @@ export default function NewsletterForm({ variant = 'sidebar' }: NewsletterFormPr
               Subscribing...
             </>
           ) : (
-            'Join Eromify Inner Circle'
+            'Join Creatify AI Inner Circle'
           )}
         </button>
         

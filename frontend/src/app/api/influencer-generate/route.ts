@@ -37,7 +37,7 @@ async function toDataURI(res: Response): Promise<string> {
 
 async function uploadToCloudinary(dataUri: string): Promise<{ url: string; publicId: string }> {
   const result = await cloudinary.uploader.upload(dataUri, {
-    folder: "eromify/influencer-gallery",
+    folder: "Creatify AI/influencer-gallery",
     resource_type: "image",
   });
   return { url: result.secure_url, publicId: result.public_id };

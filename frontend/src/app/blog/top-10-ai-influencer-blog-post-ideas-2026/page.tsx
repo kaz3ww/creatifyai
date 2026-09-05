@@ -24,7 +24,7 @@ import {
 const pageUrl = "/blog/top-10-ai-influencer-blog-post-ideas-2026";
 
 export const metadata: Metadata = {
-  title: "Top 10 AI Influencer Blog Post Ideas for 2026 | Eromify",
+  title: "Top 10 AI Influencer Blog Post Ideas for 2026 | Creatify AI",
   description:
     "Discover 10 SEO-friendly AI influencer, AI avatar, and virtual creator blog post ideas that creators and brands can publish to grow traffic and generate leads.",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "AI image generator no watermark",
     "consistent AI character generator",
     "AI influencer marketing",
-    "Eromify blog",
+    "Creatify AI blog",
   ],
   authors: [{ name: "Alex" }],
   alternates: {
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "A practical content roadmap for publishing AI influencer, AI avatar, virtual creator, and AI image generation content that can rank and convert.",
     url: pageUrl,
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "article",
     publishedTime: "2026-05-03T00:00:00.000Z",
     modifiedTime: "2026-05-03T00:00:00.000Z",
@@ -118,7 +118,7 @@ const ideas = [
   {
     title: "AI Image Generator for Creators: How to Make No-Watermark Images",
     keyword: "AI image generator no watermark",
-    intent: "Direct product-led search aligned with Eromify's image generation tool.",
+    intent: "Direct product-led search aligned with Creatify AI's image generation tool.",
     angle:
       "Teach creators how to write better image prompts, choose aspect ratios, and produce clean assets for social and websites.",
   },
@@ -157,9 +157,9 @@ const faqs = [
       "Yes. Prompt articles work well because readers want immediate examples they can copy, test, and improve. They also create a clear path from reading to using an AI image generator or AI influencer creator.",
   },
   {
-    question: "How do AI influencer blog posts help Eromify?",
+    question: "How do AI influencer blog posts help Creatify AI?",
     answer:
-      "They attract creators, brands, and marketers searching for AI avatar, virtual influencer, AI image, and AI content workflows. Each post can educate users while sending them to Eromify creator tools.",
+      "They attract creators, brands, and marketers searching for AI avatar, virtual influencer, AI image, and AI content workflows. Each post can educate users while sending them to Creatify AI creator tools.",
   },
 ];
 
@@ -176,19 +176,19 @@ export default function TopAiInfluencerBlogIdeasPage() {
     },
     publisher: {
       "@type": "Organization",
-      name: "Eromify",
-      url: "https://www.eromify.in",
+      name: "Creatify AI",
+      url: "https://www.creatifyai.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.eromify.in/eromifylogo.png",
+        url: "https://www.creatifyai.in/Creatify AIlogo.png",
       },
     },
-    image: "https://www.eromify.in/influencer.webp",
+    image: "https://www.creatifyai.in/influencer.webp",
     datePublished: "2026-05-03",
     dateModified: "2026-05-03",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.eromify.in${pageUrl}`,
+      "@id": `https://www.creatifyai.in${pageUrl}`,
     },
     articleSection: "AI Influencer Marketing",
     keywords:
@@ -199,13 +199,13 @@ export default function TopAiInfluencerBlogIdeasPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.eromify.in" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.eromify.in/blog" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creatifyai.in" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.creatifyai.in/blog" },
       {
         "@type": "ListItem",
         position: 3,
         name: "Top 10 AI Influencer Blog Post Ideas for 2026",
-        item: `https://www.eromify.in${pageUrl}`,
+        item: `https://www.creatifyai.in${pageUrl}`,
       },
     ],
   };
@@ -266,7 +266,7 @@ export default function TopAiInfluencerBlogIdeasPage() {
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8 font-medium">
                 AI influencer builders, virtual avatars, no-watermark image generators, and
-                creator workflows are becoming high-intent search topics. If you want Eromify to
+                creator workflows are becoming high-intent search topics. If you want Creatify AI to
                 attract creators and brands, these are the ten SEO-friendly posts worth publishing first.
               </p>
 
@@ -300,7 +300,7 @@ export default function TopAiInfluencerBlogIdeasPage() {
                 into many content formats.
               </p>
               <p>
-                Eromify already has a strong fit for this search behavior because its creator toolkit focuses on AI
+                Creatify AI already has a strong fit for this search behavior because its creator toolkit focuses on AI
                 image generation, AI influencer creation, editing, and video workflows. The posts below are designed
                 to rank for buyer-aware keywords while naturally sending readers to the creator tools.
               </p>
@@ -344,7 +344,7 @@ export default function TopAiInfluencerBlogIdeasPage() {
                   </h2>
                   <p className="text-slate-300 leading-relaxed">
                     Prompt posts convert because readers can immediately copy a prompt, test it, and improve it.
-                    That creates a natural bridge from the blog to Eromify&apos;s image generator and AI influencer tools.
+                    That creates a natural bridge from the blog to Creatify AI&apos;s image generator and AI influencer tools.
                   </p>
                 </div>
                 <div className="bg-white/10 border border-white/10 rounded-2xl p-5 space-y-3">
@@ -369,7 +369,7 @@ export default function TopAiInfluencerBlogIdeasPage() {
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <Megaphone className="h-7 w-7 text-[#1736cf] mb-3" />
                 <h3 className="font-black text-slate-900 mb-2">Conversion path</h3>
-                <p className="text-sm text-slate-600">Every article should invite readers to generate an image, create an influencer, or explore Eromify tools.</p>
+                <p className="text-sm text-slate-600">Every article should invite readers to generate an image, create an influencer, or explore Creatify AI tools.</p>
               </div>
             </section>
 
@@ -391,9 +391,9 @@ export default function TopAiInfluencerBlogIdeasPage() {
                   <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">AI Video Generator</h3>
                   <p className="text-sm text-slate-600 mt-1">Convert ideas into cinematic short-form assets for social campaigns.</p>
                 </Link>
-                <Link href="/blog/what-is-eromify-future-ai-influencer-ugc-creation" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
+                <Link href="/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
                   <Sparkles className="h-6 w-6 text-[#1736cf] mb-3" />
-                  <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">What is Eromify?</h3>
+                  <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">What is Creatify AI?</h3>
                   <p className="text-sm text-slate-600 mt-1">Introduce readers to the full AI creator platform and its workflow.</p>
                 </Link>
               </div>
@@ -416,10 +416,10 @@ export default function TopAiInfluencerBlogIdeasPage() {
             <section className="bg-gradient-to-br from-[#1736cf] to-slate-900 text-white rounded-3xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:items-center md:justify-between">
               <div>
                 <div className="flex items-center gap-2 text-blue-100 font-bold text-sm uppercase tracking-widest mb-2">
-                  <BadgeCheck className="h-4 w-4" /> Create with Eromify
+                  <BadgeCheck className="h-4 w-4" /> Create with Creatify AI
                 </div>
                 <h2 className="text-2xl md:text-3xl font-black mb-2">Ready to turn these ideas into visuals?</h2>
-                <p className="text-blue-100 max-w-2xl">Use Eromify to generate AI influencer images, UGC-style concepts, and social-ready creator assets.</p>
+                <p className="text-blue-100 max-w-2xl">Use Creatify AI to generate AI influencer images, UGC-style concepts, and social-ready creator assets.</p>
               </div>
               <Link href="/tools/creator/image-generator" className="inline-flex items-center justify-center gap-2 bg-white text-[#1736cf] px-6 py-3 rounded-xl font-black hover:bg-blue-50 transition-colors shrink-0">
                 Generate Images <ArrowRight className="h-4 w-4" />

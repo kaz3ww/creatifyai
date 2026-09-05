@@ -37,9 +37,9 @@ const ALL_POSTS = [
     isFeatured: true,
   },
   {
-    id: "what-is-eromify",
-    title: "What is Eromify? The Future of AI Influencer & UGC Creation",
-    description: "Discover how Eromify helps creators and brands build AI influencers, generate UGC-style content, and scale premium AI media production.",
+    id: "what-is-Creatify AI",
+    title: "What is Creatify AI? The Future of AI Influencer & UGC Creation",
+    description: "Discover how Creatify AI helps creators and brands build AI influencers, generate UGC-style content, and scale premium AI media production.",
     category: "tech-gadgets",
     categoryLabel: "AI Influencers",
     image: "/influencer.webp",
@@ -47,7 +47,7 @@ const ALL_POSTS = [
     authorImage: "/AKASH.png",
     date: "May 3, 2026",
     readTime: "9 min read",
-    href: "/blog/what-is-eromify-future-ai-influencer-ugc-creation",
+    href: "/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
     isFeatured: true,
   },
   {
@@ -89,7 +89,7 @@ export function BlogClient() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
-                AI Influencer Guides &amp; Creator Growth for <span className="text-[#1736cf]">Eromify</span>
+                AI Influencer Guides &amp; Creator Growth for <span className="text-[#1736cf]">Creatify AI</span>
               </h1>
               <p className="text-lg text-slate-600 max-w-xl">
                 Learn how to build AI influencers, generate no-watermark images,
@@ -236,9 +236,9 @@ export function BlogClient() {
                 </Link>
               </article>
 
-              {/* Premium Eromify Introduction */}
+              {/* Premium Creatify AI Introduction */}
               <article className="flex flex-col bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all group">
-                <Link href="/blog/what-is-eromify-future-ai-influencer-ugc-creation" className="contents">
+                <Link href="/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation" className="contents">
                   <div className="aspect-[16/10] overflow-hidden relative">
                     <Image
                       fill
@@ -255,10 +255,10 @@ export function BlogClient() {
                       <span className="text-xs text-slate-400">9 min read</span>
                     </div>
                     <h3 className="text-xl md:text-2xl font-black text-slate-900 mb-3 leading-snug group-hover:text-[#1736cf] transition-colors">
-                      What is Eromify? The Future of AI Influencer &amp; UGC Creation
+                      What is Creatify AI? The Future of AI Influencer &amp; UGC Creation
                     </h3>
                     <p className="text-slate-600 text-sm mb-6 flex-1 line-clamp-2">
-                      Discover how Eromify helps creators and brands build AI influencers, generate UGC-style content, and scale premium AI media production.
+                      Discover how Creatify AI helps creators and brands build AI influencers, generate UGC-style content, and scale premium AI media production.
                     </p>
                     <div className="flex items-center gap-3 pt-6 border-t border-slate-100 mt-auto">
                       <div className="w-8 h-8 rounded-full bg-slate-200 relative overflow-hidden">

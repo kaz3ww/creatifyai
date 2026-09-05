@@ -13,11 +13,11 @@ export default function CreatorHub() {
 
   useEffect(() => {
     const check = () => {
-      setIsPro(localStorage.getItem("eromify_pro") === "true");
+      setIsPro(localStorage.getItem("Creatify AI_pro") === "true");
     };
     check();
-    window.addEventListener("eromify_pro_updated", check);
-    return () => window.removeEventListener("eromify_pro_updated", check);
+    window.addEventListener("Creatify AI_pro_updated", check);
+    return () => window.removeEventListener("Creatify AI_pro_updated", check);
   }, []);
 
   // Also fetch server-side isPro + isEnterprise so localStorage doesn't lie
@@ -28,7 +28,7 @@ export default function CreatorHub() {
       .then((d) => {
         if (d.isPro || d.credits > 0) {
           setIsPro(true);
-          localStorage.setItem("eromify_pro", "true");
+          localStorage.setItem("Creatify AI_pro", "true");
         }
         setIsEnterprise(!!d.motionControlAccess);
       })

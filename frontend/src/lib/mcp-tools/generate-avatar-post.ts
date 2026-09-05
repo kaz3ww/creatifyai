@@ -50,7 +50,7 @@ export const generateAvatarPostDefinition: McpToolDefinition = {
   name: "generate_avatar_post",
   description:
     "Generate an AI image that looks exactly like one of YOUR saved avatars (e.g. Ava, Sofia). " +
-    "Uses the same Pollinations 'klein' model as the eromify.in AI Influencer tool — " +
+    "Uses the same Pollinations 'klein' model as the creatifyai.in AI Influencer tool — " +
     "preserves the avatar's face and identity using image-edit mode. " +
     "Use this when the user says 'create a post for Ava', 'make Ava at the beach', 'generate content with Sofia', etc. " +
     `Costs ${AVATAR_POST_CREDIT_COST / 100} credits per image.`,
@@ -159,7 +159,7 @@ export async function executeGenerateAvatarPost(
       isError: true,
       content: [{
         type: "text",
-        text: `Insufficient credits: generating an avatar post costs ${AVATAR_POST_CREDIT_COST / 100} credits but you only have ${Math.floor(user.credits / 100)}. Top up at eromify.in.`,
+        text: `Insufficient credits: generating an avatar post costs ${AVATAR_POST_CREDIT_COST / 100} credits but you only have ${Math.floor(user.credits / 100)}. Top up at creatifyai.in.`,
       }],
     };
   }
@@ -184,7 +184,7 @@ export async function executeGenerateAvatarPost(
 
     const list = allAvatars.length
       ? allAvatars.map((a) => `• ${a.name} (${a.username})`).join("\n")
-      : "(no avatars saved yet — create one at eromify.in/avatar)";
+      : "(no avatars saved yet — create one at creatifyai.in/avatar)";
 
     return {
       isError: true,
@@ -193,7 +193,7 @@ export async function executeGenerateAvatarPost(
         text:
           `Avatar "${input.avatarName}" not found in your saved avatars.\n\n` +
           `Your saved avatars:\n${list}\n\n` +
-          `Tip: create the avatar first at eromify.in/avatar, then try again.`,
+          `Tip: create the avatar first at creatifyai.in/avatar, then try again.`,
       }],
     };
   }
@@ -218,7 +218,7 @@ export async function executeGenerateAvatarPost(
   let cloudinaryUrl: string;
   try {
     const uploadResult = await cloudinary.uploader.upload(dataUri, {
-      folder: "eromify/avatar-posts",
+      folder: "Creatify AI/avatar-posts",
       resource_type: "image",
     });
     cloudinaryUrl = uploadResult.secure_url;

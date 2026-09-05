@@ -20,7 +20,7 @@ const VIDEO_CREDIT_COST = 1500;
 export const generateVideoDefinition: McpToolDefinition = {
   name: "generate_video",
   description:
-    "Generate an AI video on Eromify using your account credits. " +
+    "Generate an AI video on Creatify AI using your account credits. " +
     "Returns a Cloudinary CDN URL for the generated video. " +
     `Costs ${VIDEO_CREDIT_COST / 100} credits per video. Requires a video-enabled plan.`,
   inputSchema: {
@@ -78,7 +78,7 @@ export async function executeGenerateVideo(
       isError: true,
       content: [{
         type: "text",
-        text: "Video generation requires a plan that includes video access (Pro Pack or Mega Pack). Upgrade at eromify.in.",
+        text: "Video generation requires a plan that includes video access (Pro Pack or Mega Pack). Upgrade at creatifyai.in.",
       }],
     };
   }
@@ -89,7 +89,7 @@ export async function executeGenerateVideo(
       isError: true,
       content: [{
         type: "text",
-        text: `Insufficient credits: video generation costs ${VIDEO_CREDIT_COST / 100} credits but you only have ${Math.floor(user.credits / 100)}. Top up at eromify.in.`,
+        text: `Insufficient credits: video generation costs ${VIDEO_CREDIT_COST / 100} credits but you only have ${Math.floor(user.credits / 100)}. Top up at creatifyai.in.`,
       }],
     };
   }

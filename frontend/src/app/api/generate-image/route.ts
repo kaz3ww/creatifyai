@@ -24,7 +24,7 @@ async function uploadToCloudinary(
   dataUri: string
 ): Promise<{ url: string; publicId: string }> {
   const result = await cloudinary.uploader.upload(dataUri, {
-    folder: "eromify/studio",
+    folder: "Creatify AI/studio",
     resource_type: "image",
   });
   return { url: result.secure_url, publicId: result.public_id };

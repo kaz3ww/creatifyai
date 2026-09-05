@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ChevronRight, Clock, Calendar, User, Tag, ArrowLeft, Share2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "The Future of AI in Modern Software Development & Engineering | Eromify Blog",
+  title: "The Future of AI in Modern Software Development & Engineering | Creatify AI Blog",
   description:
     "Discover how large language models (LLMs) and AI-powered coding assistants are reshaping the software development lifecycle — from code generation and system design to debugging and documentation.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       "AI, particularly large language models, is rapidly reshaping modern software development. Learn how AI tools enable engineers to work smarter, faster, and more creatively.",
     url: "/blog/future-of-ai-software-development",
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "article",
     publishedTime: "2026-03-15T00:00:00.000Z",
     authors: ["Alex"],
@@ -53,14 +53,14 @@ export default function AIFutureBlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "Eromify",
-      url: "https://www.eromify.in",
+      name: "Creatify AI",
+      url: "https://www.creatifyai.in",
     },
     datePublished: "2026-03-15",
     dateModified: "2026-03-15",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.eromify.in/blog/future-of-ai-software-development",
+      "@id": "https://www.creatifyai.in/blog/future-of-ai-software-development",
     },
     keywords: "AI, software development, LLMs, engineering, coding assistants",
     articleSection: "AI & Technology",
@@ -297,7 +297,7 @@ export default function AIFutureBlogPost() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-900">Alex</p>
-                  <p className="text-xs text-slate-500">Chief Editor · Eromify</p>
+                  <p className="text-xs text-slate-500">Chief Editor · Creatify AI</p>
                 </div>
               </div>
 
@@ -309,7 +309,7 @@ export default function AIFutureBlogPost() {
                   <ArrowLeft className="h-4 w-4" /> All Articles
                 </Link>
                 <span className="text-xs text-slate-400">
-                  Published March 15, 2026 · Eromify Blog
+                  Published March 15, 2026 · Creatify AI Blog
                 </span>
               </div>
             </footer>

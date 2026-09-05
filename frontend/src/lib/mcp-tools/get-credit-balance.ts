@@ -12,7 +12,7 @@ import type { McpToolDefinition, McpCallToolResult, McpUserContext } from "./typ
 export const getCreditBalanceDefinition: McpToolDefinition = {
   name: "get_credit_balance",
   description:
-    "Get your current Eromify credit balance, plan status, and video access status. No credits required.",
+    "Get your current Creatify AI credit balance, plan status, and video access status. No credits required.",
   inputSchema: {
     type: "object",
     properties: {},

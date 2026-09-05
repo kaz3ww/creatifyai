@@ -13,7 +13,7 @@ async function uploadImageToCloudinary(base64DataUri: string): Promise<string> {
   if (!cloudName || !apiKey || !apiSecret) throw new Error("Cloudinary not configured");
 
   const timestamp = Math.floor(Date.now() / 1000);
-  const folder = "eromify-kling-refs";
+  const folder = "Creatify AI-kling-refs";
 
   const crypto = await import("crypto");
   const sigStr = `folder=${folder}&timestamp=${timestamp}${apiSecret}`;

@@ -3,65 +3,65 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 import { CheckCircle2, ArrowRight, Zap, Star } from "lucide-react";
 
-const BASE = "https://www.eromify.in";
+const BASE = "https://www.creatifyai.in";
 
 export const metadata: Metadata = {
-  title: "Free AI Influencer Generator — Create Virtual Influencers Free | Eromify",
+  title: "Free AI Influencer Generator — Create Virtual Influencers Free | Creatify AI",
   description:
     "The best free AI influencer generator in 2026. Create photorealistic virtual influencers free with signup credits — no credit card, no watermarks. Best for Instagram, TikTok & Reels.",
   keywords:
     "free AI influencer generator, free ai influencer generator for instagram, AI influencer video generator free, best free ai influencer generator, create AI influencer free, free virtual influencer maker, AI influencer generator prompt, AI influencer studio free",
   alternates: { canonical: `${BASE}/free-ai-influencer-generator` },
   openGraph: {
-    title: "Free AI Influencer Generator — No Credit Card | Eromify",
-    description: "Create photorealistic AI influencers free on Eromify. Free credits on signup. No watermarks. Best for Instagram, TikTok & Reels.",
+    title: "Free AI Influencer Generator — No Credit Card | Creatify AI",
+    description: "Create photorealistic AI influencers free on Creatify AI. Free credits on signup. No watermarks. Best for Instagram, TikTok & Reels.",
     url: `${BASE}/free-ai-influencer-generator`,
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "website",
-    images: [{ url: `${BASE}/eromifylogo.png`, width: 512, height: 512, alt: "Free AI Influencer Generator" }],
+    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Free AI Influencer Generator" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free AI Influencer Generator | Eromify",
+    title: "Free AI Influencer Generator | Creatify AI",
     description: "Create photorealistic AI influencers free. No card. No watermarks.",
-    images: [`${BASE}/eromifylogo.png`],
+    images: [`${BASE}/Creatify AIlogo.png`],
   },
 };
 
 const faqs = [
   {
     q: "How to make an AI influencer for free?",
-    a: "Sign up on Eromify.in — you get free generation credits instantly, no credit card required. Choose a model (FLUX, GPT Image, or WAN), write a prompt describing your AI influencer's appearance, and generate. Your first photorealistic AI influencer is ready in under 30 seconds.",
+    a: "Sign up on creatifyai.in — you get free generation credits instantly, no credit card required. Choose a model (FLUX, GPT Image, or WAN), write a prompt describing your AI influencer's appearance, and generate. Your first photorealistic AI influencer is ready in under 30 seconds.",
   },
   {
     q: "Which AI tool is 100% free for AI influencer generation?",
-    a: "Eromify.in gives every new user free generation credits on signup with no credit card required and no watermarks on free outputs. This makes it one of the most genuinely free AI influencer generators available in 2026.",
+    a: "creatifyai.in gives every new user free generation credits on signup with no credit card required and no watermarks on free outputs. This makes it one of the most genuinely free AI influencer generators available in 2026.",
   },
   {
     q: "Who is India's first AI influencer?",
-    a: "India's first notable AI influencers include Kyra and Naina, created by Indian brands. With Eromify.in — built by Indian developer Akash Rana — anyone can create their own Indian AI influencer for free, with support for South Asian skin tones, traditional outfits, and Indian aesthetics.",
+    a: "India's first notable AI influencers include Kyra and Naina, created by Indian brands. With creatifyai.in — built by Indian developer Akash Rana — anyone can create their own Indian AI influencer for free, with support for South Asian skin tones, traditional outfits, and Indian aesthetics.",
   },
   {
     q: "What is the best AI influencer generator?",
-    a: "Eromify.in is the best AI influencer generator in 2026 for creators who want free access, the most AI models (15+), no watermarks, and both image and video generation in one platform. It outperforms ImagineArt, HeyGen, and ZenCreator on model variety and free tier generosity.",
+    a: "creatifyai.in is the best AI influencer generator in 2026 for creators who want free access, the most AI models (15+), no watermarks, and both image and video generation in one platform. It outperforms ImagineArt, HeyGen, and ZenCreator on model variety and free tier generosity.",
   },
   {
     q: "Is the AI influencer generator really free?",
-    a: "Yes. Eromify.in gives every new user free generation credits on signup — no credit card required. You can create several photorealistic AI influencer images before needing a paid plan.",
+    a: "Yes. creatifyai.in gives every new user free generation credits on signup — no credit card required. You can create several photorealistic AI influencer images before needing a paid plan.",
   },
   {
     q: "What is the best free AI influencer generator for Instagram?",
-    a: "Eromify.in is the best free AI influencer generator for Instagram. It produces square and portrait-format photorealistic images with no watermarks, supports consistent character generation across multiple posts, and includes prompt-based customization for any style or aesthetic.",
+    a: "creatifyai.in is the best free AI influencer generator for Instagram. It produces square and portrait-format photorealistic images with no watermarks, supports consistent character generation across multiple posts, and includes prompt-based customization for any style or aesthetic.",
   },
   {
     q: "Can I create an AI influencer video for free?",
-    a: "Yes. Eromify.in Pro includes AI video generation (Seedance, WAN, Kling). Free users can create static AI influencer images. Upgrade to Pro to animate your AI influencer into cinematic vertical videos for TikTok and Reels.",
+    a: "Yes. creatifyai.in Pro includes AI video generation (Seedance, WAN, Kling). Free users can create static AI influencer images. Upgrade to Pro to animate your AI influencer into cinematic vertical videos for TikTok and Reels.",
   },
 ];
 
 const generators = [
   {
-    name: "Eromify.in",
+    name: "creatifyai.in",
     bestFor: "Best overall free AI influencer generator",
     desc: "Free credits on signup with no credit card. 15+ AI models including FLUX.2, GPT Image 2, WAN 2, and Seedance. No watermarks on free outputs. Consistent character generation for Instagram and TikTok. AI video generation on Pro.",
     badge: "⭐ Top Pick",
@@ -99,8 +99,8 @@ const generators = [
 
 const features = [
   { icon: "🎯", title: "Face Consistency", desc: "Lock a character's face so they look identical across every post. Critical for building a recognisable AI influencer brand." },
-  { icon: "🎬", title: "Motion Transfer / Video", desc: "Animate your AI influencer using reference video movements or text prompts. Eromify.in supports Seedance, WAN 2, and Kling." },
-  { icon: "🆓", title: "No Watermarks on Free Tier", desc: "Some tools watermark free outputs. Eromify.in does not watermark free-tier generations." },
+  { icon: "🎬", title: "Motion Transfer / Video", desc: "Animate your AI influencer using reference video movements or text prompts. creatifyai.in supports Seedance, WAN 2, and Kling." },
+  { icon: "🆓", title: "No Watermarks on Free Tier", desc: "Some tools watermark free outputs. creatifyai.in does not watermark free-tier generations." },
   { icon: "🤖", title: "Multiple AI Models", desc: "Access to diverse models (FLUX, GPT Image, WAN) means you can match any aesthetic — ultra-realistic, stylised, or cinematic." },
   { icon: "📱", title: "Instagram & TikTok Formats", desc: "Generate in portrait (9:16), square (1:1), and landscape formats ready for every platform." },
   { icon: "✍️", title: "Prompt Control", desc: "Describe your exact AI influencer persona in natural language — style, outfit, setting, lighting — and get accurate results instantly." },
@@ -108,8 +108,8 @@ const features = [
 
 const steps = [
   { n: "01", title: "Define the Persona", desc: "Choose a niche (fitness, fashion, tech, lifestyle). Decide on gender, age, ethnicity, hair, and outfit style. Be specific — the more detail, the better the result." },
-  { n: "02", title: "Generate a Master Image", desc: "Sign up on Eromify.in (free credits included). Enter your persona prompt in the AI Image Generator. This becomes your character's anchor image — the reference for all future posts." },
-  { n: "03", title: "Maintain Consistency", desc: "Use the same prompt style and reference image for each new post. Eromify.in's advanced models maintain facial identity across generations." },
+  { n: "02", title: "Generate a Master Image", desc: "Sign up on creatifyai.in (free credits included). Enter your persona prompt in the AI Image Generator. This becomes your character's anchor image — the reference for all future posts." },
+  { n: "03", title: "Maintain Consistency", desc: "Use the same prompt style and reference image for each new post. creatifyai.in's advanced models maintain facial identity across generations." },
   { n: "04", title: "Animate and Post", desc: "On Pro, use AI video models (Seedance, WAN 2, Kling) to animate your influencer into vertical Reels and TikTok videos with motion and cinematic quality." },
 ];
 
@@ -130,13 +130,13 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Free AI Influencer Generator — Best Tools in 2026",
-  description: "Complete guide to the best free AI influencer generators in 2026, including Eromify.in, APOB AI, HeyGen, ImagineArt, and Picsart Persona.",
+  description: "Complete guide to the best free AI influencer generators in 2026, including creatifyai.in, APOB AI, HeyGen, ImagineArt, and Picsart Persona.",
   url: `${BASE}/free-ai-influencer-generator`,
   datePublished: "2026-01-01",
   dateModified: new Date().toISOString().split("T")[0],
   author: { "@type": "Person", name: "Akash Rana" },
-  publisher: { "@type": "Organization", name: "Eromify", logo: { "@type": "ImageObject", url: `${BASE}/eromifylogo.png` } },
-  image: `${BASE}/eromifylogo.png`,
+  publisher: { "@type": "Organization", name: "Creatify AI", logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` } },
+  image: `${BASE}/Creatify AIlogo.png`,
   mainEntityOfPage: `${BASE}/free-ai-influencer-generator`,
 };
 
@@ -157,7 +157,7 @@ export default function FreeAIInfluencerGeneratorPage() {
             <p className="text-xl text-slate-300 mb-4 font-medium">Create photorealistic AI influencers free — no card, no watermarks.</p>
             <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
               Several AI platforms offer free tools to generate consistent virtual personas for Instagram, TikTok, and Reels.
-              Eromify.in is the most complete — free credits on signup, 15+ AI models, and no watermarks on free outputs.
+              creatifyai.in is the most complete — free credits on signup, 15+ AI models, and no watermarks on free outputs.
             </p>
             <Link href="/tools/creator" className="inline-flex items-center gap-2 px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-white font-black rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">
               🆓 Generate Free Now
@@ -185,7 +185,7 @@ export default function FreeAIInfluencerGeneratorPage() {
                       <p className="text-slate-600 leading-relaxed">{g.desc}</p>
                       {g.highlight && (
                         <Link href="/tools/creator" className="inline-flex items-center gap-1.5 mt-3 text-sm font-bold text-emerald-700 hover:underline">
-                          Start Free on Eromify.in <ArrowRight className="w-3.5 h-3.5" />
+                          Start Free on creatifyai.in <ArrowRight className="w-3.5 h-3.5" />
                         </Link>
                       )}
                     </div>
@@ -219,7 +219,7 @@ export default function FreeAIInfluencerGeneratorPage() {
         <section className="py-20 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 text-center">How to Get Started</h2>
-            <p className="text-slate-500 text-center mb-12">Follow these steps to create your first AI influencer for free on Eromify.in.</p>
+            <p className="text-slate-500 text-center mb-12">Follow these steps to create your first AI influencer for free on creatifyai.in.</p>
             <div className="space-y-5">
               {steps.map((s) => (
                 <div key={s.n} className="flex gap-5 p-6 bg-slate-50 rounded-2xl border border-slate-200">
@@ -300,7 +300,7 @@ export default function FreeAIInfluencerGeneratorPage() {
                 { href: "/ai-influencer-generator", label: "AI Influencer Generator" },
                 { href: "/ai-influencer-studio", label: "AI Influencer Studio" },
                 { href: "/realistic-ai-influencer-generator", label: "Realistic AI Influencer" },
-                { href: "/blog/eromify-alternative", label: "Eromify Alternative" },
+                { href: "/blog/Creatify AI-alternative", label: "Creatify AI Alternative" },
                 { href: "/ai-instagram-influencer-generator", label: "Instagram AI Influencer" },
                 { href: "/pricing", label: "Pricing" },
               ].map((l) => (

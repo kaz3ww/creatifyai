@@ -129,7 +129,7 @@ export default function AcceptableUsePolicyPage() {
                 1. Introduction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                This Acceptable Use Policy dictates what is and is not permitted on Eromify. Our goal is to provide a creative and expansive platform for AI character generation while ensuring the safety, privacy, and well-being of all individuals. By using our services, you agree to adhere strictly to this policy.
+                This Acceptable Use Policy dictates what is and is not permitted on Creatify AI. Our goal is to provide a creative and expansive platform for AI character generation while ensuring the safety, privacy, and well-being of all individuals. By using our services, you agree to adhere strictly to this policy.
               </p>
             </section>
 
@@ -138,7 +138,7 @@ export default function AcceptableUsePolicyPage() {
                 2. Prohibited Content & User Generated Content (UGC)
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                You may not use Eromify to create, generate, upload, or share content that:
+                You may not use Creatify AI to create, generate, upload, or share content that:
               </p>
               <ul className="list-disc pl-5 mb-6 text-slate-600 space-y-2">
                 <li>Promotes violence, terrorism, or illegal acts.</li>
@@ -204,9 +204,9 @@ export default function AcceptableUsePolicyPage() {
                     <Mail className="w-5 h-5 text-[#1736cf]" />
                     <a
                       className="text-[#1736cf] font-medium hover:underline"
-                      href="mailto:eromify.in@gmail.com"
+                      href="mailto:creatifyai.in@gmail.com"
                     >
-                      eromify.in@gmail.com
+                      creatifyai.in@gmail.com
                     </a>
                   </li>
                 </ul>

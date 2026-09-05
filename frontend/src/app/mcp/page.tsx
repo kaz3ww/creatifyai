@@ -9,7 +9,7 @@ export default function McpLandingPage() {
   const [copiedUrl, setCopiedUrl] = useState(false);
 
   const copyUrl = () => {
-    navigator.clipboard.writeText("https://api.eromify.in/mcp");
+    navigator.clipboard.writeText("https://api.creatifyai.in/mcp");
     setCopiedUrl(true);
     setTimeout(() => setCopiedUrl(false), 2000);
   };
@@ -31,7 +31,7 @@ export default function McpLandingPage() {
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 tracking-tight leading-[1.1] mb-6">
               Run<br/>
-              Eromify<br/>
+              Creatify AI<br/>
               <span className="italic text-violet-600">inside Claude<span className="text-slate-300">.</span></span>
             </h1>
             <p className="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
@@ -43,7 +43,7 @@ export default function McpLandingPage() {
                 onClick={copyUrl}
                 className="flex items-center justify-between gap-4 px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl mb-6 cursor-pointer hover:border-slate-300 transition-all group"
               >
-                <span className="text-sm font-mono text-slate-700 truncate">https://api.eromify.in/mcp</span>
+                <span className="text-sm font-mono text-slate-700 truncate">https://api.creatifyai.in/mcp</span>
                 <div className="flex items-center gap-2 text-xs font-medium text-slate-500 group-hover:text-slate-700 transition-colors">
                   {copiedUrl ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4" />}
                   {copiedUrl ? "Copied" : "Copy"}
@@ -72,7 +72,7 @@ export default function McpLandingPage() {
                   <div className="w-3 h-3 rounded-full bg-slate-200" />
                   <div className="w-3 h-3 rounded-full bg-slate-200" />
                 </div>
-                <span className="text-[10px] font-mono tracking-widest text-slate-400 uppercase">Claude &middot; Eromify</span>
+                <span className="text-[10px] font-mono tracking-widest text-slate-400 uppercase">Claude &middot; Creatify AI</span>
               </div>
 
               <div className="space-y-6">
@@ -126,14 +126,14 @@ export default function McpLandingPage() {
               <h4 className="text-xl font-black text-slate-900 mb-4">02</h4>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Add a custom connector</h3>
               <p className="text-sm text-slate-500 leading-relaxed">
-                Paste the Eromify server URL. No client secret needed.
+                Paste the Creatify AI server URL. No client secret needed.
               </p>
             </div>
             <div className="p-8">
               <h4 className="text-xl font-black text-slate-900 mb-4">03</h4>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Sign in & authorize</h3>
               <p className="text-sm text-slate-500 leading-relaxed">
-                Approve with your Eromify account. Connected &mdash; no API key to paste.
+                Approve with your Creatify AI account. Connected &mdash; no API key to paste.
               </p>
             </div>
           </div>
@@ -260,13 +260,13 @@ export default function McpLandingPage() {
           
           <div className="grid md:grid-cols-2 gap-x-12 gap-y-10">
             <div>
-              <h3 className="text-lg font-bold text-slate-900 mb-3">How do I connect Eromify to Claude?</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">How do I connect Creatify AI to Claude?</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                In Claude, open Settings &rarr; Connectors &rarr; Add custom connector and paste the server URL <code className="text-violet-700 bg-violet-100 px-1 rounded">https://api.eromify.in/mcp</code>. Sign in with your Eromify account and approve &mdash; no API key to paste. The whole setup takes about 30 seconds.
+                In Claude, open Settings &rarr; Connectors &rarr; Add custom connector and paste the server URL <code className="text-violet-700 bg-violet-100 px-1 rounded">https://api.creatifyai.in/mcp</code>. Sign in with your Creatify AI account and approve &mdash; no API key to paste. The whole setup takes about 30 seconds.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Does using Eromify inside Claude cost extra?</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">Does using Creatify AI inside Claude cost extra?</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 No. You spend the same credits as in the app, and connecting through Claude never adds a markup. You can check your credit balance from the chat before generating.
               </p>
@@ -304,7 +304,7 @@ export default function McpLandingPage() {
             Your AI studio, one message away.
           </h2>
           <p className="text-slate-600 mb-10 max-w-lg mx-auto">
-            Connect Eromify to Claude and start creating from chat.
+            Connect Creatify AI to Claude and start creating from chat.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="https://claude.ai" target="_blank" className="inline-flex items-center gap-2 px-8 py-4 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl transition-colors">

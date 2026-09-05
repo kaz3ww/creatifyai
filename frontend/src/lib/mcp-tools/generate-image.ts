@@ -30,7 +30,7 @@ const IMAGE_CREDIT_COST = 100; // internal credits per image
 export const generateImageDefinition: McpToolDefinition = {
   name: "generate_image",
   description:
-    "Generate one or more AI images on Eromify using your account credits. " +
+    "Generate one or more AI images on Creatify AI using your account credits. " +
     "Returns Cloudinary CDN URLs for each generated image. " +
     `Costs ${IMAGE_CREDIT_COST / 100} credit per image.`,
   inputSchema: {
@@ -111,7 +111,7 @@ async function fetchAndUploadImage(
 
   // Upload to Cloudinary
   const result = await cloudinary.uploader.upload(dataUri, {
-    folder:        "eromify/studio",
+    folder:        "Creatify AI/studio",
     resource_type: "image",
   });
 
@@ -155,7 +155,7 @@ export async function executeGenerateImage(
       isError: true,
       content: [{
         type: "text",
-        text: `Insufficient credits: generating ${count} image${count > 1 ? "s" : ""} costs ${need} credit${need > 1 ? "s" : ""} but you only have ${have}. Top up at eromify.in.`,
+        text: `Insufficient credits: generating ${count} image${count > 1 ? "s" : ""} costs ${need} credit${need > 1 ? "s" : ""} but you only have ${have}. Top up at creatifyai.in.`,
       }],
     };
   }

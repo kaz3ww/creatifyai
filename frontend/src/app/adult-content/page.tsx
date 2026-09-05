@@ -92,7 +92,7 @@ export default function AdultContentPolicyPage() {
                 1. 18+ Age Restriction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Access to any adult or NSFW generation features on Eromify is strictly limited to users who are 18 years of age or older. By registering and utilizing these features, you legally affirm that you are of legal age in your jurisdiction.
+                Access to any adult or NSFW generation features on Creatify AI is strictly limited to users who are 18 years of age or older. By registering and utilizing these features, you legally affirm that you are of legal age in your jurisdiction.
               </p>
             </section>
 

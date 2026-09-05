@@ -1,7 +1,7 @@
 /**
  * /api/mcp/route.ts
  *
- * Eromify MCP Server — Streamable HTTP Transport
+ * Creatify AI MCP Server — Streamable HTTP Transport
  * ─────────────────────────────────────────────────────────────────────────────
  * Supported JSON-RPC methods:
  *   initialize        → public handshake
@@ -32,7 +32,7 @@ import mongoose                from "mongoose";
 // ── Constants ─────────────────────────────────────────────────────────────────
 
 const MCP_PROTOCOL_VERSION = "2024-11-05";
-const SERVER_INFO          = { name: "eromify-mcp", version: "1.0.0" };
+const SERVER_INFO          = { name: "Creatify AI-mcp", version: "1.0.0" };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -66,9 +66,9 @@ function rpcError(id: string | number | null, code: number, message: string, htt
  * A plain JSON-RPC error body is NOT enough — Claude ignores it silently.
  */
 function unauthorizedResponse(id: string | number | null) {
-  const base = (process.env.NEXTAUTH_URL ?? "https://www.eromify.in").replace(/\/$/, "");
+  const base = (process.env.NEXTAUTH_URL ?? "https://www.creatifyai.in").replace(/\/$/, "");
   return NextResponse.json(
-    { jsonrpc: "2.0", id, error: { code: -32001, message: "Unauthorized: missing or invalid token. Generate a key at eromify.in/mcp-keys." } },
+    { jsonrpc: "2.0", id, error: { code: -32001, message: "Unauthorized: missing or invalid token. Generate a key at creatifyai.in/mcp-keys." } },
     {
       status: 401,
       headers: {
@@ -76,7 +76,7 @@ function unauthorizedResponse(id: string | number | null) {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Expose-Headers": "WWW-Authenticate",
         // resource_metadata tells Claude where to find OAuth discovery docs (RFC 9728).
-        "WWW-Authenticate": `Bearer realm="Eromify MCP", error="invalid_token", resource_metadata="${base}/.well-known/oauth-protected-resource"`,
+        "WWW-Authenticate": `Bearer realm="Creatify AI MCP", error="invalid_token", resource_metadata="${base}/.well-known/oauth-protected-resource"`,
       },
     }
   );
@@ -119,7 +119,7 @@ export async function GET(request: NextRequest) {
 
   return NextResponse.json(
     {
-      name:        "Eromify AI Generator",
+      name:        "Creatify AI AI Generator",
       description: "Generate AI images and videos, list avatar templates, and check your credit balance directly from Claude.",
       version:     "1.0.0",
       protocol:    MCP_PROTOCOL_VERSION,
@@ -248,7 +248,7 @@ export async function POST(request: NextRequest) {
       return rpcOk(id, {
         content: [{
           type: "text",
-          text: "⛔ Claude MCP access requires the Professional Pack (₹1,999) or Enterprise Pack (₹3,999). Upgrade at https://eromify.in/pricing",
+          text: "⛔ Claude MCP access requires the Professional Pack (₹1,999) or Enterprise Pack (₹3,999). Upgrade at https://creatifyai.in/pricing",
         }],
         isError: true,
       });

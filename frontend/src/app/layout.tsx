@@ -9,7 +9,7 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const BASE = "https://www.eromify.in";
+const BASE = "https://www.creatifyai.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   },
   // ── Keyword-rich title matching what Google expects for brand searches ──
   title: {
-    default: "Create AI Influencers, Images & Videos",
-    template: "%s | Eromify",
+    default: "Create AI Influencers, Images & Videos | Creatify AI",
+    template: "%s | Creatify AI",
   },
   description:
-    "Eromify is the #1 AI Influencer Generator. Create photorealistic AI models, cinematic AI videos, and consistent virtual influencers in seconds. No limits. No watermarks. Start free.",
+    "Creatify AI is the #1 AI Influencer Generator. Create photorealistic AI models, cinematic AI videos, and consistent virtual influencers in seconds. No limits. No watermarks. Start free.",
   keywords:
-    "Eromify, AI influencer generator, create AI influencer, AI model generator, virtual influencer creator, AI image generation, AI video generation, AI media platform, AI UGC generator, consistent AI character, digital avatar creator, AI content creation, Akash Rana",
+    "Creatify AI, creatifyai, AI influencer generator, create AI influencer, AI model generator, virtual influencer creator, AI image generation, AI video generation, AI media platform, AI UGC generator, consistent AI character, digital avatar creator, AI content creation",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -43,20 +43,20 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Eromify — AI Influencer Generator | Create AI Models, Images & Videos",
+    title: "Creatify AI — AI Influencer Generator | Create AI Models, Images & Videos",
     description:
       "Create photorealistic AI influencers, cinematic videos, and premium AI images in seconds. The all-in-one AI media platform for creators and brands.",
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "website",
     url: BASE,
-    images: [{ url: `${BASE}/eromifylogo.png`, width: 512, height: 512, alt: "Eromify — AI Influencer Generator" }],
+    images: [{ url: `${BASE}/creatifyailogo.png`, width: 512, height: 512, alt: "Creatify AI — AI Influencer Generator" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eromify — AI Influencer Generator | Create AI Models & Videos",
+    title: "Creatify AI — AI Influencer Generator | Create AI Models & Videos",
     description:
-      "Create photorealistic AI influencers, cinematic videos, and premium AI content in seconds. Start free on Eromify.",
-    images: [`${BASE}/eromifylogo.png`],
+      "Create photorealistic AI influencers, cinematic videos, and premium AI content in seconds. Start free on Creatify AI.",
+    images: [`${BASE}/creatifyailogo.png`],
   },
 };
 
@@ -65,20 +65,20 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${BASE}/#organization`,
-  name: "Eromify",
+  name: "Creatify AI",
   url: BASE,
   logo: {
     "@type": "ImageObject",
-    url: `${BASE}/eromifylogo.png`,
+    url: `${BASE}/creatifyailogo.png`,
     width: 512,
     height: 512,
   },
   sameAs: [
-    "https://www.instagram.com/eromify",
-    "https://twitter.com/eromify",
+    "https://www.instagram.com/creatifyai",
+    "https://twitter.com/creatifyai",
   ],
   description:
-    "Eromify is the leading AI influencer generation platform for creators and brands. Create photorealistic virtual influencers, AI videos, and digital media at scale.",
+    "Creatify AI is the leading AI influencer generation platform for creators and brands. Create photorealistic virtual influencers, AI videos, and digital media at scale.",
   foundingDate: "2025",
   founder: {
     "@type": "Person",
@@ -96,7 +96,7 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${BASE}/#website`,
-  name: "Eromify",
+  name: "Creatify AI",
   url: BASE,
   description: "AI Influencer Generator — Create AI Models, Images & Videos",
   publisher: { "@id": `${BASE}/#organization` },
@@ -115,7 +115,7 @@ const websiteSchema = {
 const siteNavigationSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Eromify Navigation",
+  name: "Creatify AI Navigation",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "AI Influencer Generator", url: `${BASE}/tools/creator` },
     { "@type": "ListItem", position: 2, name: "AI Influencer Studio", url: `${BASE}/ai-influencer-studio` },
@@ -128,7 +128,7 @@ const siteNavigationSchema = {
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "Eromify",
+  name: "Creatify AI",
   applicationCategory: "MultimediaApplication",
   applicationSubCategory: "AI Content Generation",
   operatingSystem: "Web browser, OS agnostic",

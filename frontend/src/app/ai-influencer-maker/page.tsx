@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Influencer Maker – Build Your Virtual Influencer from Scratch | Eromify",
-  description: "Design, create, and deploy your AI influencer from scratch. Eromify's AI Influencer Maker lets you build a full virtual persona with consistent identity for any niche.",
+  title: "AI Influencer Maker – Build Your Virtual Influencer from Scratch | Creatify AI",
+  description: "Design, create, and deploy your AI influencer from scratch. Creatify AI's AI Influencer Maker lets you build a full virtual persona with consistent identity for any niche.",
   keywords: "AI influencer maker, make AI influencer, build virtual influencer, create AI persona, AI model maker, virtual influencer builder",
   alternates: { canonical: "/ai-influencer-maker" },
   openGraph: {
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { q: "What's the difference between an AI influencer maker and a generator?", a: "A generator typically produces one-off images. An AI influencer maker like Eromify is a complete workflow — you define an identity, generate consistent content across sessions, and build a full virtual persona over time." },
-  { q: "Can I make an AI influencer for any niche?", a: "Yes. Eromify supports AI influencers for fashion, fitness, gaming, travel, beauty, finance, lifestyle, food, and any other niche you can describe in a prompt." },
-  { q: "How do I maintain consistency across many posts?", a: "Eromify's identity-lock system stores your influencer's core visual DNA. Reference your influencer in any new prompt and the AI maintains the same face, proportions, and style." },
-  { q: "Can I use the AI influencer I make commercially?", a: "Yes. Content made on Eromify can be used for social media, brand campaigns, e-commerce, and advertising. Pro users receive a full commercial use license." },
+  { q: "What's the difference between an AI influencer maker and a generator?", a: "A generator typically produces one-off images. An AI influencer maker like Creatify AI is a complete workflow — you define an identity, generate consistent content across sessions, and build a full virtual persona over time." },
+  { q: "Can I make an AI influencer for any niche?", a: "Yes. Creatify AI supports AI influencers for fashion, fitness, gaming, travel, beauty, finance, lifestyle, food, and any other niche you can describe in a prompt." },
+  { q: "How do I maintain consistency across many posts?", a: "Creatify AI's identity-lock system stores your influencer's core visual DNA. Reference your influencer in any new prompt and the AI maintains the same face, proportions, and style." },
+  { q: "Can I use the AI influencer I make commercially?", a: "Yes. Content made on Creatify AI can be used for social media, brand campaigns, e-commerce, and advertising. Pro users receive a full commercial use license." },
 ];
 
 export default function AIInfluencerMakerPage() {
@@ -32,7 +32,7 @@ export default function AIInfluencerMakerPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-[1.1]">AI Influencer Maker</h1>
           <p className="text-xl text-slate-300 mb-4 font-medium">Build a full virtual influencer persona — from concept to content.</p>
           <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-            Eromify is not just a generator — it&apos;s a complete AI influencer making platform. Define your persona, maintain consistent identity, generate images and videos, and build a content library that grows with your brand.
+            Creatify AI is not just a generator — it&apos;s a complete AI influencer making platform. Define your persona, maintain consistent identity, generate images and videos, and build a content library that grows with your brand.
           </p>
           <Link href="/tools/creator" className="inline-flex items-center gap-2 px-10 py-5 bg-violet-500 hover:bg-violet-400 text-white font-black rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">
             🛠️ Start Making Your Influencer

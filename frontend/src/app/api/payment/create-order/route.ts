@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     const firstname   = (userName as string).split(" ")[0] || "User";
     const email       = userEmail as string;
 
-    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.eromify.in";
+    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.creatifyai.in";
     const surl = `${baseUrl}/api/payment/verify`;       // PayU POSTs here on success
     const furl = `${baseUrl}/api/payment/verify`;       // PayU POSTs here on failure too
 

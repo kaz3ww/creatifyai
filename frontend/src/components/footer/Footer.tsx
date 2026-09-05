@@ -65,13 +65,13 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-6 group w-fit">
               <div className="w-12 h-12 relative bg-white/5 rounded-xl p-2 border border-white/10 transition-colors group-hover:bg-white/10">
                 <Image
-                  src="/eromifylogo.png"
-                  alt="Eromify Logo"
+                  src="/Creatify AIlogo.png"
+                  alt="Creatify AI Logo"
                   fill
                   className="object-contain p-1"
                 />
               </div>
-              <span className="text-2xl font-black tracking-tight text-white">Eromify</span>
+              <span className="text-2xl font-black tracking-tight text-white">Creatify AI</span>
             </Link>
             <p className="text-sm text-slate-400 mb-6 leading-relaxed max-w-sm">
               The ultimate workspace for your daily digital tasks. Fast, secure,
@@ -79,7 +79,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://www.instagram.com/eromify.in/"
+                href="https://www.instagram.com/creatifyai.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -199,7 +199,7 @@ export function Footer() {
         {/* Bottom row */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Eromify Online Tools. All rights reserved.
+            © {new Date().getFullYear()} Creatify AI Online Tools. All rights reserved.
           </p>
           <div className="flex items-center gap-5 text-xs text-slate-400">
             <Link href="/tools/image-to-webp" className="flex items-center gap-1 text-slate-500 hover:text-white transition-colors">

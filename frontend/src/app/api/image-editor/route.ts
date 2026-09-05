@@ -56,8 +56,8 @@ export async function POST(request: NextRequest) {
 
     // Upload both images to Cloudinary to get public URLs
     const [refUrl, targetUrl] = await Promise.all([
-      uploadDataUri(referenceImage, "eromify/image-editor/refs"),
-      uploadDataUri(targetImage, "eromify/image-editor/targets"),
+      uploadDataUri(referenceImage, "Creatify AI/image-editor/refs"),
+      uploadDataUri(targetImage, "Creatify AI/image-editor/targets"),
     ]);
 
     // Build the edit prompt
@@ -106,7 +106,7 @@ export async function POST(request: NextRequest) {
     try {
       const { secure_url: cloudinaryUrl, public_id: cloudinaryPublicId } =
         await cloudinary.uploader.upload(dataUri, {
-          folder: "eromify/image-editor/results",
+          folder: "Creatify AI/image-editor/results",
           resource_type: "image",
         });
 

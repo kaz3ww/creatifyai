@@ -131,9 +131,9 @@ export default function PrivacyPolicyPage() {
                 1. Introduction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Welcome to Eromify. We value your privacy and are committed to
+                Welcome to Creatify AI. We value your privacy and are committed to
                 protecting your personal data. This Privacy Policy describes how
-                Eromify (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, and shares
+                Creatify AI (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, and shares
                 information about you when you use our website, mobile applications,
                 and other online products and services.
               </p>
@@ -202,7 +202,7 @@ export default function PrivacyPolicyPage() {
                 4. Cookies and Tracking Technologies
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Eromify uses cookies and similar technologies to track activity on
+                Creatify AI uses cookies and similar technologies to track activity on
                 our service and hold certain information. Cookies are files with
                 small amount of data which may include an anonymous unique
                 identifier.
@@ -302,9 +302,9 @@ export default function PrivacyPolicyPage() {
                     <Mail className="w-5 h-5 text-[#1736cf]" />
                     <a
                       className="text-[#1736cf] font-medium hover:underline"
-                      href="mailto:eromify.in@gmail.com"
+                      href="mailto:creatifyai.in@gmail.com"
                     >
-                      eromify.in@gmail.com
+                      creatifyai.in@gmail.com
                     </a>
                   </li>
                 </ul>

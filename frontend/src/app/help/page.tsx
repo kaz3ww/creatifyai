@@ -12,7 +12,7 @@ export default function HelpPage() {
 
   useEffect(() => {
     const checkPro = () => {
-      const pro = localStorage.getItem("eromify_pro");
+      const pro = localStorage.getItem("Creatify AI_pro");
       setIsUserPro(pro === "true");
     };
 
@@ -22,8 +22,8 @@ export default function HelpPage() {
       checkPro();
     }
 
-    window.addEventListener("eromify_pro_updated", checkPro);
-    return () => window.removeEventListener("eromify_pro_updated", checkPro);
+    window.addEventListener("Creatify AI_pro_updated", checkPro);
+    return () => window.removeEventListener("Creatify AI_pro_updated", checkPro);
   }, [sessionStatus]);
 
   const [formData, setFormData] = useState({
@@ -98,8 +98,8 @@ export default function HelpPage() {
                     Click on the "Register" button in the top right corner and follow the prompts to sign up using your email or Google account.
                   </p>
                   <p className="text-sm">
-                    <strong>What is Eromify?</strong><br/>
-                    Eromify is an advanced AI platform designed to help you create stunning, realistic AI influencers and manage their content effortlessly.
+                    <strong>What is Creatify AI?</strong><br/>
+                    Creatify AI is an advanced AI platform designed to help you create stunning, realistic AI influencers and manage their content effortlessly.
                   </p>
                 </div>
               </section>
@@ -261,8 +261,8 @@ export default function HelpPage() {
             <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">More Frequently Asked Questions</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
               <section>
-                <h3 className="text-md font-bold text-slate-900 mb-2">Is the Eromify AI influencer generator free?</h3>
-                <p className="text-sm text-slate-600">Yes, you can start using the Eromify AI influencer generator for free. We offer free trial credits to new users so you can experience the best AI influencer generator free of charge before upgrading.</p>
+                <h3 className="text-md font-bold text-slate-900 mb-2">Is the Creatify AI AI influencer generator free?</h3>
+                <p className="text-sm text-slate-600">Yes, you can start using the Creatify AI AI influencer generator for free. We offer free trial credits to new users so you can experience the best AI influencer generator free of charge before upgrading.</p>
               </section>
 
               <section>
@@ -277,7 +277,7 @@ export default function HelpPage() {
 
               <section>
                 <h3 className="text-md font-bold text-slate-900 mb-2">Is this a free AI influencer generator for Instagram?</h3>
-                <p className="text-sm text-slate-600">Absolutely. Eromify is heavily optimized for social media. You can seamlessly make influencer AI content tailored specifically for Instagram posts, reels, and stories.</p>
+                <p className="text-sm text-slate-600">Absolutely. Creatify AI is heavily optimized for social media. You can seamlessly make influencer AI content tailored specifically for Instagram posts, reels, and stories.</p>
               </section>
 
               <section>
@@ -287,7 +287,7 @@ export default function HelpPage() {
 
               <section>
                 <h3 className="text-md font-bold text-slate-900 mb-2">Can I generate free AI influencer videos?</h3>
-                <p className="text-sm text-slate-600">Yes, Eromify goes beyond just images. You can use your initial credits to test our AI influencer free video generation tools, bringing your virtual characters to life with stunning motion and realism.</p>
+                <p className="text-sm text-slate-600">Yes, Creatify AI goes beyond just images. You can use your initial credits to test our AI influencer free video generation tools, bringing your virtual characters to life with stunning motion and realism.</p>
               </section>
             </div>
           </div>

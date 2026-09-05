@@ -7,7 +7,7 @@ import NewsletterSubscriber from '@/models/NewsletterSubscriber';
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.SMTP_USER || 'eromify.in@gmail.com',
+    user: process.env.SMTP_USER || 'creatifyai.in@gmail.com',
     pass: process.env.SMTP_PASS || 'dsts vlia twof cimq', // App password
   },
 });
@@ -61,13 +61,13 @@ export async function POST(request: NextRequest) {
 
     // Send confirmation email to subscriber
     const subscriberMailOptions = {
-      from: `"Eromify Newsletter" <${process.env.SMTP_USER || 'eromify.in@gmail.com'}>`,
+      from: `"Creatify AI Newsletter" <${process.env.SMTP_USER || 'creatifyai.in@gmail.com'}>`,
       to: email,
-      subject: 'Welcome to Eromify Newsletter! 🎉',
+      subject: 'Welcome to Creatify AI Newsletter! 🎉',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #1736cf, #1430b8); padding: 40px 20px; text-align: center; color: white;">
-            <h1 style="margin: 0; font-size: 28px; font-weight: bold;">Welcome to Eromify!</h1>
+            <h1 style="margin: 0; font-size: 28px; font-weight: bold;">Welcome to Creatify AI!</h1>
             <p style="margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;">Your weekly dose of tech insights</p>
           </div>
           
@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
               <li>✨ Weekly insights on AI and software development</li>
               <li>🛠️ Curated tool recommendations and tutorials</li>
               <li>📈 Career growth tips and industry trends</li>
-              <li>🚀 Exclusive updates about new Eromify tools</li>
+              <li>🚀 Exclusive updates about new Creatify AI tools</li>
             </ul>
             
             <div style="background: #f8fafc; padding: 20px; border-radius: 12px; margin-bottom: 25px;">
@@ -98,13 +98,13 @@ export async function POST(request: NextRequest) {
             
             <p style="color: #64748b; font-size: 14px; margin: 0;">
               Best regards,<br>
-              <strong style="color: #1736cf;">The Eromify Team</strong>
+              <strong style="color: #1736cf;">The Creatify AI Team</strong>
             </p>
           </div>
           
           <div style="padding: 20px; background: #f1f5f9; text-align: center; border-top: 1px solid #e2e8f0;">
             <p style="color: #94a3b8; font-size: 12px; margin: 0;">
-              You're receiving this because you subscribed to the Eromify Newsletter.<br>
+              You're receiving this because you subscribed to the Creatify AI Newsletter.<br>
               <a href="#" style="color: #1736cf; text-decoration: none;">Unsubscribe</a> | 
               <a href="#" style="color: #1736cf; text-decoration: none;">Update Preferences</a>
             </p>
@@ -115,8 +115,8 @@ export async function POST(request: NextRequest) {
 
     // Send notification email to admin
     const adminMailOptions = {
-      from: `"Eromify Newsletter" <${process.env.SMTP_USER || 'eromify.in@gmail.com'}>`,
-      to: process.env.SMTP_USER || 'eromify.in@gmail.com',
+      from: `"Creatify AI Newsletter" <${process.env.SMTP_USER || 'creatifyai.in@gmail.com'}>`,
+      to: process.env.SMTP_USER || 'creatifyai.in@gmail.com',
       subject: 'New Newsletter Subscriber! 🎉',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -125,7 +125,7 @@ export async function POST(request: NextRequest) {
           </div>
           <div style="padding: 20px; background: #ffffff;">
             <p style="color: #64748b; font-size: 16px;">
-              A new user has subscribed to the Eromify newsletter:
+              A new user has subscribed to the Creatify AI newsletter:
             </p>
             <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin: 15px 0;">
               <p style="color: #1e293b; margin: 0; font-weight: bold;">Email: ${email}</p>

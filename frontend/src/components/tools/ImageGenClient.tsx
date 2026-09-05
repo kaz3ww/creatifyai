@@ -197,7 +197,7 @@ export default function ImageGenClient() {
   const handleDownload = (img: GeneratedImage) => {
     const link = document.createElement("a");
     link.href = img.url;
-    link.download = `eromify-ai-${img.id}.jpg`;
+    link.download = `Creatify AI-ai-${img.id}.jpg`;
     link.click();
   };
 

@@ -3,11 +3,11 @@ import { Suspense } from "react";
 import ImageGenClient from "@/components/tools/ImageGenClient";
 
 export const metadata: Metadata = {
-  title: "AI Image Generator — Free Text-to-Image Tool | Eromify",
+  title: "AI Image Generator — Free Text-to-Image Tool | Creatify AI",
   description:
     "Generate stunning, high-resolution AI images from any text prompt for free. Powered by Pollinations.AI with FLUX.1 Dev, Realism, and Turbo models. No watermarks, no sign-up.",
   openGraph: {
-    title: "AI Image Generator — Free Text-to-Image Tool | Eromify",
+    title: "AI Image Generator — Free Text-to-Image Tool | Creatify AI",
     description:
       "Generate stunning AI images from text prompts. Powered by Pollinations.AI — FLUX, Realism & Turbo models. Free, no watermarks.",
     url: "/tools/creator/image-generator",

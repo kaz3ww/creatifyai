@@ -144,7 +144,7 @@ export default function TermsOfServicePage() {
               </div>
               <div className="prose prose-slate max-w-none text-slate-600 leading-relaxed">
                 <p>
-                  By accessing or using Eromify, you agree to be bound by these
+                  By accessing or using Creatify AI, you agree to be bound by these
                   Terms of Service and all applicable laws and regulations. If you
                   do not agree with any of these terms, you are prohibited from
                   using or accessing this site.
@@ -172,7 +172,7 @@ export default function TermsOfServicePage() {
               <p className="text-slate-600 leading-relaxed">
                 Our services are designed to provide a comprehensive management
                 platform for your digital assets. You are granted a non-exclusive,
-                non-transferable, revocable license to access and use Eromify
+                non-transferable, revocable license to access and use Creatify AI
                 strictly in accordance with these terms.
               </p>
               <div className="mt-6 rounded-lg bg-slate-50 p-4 border-l-4 border-[#1736cf]">
@@ -255,10 +255,10 @@ export default function TermsOfServicePage() {
               </div>
               <p className="text-slate-600 leading-relaxed">
                 The service and its original content, features, and functionality
-                are and will remain the exclusive property of Eromify and its
+                are and will remain the exclusive property of Creatify AI and its
                 licensors. Our trademarks and trade dress may not be used in
                 connection with any product or service without the prior written
-                consent of Eromify.
+                consent of Creatify AI.
               </p>
             </section>
 
@@ -372,7 +372,7 @@ export default function TermsOfServicePage() {
                 <h2 className="text-2xl font-bold">Limitation of Liability</h2>
               </div>
               <p className="text-slate-600 leading-relaxed italic border-l-2 border-slate-300 pl-4">
-                &quot;In no event shall Eromify, nor its directors, employees, partners,
+                &quot;In no event shall Creatify AI, nor its directors, employees, partners,
                 agents, suppliers, or affiliates, be liable for any indirect,
                 incidental, special, consequential or punitive damages, including
                 without limitation, loss of profits, data, use, goodwill, or other
@@ -440,9 +440,9 @@ export default function TermsOfServicePage() {
                   <Mail className="text-[#1736cf] h-5 w-5" />
                   <a
                     className="text-[#1736cf] hover:underline"
-                    href="mailto:eromify.in@gmail.com"
+                    href="mailto:creatifyai.in@gmail.com"
                   >
-                    eromify.in@gmail.com
+                    creatifyai.in@gmail.com
                   </a>
                 </div>
               </div>

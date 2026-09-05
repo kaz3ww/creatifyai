@@ -3,11 +3,11 @@ import { Suspense } from "react";
 import GptImageClient from "@/components/tools/GptImageClient";
 
 export const metadata: Metadata = {
-  title: "GPT Image 1 Mini — Text & Image-to-Image Generator | Eromify",
+  title: "GPT Image 1 Mini — Text & Image-to-Image Generator | Creatify AI",
   description:
     "Generate stunning images using OpenAI's GPT Image 1 model via Pollinations.AI. Supports text-to-image and image-to-image editing. Fast, high-quality, no watermarks.",
   openGraph: {
-    title: "GPT Image 1 Mini | Eromify",
+    title: "GPT Image 1 Mini | Creatify AI",
     description:
       "OpenAI GPT Image 1 powered image generator — text to image or transform any photo with a prompt.",
     url: "/tools/creator/gpt-image",

@@ -3,29 +3,29 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 import { CheckCircle2, XCircle, ArrowRight, Star, Zap, Shield, Crown } from "lucide-react";
 
-const BASE = "https://www.eromify.in";
+const BASE = "https://www.creatifyai.in";
 
 export const metadata: Metadata = {
-  title: "Best Eromify Alternative in 2026 — Why Eromify.in is the Top Choice",
+  title: "Best Creatify AI Alternative in 2026 — Why creatifyai.in is the Top Choice",
   description:
-    "Looking for an Eromify alternative? We compared ZenCreator, CelebMakerAI, JoggAI and more. See why Eromify.in is the best AI influencer generator — free tier, more models, no limits.",
+    "Looking for an Creatify AI alternative? We compared ZenCreator, CelebMakerAI, JoggAI and more. See why creatifyai.in is the best AI influencer generator — free tier, more models, no limits.",
   keywords:
-    "eromify alternative, eromify alternatives 2026, best eromify alternative, eromify vs zencreator, eromify vs celebmakerai, AI influencer generator alternative, eromify free alternative",
-  alternates: { canonical: `${BASE}/blog/eromify-alternative` },
+    "Creatify AI alternative, Creatify AI alternatives 2026, best Creatify AI alternative, Creatify AI vs zencreator, Creatify AI vs celebmakerai, AI influencer generator alternative, Creatify AI free alternative",
+  alternates: { canonical: `${BASE}/blog/Creatify AI-alternative` },
   openGraph: {
-    title: "Best Eromify Alternative 2026 — Eromify.in vs ZenCreator vs CelebMakerAI",
+    title: "Best Creatify AI Alternative 2026 — creatifyai.in vs ZenCreator vs CelebMakerAI",
     description:
-      "Full comparison of Eromify alternatives. See which AI influencer generator gives you the most for free in 2026.",
-    url: `${BASE}/blog/eromify-alternative`,
-    siteName: "Eromify",
+      "Full comparison of Creatify AI alternatives. See which AI influencer generator gives you the most for free in 2026.",
+    url: `${BASE}/blog/Creatify AI-alternative`,
+    siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/eromifylogo.png`, width: 512, height: 512, alt: "Eromify Alternative Comparison" }],
+    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Creatify AI Alternative Comparison" }],
   },
 };
 
 const competitors = [
   {
-    name: "Eromify.in",
+    name: "creatifyai.in",
     badge: "✅ Best Choice",
     badgeColor: "#16a34a",
     price: "Free tier + Pro",
@@ -83,58 +83,58 @@ const competitors = [
 
 const faqs = [
   {
-    q: "What is the best Eromify alternative in 2026?",
-    a: "Eromify.in is the best Eromify alternative in 2026. It offers a free tier with signup credits, 15+ AI models including FLUX, GPT Image, and WAN, plus AI video generation — all in one platform without watermarks.",
+    q: "What is the best Creatify AI alternative in 2026?",
+    a: "creatifyai.in is the best Creatify AI alternative in 2026. It offers a free tier with signup credits, 15+ AI models including FLUX, GPT Image, and WAN, plus AI video generation — all in one platform without watermarks.",
   },
   {
-    q: "Is there a free Eromify alternative?",
-    a: "Yes. Eromify.in provides free generation credits on signup with no credit card required. This makes it the top free Eromify alternative, unlike CelebMakerAI which has no free tier.",
+    q: "Is there a free Creatify AI alternative?",
+    a: "Yes. creatifyai.in provides free generation credits on signup with no credit card required. This makes it the top free Creatify AI alternative, unlike CelebMakerAI which has no free tier.",
   },
   {
-    q: "How does Eromify.in compare to ZenCreator?",
-    a: "Eromify.in offers more AI models, free credits on signup, and a cleaner interface than ZenCreator. ZenCreator is limited in model variety and charges for most advanced features. Eromify.in includes Pro features like HD output and AI video at a lower cost.",
+    q: "How does creatifyai.in compare to ZenCreator?",
+    a: "creatifyai.in offers more AI models, free credits on signup, and a cleaner interface than ZenCreator. ZenCreator is limited in model variety and charges for most advanced features. creatifyai.in includes Pro features like HD output and AI video at a lower cost.",
   },
   {
-    q: "How does Eromify.in compare to CelebMakerAI?",
-    a: "CelebMakerAI has no free tier and focuses heavily on LoRA training. Eromify.in offers free credits, more model variety (FLUX, GPT Image, WAN 2), and a simpler workflow for creating consistent AI influencers without needing technical LoRA setup.",
+    q: "How does creatifyai.in compare to CelebMakerAI?",
+    a: "CelebMakerAI has no free tier and focuses heavily on LoRA training. creatifyai.in offers free credits, more model variety (FLUX, GPT Image, WAN 2), and a simpler workflow for creating consistent AI influencers without needing technical LoRA setup.",
   },
   {
-    q: "Can I create consistent AI influencers on Eromify.in for free?",
-    a: "Yes. Every new Eromify.in account gets free generation credits to create photorealistic AI influencer images with consistent character identity — no credit card needed.",
+    q: "Can I create consistent AI influencers on creatifyai.in for free?",
+    a: "Yes. Every new creatifyai.in account gets free generation credits to create photorealistic AI influencer images with consistent character identity — no credit card needed.",
   },
   {
-    q: "What AI models does Eromify.in have that alternatives lack?",
-    a: "Eromify.in provides access to FLUX.2 Klein, FLUX.1 Kontext, GPT Image 2, WAN 2, Seedance 2.0, Kling 3.0 Pro, Veo 3.1, and more — most alternatives offer only 2–4 models.",
+    q: "What AI models does creatifyai.in have that alternatives lack?",
+    a: "creatifyai.in provides access to FLUX.2 Klein, FLUX.1 Kontext, GPT Image 2, WAN 2, Seedance 2.0, Kling 3.0 Pro, Veo 3.1, and more — most alternatives offer only 2–4 models.",
   },
 ];
 
 const blogPostingSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  headline: "Best Eromify Alternative in 2026 — Why Eromify.in is the Top Choice",
+  headline: "Best Creatify AI Alternative in 2026 — Why creatifyai.in is the Top Choice",
   description:
-    "Full comparison of Eromify alternatives including ZenCreator, CelebMakerAI, JoggAI and ImagineArt. Find out why Eromify.in is the best free AI influencer generator.",
-  url: `${BASE}/blog/eromify-alternative`,
+    "Full comparison of Creatify AI alternatives including ZenCreator, CelebMakerAI, JoggAI and ImagineArt. Find out why creatifyai.in is the best free AI influencer generator.",
+  url: `${BASE}/blog/Creatify AI-alternative`,
   datePublished: "2026-01-01",
   dateModified: new Date().toISOString().split("T")[0],
   author: { "@type": "Person", name: "Alex" },
   publisher: {
     "@type": "Organization",
-    name: "Eromify",
-    logo: { "@type": "ImageObject", url: `${BASE}/eromifylogo.png` },
+    name: "Creatify AI",
+    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
   },
-  image: `${BASE}/eromifylogo.png`,
-  mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/eromify-alternative` },
-  keywords: "eromify alternative, AI influencer generator, eromify vs zencreator, free AI influencer",
+  image: `${BASE}/Creatify AIlogo.png`,
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/Creatify AI-alternative` },
+  keywords: "Creatify AI alternative, AI influencer generator, Creatify AI vs zencreator, free AI influencer",
   articleSection: "AI Tools Comparison",
 };
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  name: "Eromify Alternative — Frequently Asked Questions",
-  description: "Common questions about Eromify alternatives and how Eromify.in compares.",
-  url: `${BASE}/blog/eromify-alternative`,
+  name: "Creatify AI Alternative — Frequently Asked Questions",
+  description: "Common questions about Creatify AI alternatives and how creatifyai.in compares.",
+  url: `${BASE}/blog/Creatify AI-alternative`,
   mainEntity: faqs.map((f) => ({
     "@type": "Question",
     name: f.q,
@@ -148,11 +148,11 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: BASE },
     { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE}/blog` },
-    { "@type": "ListItem", position: 3, name: "Eromify Alternative", item: `${BASE}/blog/eromify-alternative` },
+    { "@type": "ListItem", position: 3, name: "Creatify AI Alternative", item: `${BASE}/blog/Creatify AI-alternative` },
   ],
 };
 
-export default function EromifyAlternativePage() {
+export default function Creatify AIAlternativePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />
@@ -168,23 +168,23 @@ export default function EromifyAlternativePage() {
               <span>/</span>
               <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
-              <span className="text-white">Eromify Alternative</span>
+              <span className="text-white">Creatify AI Alternative</span>
             </nav>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold rounded-full mb-5 uppercase tracking-wider">
               <Star className="w-3 h-3" /> Comparison Guide · Updated 2026
             </div>
             <h1 className="text-3xl md:text-5xl font-black mb-5 leading-tight">
-              Best Eromify Alternative in 2026 —<br />
-              <span className="text-blue-400">Why Eromify.in Wins</span>
+              Best Creatify AI Alternative in 2026 —<br />
+              <span className="text-blue-400">Why creatifyai.in Wins</span>
             </h1>
             <p className="text-lg text-slate-300 mb-8 leading-relaxed max-w-3xl">
-              Searching for a better Eromify alternative? We compared ZenCreator, CelebMakerAI, JoggAI, and ImagineArt side-by-side. Spoiler: <strong className="text-white">Eromify.in gives you more models, a real free tier, and no watermarks.</strong>
+              Searching for a better Creatify AI alternative? We compared ZenCreator, CelebMakerAI, JoggAI, and ImagineArt side-by-side. Spoiler: <strong className="text-white">creatifyai.in gives you more models, a real free tier, and no watermarks.</strong>
             </p>
             <Link
               href="/tools/creator"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#1736cf] hover:bg-[#1428a0] text-white font-black rounded-2xl transition-all hover:scale-105 shadow-lg"
             >
-              <Zap className="w-5 h-5" /> Try Eromify.in Free — No Card Needed
+              <Zap className="w-5 h-5" /> Try creatifyai.in Free — No Card Needed
             </Link>
           </div>
         </section>
@@ -197,29 +197,29 @@ export default function EromifyAlternativePage() {
               <Shield className="w-5 h-5 text-blue-600" /> TL;DR — Quick Answer
             </h2>
             <p className="text-slate-700 leading-relaxed">
-              If you&apos;re looking for an <strong>Eromify alternative</strong>, the best option in 2026 is{" "}
-              <strong>Eromify.in</strong> — the original Indian-built platform with free signup credits, 15+ AI models
+              If you&apos;re looking for an <strong>Creatify AI alternative</strong>, the best option in 2026 is{" "}
+              <strong>creatifyai.in</strong> — the original Indian-built platform with free signup credits, 15+ AI models
               (FLUX, GPT Image 2, WAN 2, Seedance), and full AI video generation. No watermarks. No hidden paywalls on basic features.
             </p>
           </div>
 
           {/* Why people search */}
           <section className="mb-14">
-            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-6">Why Are People Looking for Eromify Alternatives?</h2>
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-6">Why Are People Looking for Creatify AI Alternatives?</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Most users searching &quot;Eromify alternative&quot; are frustrated with one specific platform — <strong>eromify.com</strong> —
+              Most users searching &quot;Creatify AI alternative&quot; are frustrated with one specific platform — <strong>Creatify AI.com</strong> —
               which charges <strong>$29/month with no free tier</strong> and limited model variety. If that&apos;s you,
               you&apos;re in the right place.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              <strong>Eromify.in</strong> is a completely separate, independently built platform that solves exactly those problems:
+              <strong>creatifyai.in</strong> is a completely separate, independently built platform that solves exactly those problems:
               free credits on signup, 15+ models, and plans starting at a fraction of the cost.
             </p>
           </section>
 
           {/* Comparison Table */}
           <section className="mb-14">
-            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-8">Eromify Alternative Comparison Table (2026)</h2>
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-8">Creatify AI Alternative Comparison Table (2026)</h2>
             <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
               <table className="w-full text-sm">
                 <thead className="bg-slate-900 text-white">
@@ -257,33 +257,33 @@ export default function EromifyAlternativePage() {
 
           {/* Deep dives */}
           <section className="mb-14 space-y-10">
-            <h2 className="text-2xl md:text-3xl font-black text-slate-900">Eromify.in vs Each Alternative</h2>
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900">creatifyai.in vs Each Alternative</h2>
 
             {[
               {
-                title: "Eromify.in vs ZenCreator",
-                pros: ["Eromify.in has 15+ models vs ZenCreator's limited set", "Free credits on signup, no card required", "Cleaner UI designed for non-technical creators", "Full AI video pipeline built in"],
+                title: "creatifyai.in vs ZenCreator",
+                pros: ["creatifyai.in has 15+ models vs ZenCreator's limited set", "Free credits on signup, no card required", "Cleaner UI designed for non-technical creators", "Full AI video pipeline built in"],
                 cons: ["ZenCreator has unlimited video on paid plans"],
-                verdict: "Eromify.in wins on model variety, free access, and ease of use.",
+                verdict: "creatifyai.in wins on model variety, free access, and ease of use.",
               },
               {
-                title: "Eromify.in vs CelebMakerAI",
-                pros: ["Eromify.in has a real free tier — CelebMakerAI has none", "No need for technical LoRA setup to get consistency", "More affordable Pro plans", "Better model variety (FLUX, GPT Image 2, WAN 2)"],
+                title: "creatifyai.in vs CelebMakerAI",
+                pros: ["creatifyai.in has a real free tier — CelebMakerAI has none", "No need for technical LoRA setup to get consistency", "More affordable Pro plans", "Better model variety (FLUX, GPT Image 2, WAN 2)"],
                 cons: ["CelebMakerAI offers LoRA training for advanced users"],
-                verdict: "Eromify.in wins for accessibility, pricing, and free tier.",
+                verdict: "creatifyai.in wins for accessibility, pricing, and free tier.",
               },
               {
-                title: "Eromify.in vs JoggAI",
-                pros: ["No watermarks on Eromify.in free tier", "More image models, not just avatar styles", "Full platform vs single-use tool", "Better prompt control and quality"],
+                title: "creatifyai.in vs JoggAI",
+                pros: ["No watermarks on creatifyai.in free tier", "More image models, not just avatar styles", "Full platform vs single-use tool", "Better prompt control and quality"],
                 cons: ["JoggAI focuses on TikTok/Reels 9:16 output specifically"],
-                verdict: "Eromify.in wins for flexibility and watermark-free output.",
+                verdict: "creatifyai.in wins for flexibility and watermark-free output.",
               },
             ].map((item) => (
               <div key={item.title} className="border border-slate-200 rounded-2xl p-6">
                 <h3 className="text-xl font-black text-slate-900 mb-4">{item.title}</h3>
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <p className="text-xs font-bold text-emerald-600 uppercase mb-2">Eromify.in Advantages</p>
+                    <p className="text-xs font-bold text-emerald-600 uppercase mb-2">creatifyai.in Advantages</p>
                     {item.pros.map((p) => (
                       <div key={p} className="flex items-start gap-2 mb-2">
                         <CheckCircle2 className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
@@ -308,9 +308,9 @@ export default function EromifyAlternativePage() {
             ))}
           </section>
 
-          {/* Why Eromify.in */}
+          {/* Why creatifyai.in */}
           <section className="mb-14">
-            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-8">Why Eromify.in is the Best Eromify Alternative</h2>
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-8">Why creatifyai.in is the Best Creatify AI Alternative</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 { icon: "🆓", title: "Real Free Tier", desc: "Get generation credits on signup — no credit card, no watermarks, no tricks." },
@@ -349,7 +349,7 @@ export default function EromifyAlternativePage() {
             <Crown className="w-10 h-10 mx-auto mb-4 opacity-80" />
             <h2 className="text-3xl font-black mb-4">Stop Searching. Start Creating.</h2>
             <p className="text-blue-100 mb-8 text-lg max-w-xl mx-auto">
-              Eromify.in is the free Eromify alternative you&apos;ve been looking for. Free credits on signup.
+              creatifyai.in is the free Creatify AI alternative you&apos;ve been looking for. Free credits on signup.
               15+ models. No watermarks. No credit card.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -376,8 +376,8 @@ export default function EromifyAlternativePage() {
                 { href: "/free-ai-influencer-generator", label: "Free AI Influencer Generator" },
                 { href: "/ai-influencer-generator", label: "AI Influencer Generator" },
                 { href: "/ai-influencer-studio", label: "AI Influencer Studio" },
-                { href: "/pricing", label: "Eromify Pricing" },
-                { href: "/about", label: "About Eromify" },
+                { href: "/pricing", label: "Creatify AI Pricing" },
+                { href: "/about", label: "About Creatify AI" },
                 { href: "/blog", label: "More Blog Posts" },
               ].map((l) => (
                 <Link

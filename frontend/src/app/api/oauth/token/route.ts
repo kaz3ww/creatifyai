@@ -168,7 +168,7 @@ export async function POST(request: NextRequest) {
 
     // Issue access + refresh tokens
     const rawAccessToken  = "eoat_" + randomBytes(40).toString("hex");
-    const rawRefreshToken = "eort_" + randomBytes(40).toString("hex"); // Eromify OAuth Refresh Token
+    const rawRefreshToken = "eort_" + randomBytes(40).toString("hex"); // Creatify AI OAuth Refresh Token
     const accessHash      = createHash("sha256").update(rawAccessToken).digest("hex");
     const refreshHash     = createHash("sha256").update(rawRefreshToken).digest("hex");
     const now             = new Date();

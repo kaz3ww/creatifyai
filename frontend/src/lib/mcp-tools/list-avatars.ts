@@ -1,7 +1,7 @@
 /**
  * list-avatars.ts — MCP tool: list_avatars
  *
- * Returns the user's OWN saved avatars (created at eromify.in/avatar),
+ * Returns the user's OWN saved avatars (created at creatifyai.in/avatar),
  * NOT the public template gallery. No credits consumed.
  */
 
@@ -14,7 +14,7 @@ import type { McpToolDefinition, McpCallToolResult, McpUserContext } from "./typ
 export const listAvatarsDefinition: McpToolDefinition = {
   name: "list_avatars",
   description:
-    "List YOUR saved avatars from eromify.in/avatar — these are the personal avatars " +
+    "List YOUR saved avatars from creatifyai.in/avatar — these are the personal avatars " +
     "you created (e.g. Ava, Emily). Use this to see which avatars are available before " +
     "calling generate_avatar_post. No credits required.",
   inputSchema: {
@@ -44,7 +44,7 @@ export async function executeListAvatars(
         type: "text",
         text:
           "You have no saved avatars yet.\n\n" +
-          "Create one at https://eromify.in/avatar, then come back and I can generate posts for her.",
+          "Create one at https://creatifyai.in/avatar, then come back and I can generate posts for her.",
       }],
     };
   }

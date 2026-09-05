@@ -5,7 +5,7 @@
  * Claude redirects users here during the connector setup flow.
  *
  * If the user is not logged in → redirect to login with return URL
- * If logged in → show "Approve Claude to access your Eromify account?" UI
+ * If logged in → show "Approve Claude to access your Creatify AI account?" UI
  */
 
 import { auth }             from "@/auth";
@@ -86,7 +86,7 @@ export default async function OAuthAuthorizePage({ searchParams }: Props) {
 
         {/* Logos */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "1.75rem" }}>
-          {/* Eromify */}
+          {/* Creatify AI */}
           <div style={{
             width: 52, height: 52, borderRadius: "14px",
             background: "linear-gradient(135deg, #a855f7, #ec4899)",
@@ -116,7 +116,7 @@ export default async function OAuthAuthorizePage({ searchParams }: Props) {
 
         {/* Title */}
         <h1 style={{ color: "#fff", fontSize: "1.3rem", fontWeight: 700, textAlign: "center", marginBottom: "0.5rem" }}>
-          Claude wants to connect to Eromify
+          Claude wants to connect to Creatify AI
         </h1>
         <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.85rem", textAlign: "center", marginBottom: "1.75rem" }}>
           Logged in as <strong style={{ color: "rgba(168,85,247,0.9)" }}>{user.email}</strong>

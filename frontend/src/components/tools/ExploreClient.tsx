@@ -95,10 +95,10 @@ export default function ExploreClient() {
   const router = useRouter();
 
   useEffect(() => {
-    setIsUserPro(localStorage.getItem("eromify_pro") === "true");
-    const handler = () => setIsUserPro(localStorage.getItem("eromify_pro") === "true");
-    window.addEventListener("eromify_pro_updated", handler);
-    return () => window.removeEventListener("eromify_pro_updated", handler);
+    setIsUserPro(localStorage.getItem("Creatify AI_pro") === "true");
+    const handler = () => setIsUserPro(localStorage.getItem("Creatify AI_pro") === "true");
+    window.addEventListener("Creatify AI_pro_updated", handler);
+    return () => window.removeEventListener("Creatify AI_pro_updated", handler);
   }, []);
 
   return (

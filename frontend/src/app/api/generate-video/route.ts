@@ -20,7 +20,7 @@ async function uploadImageToCloudinary(base64DataUri: string): Promise<string> {
   if (!cloudName || !apiKey || !apiSecret) throw new Error("Cloudinary not configured");
 
   const timestamp = Math.floor(Date.now() / 1000);
-  const folder = "eromify-video-refs";
+  const folder = "Creatify AI-video-refs";
 
   const crypto = await import("crypto");
   const sigStr = `folder=${folder}&timestamp=${timestamp}${apiSecret}`;
@@ -185,7 +185,7 @@ export async function POST(req: NextRequest) {
       status: 200,
       headers: {
         "Content-Type": "video/mp4",
-        "Content-Disposition": `attachment; filename="eromify-video-${Date.now()}.mp4"`,
+        "Content-Disposition": `attachment; filename="Creatify AI-video-${Date.now()}.mp4"`,
         "X-Credits-Deducted": String(VIDEO_CREDIT_COST),
         "X-Credits-Remaining": String(currentCredits - VIDEO_CREDIT_COST),
       },

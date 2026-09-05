@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Generative AI (GenAI) Development: Complete Guide for Beginners | Eromify Blog",
+  title: "Generative AI (GenAI) Development: Complete Guide for Beginners | Creatify AI Blog",
   description:
     "A comprehensive beginner's guide to Generative AI development. Learn about Large Language Models (LLMs), RAG systems, prompt engineering, and the future of AI automation.",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description:
       "Generative AI is transforming how software is built. Learn the core pillars of GenAI development: prompt engineering, RAG, agents, and fine-tuning.",
     url: "/blog/generative-ai-development-guide",
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "article",
     publishedTime: "2026-04-12T00:00:00.000Z",
     authors: ["Alex"],
@@ -69,14 +69,14 @@ export default function GenAIGuideBlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "Eromify",
-      url: "https://www.eromify.in",
+      name: "Creatify AI",
+      url: "https://www.creatifyai.in",
     },
     datePublished: "2026-04-12",
     dateModified: "2026-04-12",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.eromify.in/blog/generative-ai-development-guide",
+      "@id": "https://www.creatifyai.in/blog/generative-ai-development-guide",
     },
     keywords: "Generative AI, GenAI development, AI development guide, LLMs, prompt engineering, RAG",
     articleSection: "AI & Technology",
@@ -377,7 +377,7 @@ export default function GenAIGuideBlogPost() {
                 <div className="flex-1 text-center md:text-left">
                   <p className="text-lg font-black text-slate-900 mb-1">Alex</p>
                   <p className="text-sm text-slate-500 mb-4 font-medium uppercase tracking-tighter">
-                    Chief Editor &amp; Full-Stack Engineer · Eromify
+                    Chief Editor &amp; Full-Stack Engineer · Creatify AI
                   </p>
                   <p className="text-slate-600 text-sm leading-relaxed mb-5 max-w-xl">
                     Passionate about building AI-first tools and exploring the intersection of productivity and engineering. Sharing insights into the rapidly evolving world of automation.
@@ -397,7 +397,7 @@ export default function GenAIGuideBlogPost() {
                 <Link href="/blog" className="font-bold text-[#1736cf] hover:underline">
                   ← See All Blogs
                 </Link>
-                <span>© 2026 Eromify Blog</span>
+                <span>© 2026 Creatify AI Blog</span>
               </div>
             </footer>
           </article>

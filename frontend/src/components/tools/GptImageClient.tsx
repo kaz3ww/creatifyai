@@ -169,7 +169,7 @@ export default function GptImageClient() {
   const handleDownload = (img: GeneratedImage) => {
     const link = document.createElement("a");
     link.href = img.url;
-    link.download = `eromify-gptimage-${img.id}.png`;
+    link.download = `Creatify AI-gptimage-${img.id}.png`;
     link.click();
   };
 

@@ -2,7 +2,7 @@
  * /api/mcp/keys/route.ts
  *
  * MCP API Key management endpoints.
- * All routes require a valid NextAuth session (logged-in Eromify user).
+ * All routes require a valid NextAuth session (logged-in Creatify AI user).
  *
  * GET    /api/mcp/keys        → list existing keys (hashed — raw key never returned)
  * POST   /api/mcp/keys        → generate a new key (raw key returned ONCE, then discarded)
@@ -19,7 +19,7 @@ import { User }                      from "@/models/User";
 // ── Constants ─────────────────────────────────────────────────────────────────
 
 const MAX_KEYS_PER_USER = 10;
-const KEY_PREFIX        = "emcp_"; // Eromify MCP key prefix — makes keys identifiable
+const KEY_PREFIX        = "emcp_"; // Creatify AI MCP key prefix — makes keys identifiable
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -92,7 +92,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         error:   "Professional Pack required",
-        message: "Claude MCP access is exclusive to the Professional Pack (₹1,999) and Enterprise Pack (₹3,999). Upgrade at eromify.in/pricing.",
+        message: "Claude MCP access is exclusive to the Professional Pack (₹1,999) and Enterprise Pack (₹3,999). Upgrade at creatifyai.in/pricing.",
         code:    "MCP_PLAN_REQUIRED",
       },
       { status: 403 }

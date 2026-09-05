@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Influencer Generator – Create Realistic Virtual Influencers Free | Eromify",
-  description: "Generate photorealistic AI influencers for Instagram, YouTube & brand campaigns in seconds. No design skills needed. Try Eromify's AI Influencer Generator free today.",
+  title: "AI Influencer Generator – Create Realistic Virtual Influencers Free | Creatify AI",
+  description: "Generate photorealistic AI influencers for Instagram, YouTube & brand campaigns in seconds. No design skills needed. Try Creatify AI's AI Influencer Generator free today.",
   keywords: "AI influencer generator, create AI influencer, virtual influencer generator, AI influencer maker, realistic AI influencer, free AI influencer tool",
   alternates: { canonical: "/ai-influencer-generator" },
   openGraph: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   { q: "What is an AI influencer generator?", a: "An AI influencer generator uses advanced machine learning to create photorealistic virtual influencer personas with consistent faces, expressions, and style — without hiring a real person." },
-  { q: "Can I generate AI influencers for free?", a: "Yes. Eromify offers free credits on signup, letting you generate AI influencer images right away. Paid plans unlock unlimited generation, HD quality, and video content." },
-  { q: "How consistent are AI influencer identities?", a: "Eromify uses identity-locked generation — once you define your AI influencer, every subsequent image maintains the same face structure, skin tone, and style with no drift." },
-  { q: "Can I use AI influencers for Instagram and brand campaigns?", a: "Absolutely. AI influencers from Eromify can be used for social media posts, brand partnerships, sponsored content, YouTube thumbnails, and any digital marketing campaign." },
-  { q: "How is Eromify different from other AI influencer tools?", a: "Eromify combines consistent character generation with cinematic video creation, motion control, and multiple AI models — all in a single platform built for influencer content." },
+  { q: "Can I generate AI influencers for free?", a: "Yes. Creatify AI offers free credits on signup, letting you generate AI influencer images right away. Paid plans unlock unlimited generation, HD quality, and video content." },
+  { q: "How consistent are AI influencer identities?", a: "Creatify AI uses identity-locked generation — once you define your AI influencer, every subsequent image maintains the same face structure, skin tone, and style with no drift." },
+  { q: "Can I use AI influencers for Instagram and brand campaigns?", a: "Absolutely. AI influencers from Creatify AI can be used for social media posts, brand partnerships, sponsored content, YouTube thumbnails, and any digital marketing campaign." },
+  { q: "How is Creatify AI different from other AI influencer tools?", a: "Creatify AI combines consistent character generation with cinematic video creation, motion control, and multiple AI models — all in a single platform built for influencer content." },
 ];
 
 export default function AIInfluencerGeneratorPage() {
@@ -35,7 +35,7 @@ export default function AIInfluencerGeneratorPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-[1.1]">Create AI Influencers Online</h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-4 font-medium">Generate photorealistic AI influencers for Instagram, YouTube &amp; brand campaigns.</p>
           <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-            Eromify&apos;s AI Influencer Generator lets anyone build a consistent, photorealistic virtual influencer in seconds. No design skills. No expensive photoshoots. No talent management.
+            Creatify AI&apos;s AI Influencer Generator lets anyone build a consistent, photorealistic virtual influencer in seconds. No design skills. No expensive photoshoots. No talent management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/tools/creator" className="px-8 py-4 bg-[#1736cf] hover:bg-[#1430b8] text-white font-bold rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">✨ Start Generating Free</Link>
@@ -60,8 +60,8 @@ export default function AIInfluencerGeneratorPage() {
         <div className="space-y-5 text-slate-600 text-lg leading-relaxed">
           <p>An <strong>AI influencer generator</strong> is a tool powered by advanced generative AI that creates photorealistic virtual human personas — complete with consistent facial identity, style, and expressions — entirely from text prompts.</p>
           <p>Unlike traditional influencer marketing — requiring real people, contracts, and shoots — an AI influencer generator lets brands produce unlimited content around a single digital persona at a fraction of the cost.</p>
-          <p><strong>Eromify</strong> uses the latest diffusion models — FLUX, GPT Image 2, and proprietary identity-lock technology — ensuring your AI influencer looks identical across every image and video.</p>
-          <p>Whether you&apos;re building a faceless brand, launching an Instagram persona, or creating product campaigns — Eromify is your all-in-one creation engine.</p>
+          <p><strong>Creatify AI</strong> uses the latest diffusion models — FLUX, GPT Image 2, and proprietary identity-lock technology — ensuring your AI influencer looks identical across every image and video.</p>
+          <p>Whether you&apos;re building a faceless brand, launching an Instagram persona, or creating product campaigns — Creatify AI is your all-in-one creation engine.</p>
         </div>
       </section>
 
@@ -120,7 +120,7 @@ export default function AIInfluencerGeneratorPage() {
               <thead>
                 <tr className="border-b border-white/10">
                   <th className="text-left py-4 pr-6 text-slate-400">Factor</th>
-                  <th className="text-center py-4 px-4 text-[#4f8fff] font-bold">AI Influencer (Eromify)</th>
+                  <th className="text-center py-4 px-4 text-[#4f8fff] font-bold">AI Influencer (Creatify AI)</th>
                   <th className="text-center py-4 pl-4 text-slate-400">Human Influencer</th>
                 </tr>
               </thead>
@@ -151,7 +151,7 @@ export default function AIInfluencerGeneratorPage() {
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-12 text-center">Key Features</h2>
           <div className="space-y-8">
             {[
-              { title:"Identity Consistency Across All Content", desc:"Eromify solves identity drift with identity-locked generation. Define your AI influencer once — every output maintains the exact same facial structure, skin tone, and style." },
+              { title:"Identity Consistency Across All Content", desc:"Creatify AI solves identity drift with identity-locked generation. Define your AI influencer once — every output maintains the exact same facial structure, skin tone, and style." },
               { title:"Multiple State-of-the-Art AI Models", desc:"Access FLUX, GPT Image 2, FLUX Kontext, and more — all from one dashboard. Each model has different strengths for realism or style." },
               { title:"AI Video Generation", desc:"Animate your AI influencer with Kling, Seedance, and Sora — producing cinematic reels, YouTube content, and dynamic ads." },
               { title:"Prompt-Based Customization", desc:"Describe appearance, outfit, location, mood, and lighting through natural language. No design software. Just describe and generate." },
@@ -206,7 +206,7 @@ export default function AIInfluencerGeneratorPage() {
       <section className="py-24 px-4 bg-gradient-to-br from-[#1736cf] to-[#0f1e7a] text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Ready to Build Your AI Influencer?</h2>
-          <p className="text-blue-200 text-lg mb-10">Join thousands of creators using Eromify to generate photorealistic AI influencers at scale.</p>
+          <p className="text-blue-200 text-lg mb-10">Join thousands of creators using Creatify AI to generate photorealistic AI influencers at scale.</p>
           <Link href="/tools/creator" className="inline-flex items-center gap-3 px-10 py-5 bg-white text-[#1736cf] font-black rounded-2xl hover:scale-105 transition-all shadow-2xl text-lg">
             ✨ Start Generating Free →
           </Link>

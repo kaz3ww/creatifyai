@@ -4,7 +4,7 @@
  * /mcp-keys/page.tsx
  *
  * MCP API Key Management Dashboard
- * Allows logged-in Eromify users to:
+ * Allows logged-in Creatify AI users to:
  *   - View all their MCP API keys (metadata only — raw keys never shown again)
  *   - Generate a new key (shown once, with a copy button)
  *   - Revoke any active key
@@ -33,7 +33,7 @@ import {
 } from "lucide-react";
 
 // ── Constants (exposed via NEXT_PUBLIC so the client can read them) ────────────
-const OAUTH_CLIENT_ID     = process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_ID     ?? "eromify-mcp-claude";
+const OAUTH_CLIENT_ID     = process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_ID     ?? "Creatify AI-mcp-claude";
 const OAUTH_CLIENT_SECRET = process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_SECRET ?? "(ask support)";
 
 
@@ -84,7 +84,7 @@ export default function McpKeysPage() {
   const mcpEndpoint =
     typeof window !== "undefined"
       ? `${window.location.origin}/api/mcp`
-      : "https://eromify.in/api/mcp";
+      : "https://creatifyai.in/api/mcp";
 
   // ── Fetch keys ──────────────────────────────────────────────────────────────
 
@@ -212,7 +212,7 @@ export default function McpKeysPage() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-slate-900">MCP API Keys</h1>
-              <p className="text-sm text-slate-500">Connect Claude to your Eromify account</p>
+              <p className="text-sm text-slate-500">Connect Claude to your Creatify AI account</p>
             </div>
           </div>
           <button
@@ -312,7 +312,7 @@ export default function McpKeysPage() {
             {connectTab === "oauth" ? (
               <>
                 <p className="text-sm text-slate-600 mb-4">
-                  Connect via OAuth — Claude redirects you to Eromify to log in. No copy-pasting required.
+                  Connect via OAuth — Claude redirects you to Creatify AI to log in. No copy-pasting required.
                 </p>
                 <ol className="text-sm text-slate-600 space-y-3 list-decimal list-inside mb-4">
                   <li>
@@ -320,7 +320,7 @@ export default function McpKeysPage() {
                     <span className="font-medium text-slate-800">Settings → Connectors → Add custom connector</span>
                   </li>
                   <li>
-                    Enter Name <code className="bg-slate-100 px-1 rounded">Eromify</code> and URL:
+                    Enter Name <code className="bg-slate-100 px-1 rounded">Creatify AI</code> and URL:
                     <div className="mt-1 flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 font-mono text-xs text-slate-700">
                       <span className="flex-1 break-all">{mcpEndpoint}</span>
                       <button onClick={() => handleCopy(mcpEndpoint)} className="text-slate-400 hover:text-slate-600 shrink-0">
@@ -358,12 +358,12 @@ export default function McpKeysPage() {
                       </div>
                     </div>
                   </li>
-                  <li>Click <span className="font-medium text-slate-800">Add</span> → Claude redirects you to Eromify to approve the connection.</li>
+                  <li>Click <span className="font-medium text-slate-800">Add</span> → Claude redirects you to Creatify AI to approve the connection.</li>
                   <li>After approving, Claude connects automatically. ✅</li>
                 </ol>
                 <div className="flex items-start gap-2 p-3 bg-blue-50 border border-blue-100 rounded-xl text-xs text-blue-700">
                   <Shield className="w-3.5 h-3.5 mt-0.5 shrink-0" />
-                  <span>These OAuth credentials are shared for all Eromify users. Claude uses them to start the auth flow, then you log into <strong>your</strong> Eromify account — so tokens are always account-specific.</span>
+                  <span>These OAuth credentials are shared for all Creatify AI users. Claude uses them to start the auth flow, then you log into <strong>your</strong> Creatify AI account — so tokens are always account-specific.</span>
                 </div>
               </>
             ) : (

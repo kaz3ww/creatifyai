@@ -93,7 +93,7 @@ export default function CopyrightPolicyPage() {
                 1. Introduction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Eromify respects the intellectual property rights of others and expects its users to do the same. It is our policy, in appropriate circumstances and at our discretion, to disable and/or terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others.
+                Creatify AI respects the intellectual property rights of others and expects its users to do the same. It is our policy, in appropriate circumstances and at our discretion, to disable and/or terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others.
               </p>
             </section>
 
@@ -113,7 +113,7 @@ export default function CopyrightPolicyPage() {
                 <li>A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.</li>
               </ul>
               <p className="text-slate-600 mb-4 leading-relaxed font-semibold">
-                Submit claims to: <a href="mailto:eromify.in@gmail.com" className="text-[#1736cf]">eromify.in@gmail.com</a>
+                Submit claims to: <a href="mailto:creatifyai.in@gmail.com" className="text-[#1736cf]">creatifyai.in@gmail.com</a>
               </p>
             </section>
 
@@ -131,7 +131,7 @@ export default function CopyrightPolicyPage() {
                 4. Repeat Infringers
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                In accordance with the DMCA and other applicable law, Eromify has adopted a policy of terminating, in appropriate circumstances and at Eromify's sole discretion, users who are deemed to be repeat infringers. Eromify may also at its sole discretion limit access to the platform and/or terminate the memberships of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.
+                In accordance with the DMCA and other applicable law, Creatify AI has adopted a policy of terminating, in appropriate circumstances and at Creatify AI's sole discretion, users who are deemed to be repeat infringers. Creatify AI may also at its sole discretion limit access to the platform and/or terminate the memberships of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.
               </p>
             </section>
 

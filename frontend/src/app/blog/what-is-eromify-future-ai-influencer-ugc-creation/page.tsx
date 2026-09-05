@@ -20,12 +20,12 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "What is Eromify? The Future of AI Influencer & UGC Creation | Eromify Blog",
+  title: "What is Creatify AI? The Future of AI Influencer & UGC Creation | Creatify AI Blog",
   description:
-    "Discover what Eromify is, how it helps creators and brands build AI influencers, generate UGC-style content, and scale image and video production with one AI creator platform.",
+    "Discover what Creatify AI is, how it helps creators and brands build AI influencers, generate UGC-style content, and scale image and video production with one AI creator platform.",
   keywords: [
-    "What is Eromify",
-    "Eromify AI influencer",
+    "What is Creatify AI",
+    "Creatify AI AI influencer",
     "AI influencer creator",
     "UGC creation platform",
     "AI UGC generator",
@@ -38,33 +38,33 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Alex" }],
   openGraph: {
-    title: "What is Eromify? The Future of AI Influencer & UGC Creation",
+    title: "What is Creatify AI? The Future of AI Influencer & UGC Creation",
     description:
-      "Eromify is an AI creator platform for building AI influencers, UGC-style visuals, cinematic videos, and scalable brand content from one workspace.",
-    url: "/blog/what-is-eromify-future-ai-influencer-ugc-creation",
-    siteName: "Eromify",
+      "Creatify AI is an AI creator platform for building AI influencers, UGC-style visuals, cinematic videos, and scalable brand content from one workspace.",
+    url: "/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
+    siteName: "Creatify AI",
     type: "article",
     publishedTime: "2026-05-03T00:00:00.000Z",
     authors: ["Alex"],
-    tags: ["Eromify", "AI Influencers", "UGC", "AI Content Creation"],
+    tags: ["Creatify AI", "AI Influencers", "UGC", "AI Content Creation"],
     images: [
       {
         url: "/influencer.webp",
         width: 1200,
         height: 630,
-        alt: "Eromify AI influencer and UGC creation platform",
+        alt: "Creatify AI AI influencer and UGC creation platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "What is Eromify? The Future of AI Influencer & UGC Creation",
+    title: "What is Creatify AI? The Future of AI Influencer & UGC Creation",
     description:
-      "A complete introduction to Eromify, the AI creator platform for influencers, UGC, images, and videos.",
+      "A complete introduction to Creatify AI, the AI creator platform for influencers, UGC, images, and videos.",
     images: ["/influencer.webp"],
   },
   alternates: {
-    canonical: "/blog/what-is-eromify-future-ai-influencer-ugc-creation",
+    canonical: "/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
   },
 };
 
@@ -95,30 +95,30 @@ const platformPillars = [
   },
 ];
 
-export default function WhatIsEromifyBlogPost() {
+export default function WhatIsCreatify AIBlogPost() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "What is Eromify? The Future of AI Influencer & UGC Creation",
+    headline: "What is Creatify AI? The Future of AI Influencer & UGC Creation",
     description:
-      "Eromify is an AI media generation platform built for creators, brands, and businesses that want to create AI influencers, UGC-style content, images, and cinematic videos from one workspace.",
+      "Creatify AI is an AI media generation platform built for creators, brands, and businesses that want to create AI influencers, UGC-style content, images, and cinematic videos from one workspace.",
     author: {
       "@type": "Person",
       name: "Alex",
     },
     publisher: {
       "@type": "Organization",
-      name: "Eromify",
-      url: "https://www.eromify.in",
+      name: "Creatify AI",
+      url: "https://www.creatifyai.in",
     },
     datePublished: "2026-05-03",
     dateModified: "2026-05-03",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.eromify.in/blog/what-is-eromify-future-ai-influencer-ugc-creation",
+      "@id": "https://www.creatifyai.in/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
     },
     keywords:
-      "Eromify, AI influencer creator, UGC creation, AI media generation, AI image generator, AI video generator, virtual influencer platform",
+      "Creatify AI, AI influencer creator, UGC creation, AI media generation, AI image generator, AI video generator, virtual influencer platform",
     articleSection: "AI Influencers & UGC",
   };
 
@@ -150,7 +150,7 @@ export default function WhatIsEromifyBlogPost() {
                 <ChevronRight className="h-3 w-3" />
               </li>
               <li className="text-slate-900 font-medium truncate max-w-[220px]">
-                What is Eromify?
+                What is Creatify AI?
               </li>
             </ol>
           </nav>
@@ -177,11 +177,11 @@ export default function WhatIsEromifyBlogPost() {
                 itemProp="headline"
                 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 leading-[1.1] mb-6"
               >
-                What is Eromify? The Future of AI Influencer &amp; UGC Creation
+                What is Creatify AI? The Future of AI Influencer &amp; UGC Creation
               </h1>
 
               <p className="text-xl text-slate-600 leading-relaxed mb-8 font-medium">
-                Eromify is an all-in-one AI media generation platform built for creators,
+                Creatify AI is an all-in-one AI media generation platform built for creators,
                 brands, and digital businesses that want to create AI influencers, UGC-style
                 content, premium images, and cinematic videos without the cost or complexity of
                 traditional production.
@@ -221,12 +221,12 @@ export default function WhatIsEromifyBlogPost() {
                 priority
                 className="object-cover"
                 src="/influencer.webp"
-                alt="AI influencer content creation concept for Eromify"
+                alt="AI influencer content creation concept for Creatify AI"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
                 <p className="text-sm font-semibold uppercase tracking-widest text-white/80 mb-2">
-                  Eromify Creator Platform
+                  Creatify AI Creator Platform
                 </p>
                 <p className="text-2xl md:text-3xl font-black">
                   From prompt to polished creator content.
@@ -239,14 +239,14 @@ export default function WhatIsEromifyBlogPost() {
                 The creator economy is moving from expensive shoots and slow production cycles to AI-assisted content systems that can test, learn, and scale in days — not months.
               </p>
 
-              <section aria-labelledby="what-is-eromify">
-                <h2 id="what-is-eromify" className="text-2xl font-black text-slate-900 mt-10 mb-4">
-                  What is Eromify?
+              <section aria-labelledby="what-is-Creatify AI">
+                <h2 id="what-is-Creatify AI" className="text-2xl font-black text-slate-900 mt-10 mb-4">
+                  What is Creatify AI?
                 </h2>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  Eromify is a modern AI creator suite designed to help users produce high-quality
+                  Creatify AI is a modern AI creator suite designed to help users produce high-quality
                   digital media from one workspace. Instead of switching between separate tools for
-                  AI images, videos, influencers, avatars, and creative utilities, Eromify brings
+                  AI images, videos, influencers, avatars, and creative utilities, Creatify AI brings
                   the most important creator workflows into a single platform.
                 </p>
                 <p className="text-slate-700 leading-relaxed mb-4">
@@ -256,7 +256,7 @@ export default function WhatIsEromifyBlogPost() {
                 </p>
                 <p className="text-slate-700 leading-relaxed">
                   Whether you are creating social media visuals, testing ad concepts, building an
-                  AI influencer identity, or generating cinematic video ideas, Eromify is built to
+                  AI influencer identity, or generating cinematic video ideas, Creatify AI is built to
                   make the process faster, more affordable, and more creative.
                 </p>
               </section>
@@ -308,7 +308,7 @@ export default function WhatIsEromifyBlogPost() {
                 <p className="text-slate-700 leading-relaxed mb-4">
                   User-generated content works because it feels natural, platform-native, and
                   relatable. But producing enough UGC variations for ads, landing pages, reels,
-                  and product testing can be slow and expensive. Eromify helps close that gap by
+                  and product testing can be slow and expensive. Creatify AI helps close that gap by
                   allowing creators and brands to generate more concepts, more angles, and more
                   creative directions quickly.
                 </p>
@@ -330,16 +330,16 @@ export default function WhatIsEromifyBlogPost() {
                 </div>
               </section>
 
-              <section aria-labelledby="who-use-eromify">
-                <h2 id="who-use-eromify" className="text-2xl font-black text-slate-900 mt-12 mb-6 flex items-center gap-3">
+              <section aria-labelledby="who-use-Creatify AI">
+                <h2 id="who-use-Creatify AI" className="text-2xl font-black text-slate-900 mt-12 mb-6 flex items-center gap-3">
                   <Target className="h-6 w-6 text-[#1736cf]" />
-                  Who Should Use Eromify?
+                  Who Should Use Creatify AI?
                 </h2>
                 <div className="space-y-5">
                   {[
                     {
                       title: "Creators and Influencers",
-                      body: "Use Eromify to generate fresh visual ideas, create character-based content, and experiment with new niches without needing a full production setup.",
+                      body: "Use Creatify AI to generate fresh visual ideas, create character-based content, and experiment with new niches without needing a full production setup.",
                     },
                     {
                       title: "Brands and Small Businesses",
@@ -380,7 +380,7 @@ export default function WhatIsEromifyBlogPost() {
                   campaign assets.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  Eromify is moving toward a single creator workspace where AI media generation and
+                  Creatify AI is moving toward a single creator workspace where AI media generation and
                   practical creator utilities live together. That makes it easier to start with an
                   idea and end with something usable: a social post, a product visual, an AI
                   influencer asset, a campaign concept, or a polished downloadable file.
@@ -392,7 +392,7 @@ export default function WhatIsEromifyBlogPost() {
                 <div className="relative z-10">
                   <h3 className="text-2xl font-black mb-3">The Bottom Line</h3>
                   <p className="text-slate-300 leading-relaxed mb-6">
-                    Eromify is built for the next wave of content creation: AI-assisted,
+                    Creatify AI is built for the next wave of content creation: AI-assisted,
                     creator-friendly, fast to test, and affordable enough for people who do not
                     have a production studio behind them.
                   </p>
@@ -400,7 +400,7 @@ export default function WhatIsEromifyBlogPost() {
                     href="/tools/creator"
                     className="inline-flex items-center gap-2 bg-white text-slate-900 px-5 py-3 rounded-xl font-bold hover:bg-slate-100 transition-colors"
                   >
-                    Start Creating with Eromify
+                    Start Creating with Creatify AI
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
@@ -416,10 +416,10 @@ export default function WhatIsEromifyBlogPost() {
                   that let them compete with larger production budgets.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  Eromify sits at the center of that shift. It helps turn prompts into creator
+                  Creatify AI sits at the center of that shift. It helps turn prompts into creator
                   assets, ideas into campaign visuals, and imagination into media that can be
                   published, tested, and improved. The future of content creation will belong to
-                  the people who can combine taste, strategy, and AI execution — and Eromify is
+                  the people who can combine taste, strategy, and AI execution — and Creatify AI is
                   built to help them do exactly that.
                 </p>
               </section>

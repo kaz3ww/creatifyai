@@ -3,8 +3,8 @@ import "./admin.css";
 import { AdminShell } from "./AdminShell";
 
 export const metadata = {
-  title: "Eromify · Admin Dashboard",
-  description: "Eromify platform analytics and administration console.",
+  title: "Creatify AI · Admin Dashboard",
+  description: "Creatify AI platform analytics and administration console.",
 };
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

@@ -59,7 +59,7 @@ interface Log {
 // ─── Anonymous user ID (stored in localStorage, no login required) ────────────
 
 function getOrCreateUserId(): string {
-  const key = "eromify_ig_uid";
+  const key = "Creatify AI_ig_uid";
   let id = localStorage.getItem(key);
   if (!id) {
     id =

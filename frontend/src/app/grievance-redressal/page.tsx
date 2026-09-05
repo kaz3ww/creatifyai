@@ -92,7 +92,7 @@ export default function GrievanceRedressalPage() {
                 1. Introduction
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                In accordance with applicable laws, including Information Technology rules, Eromify provides a robust grievance redressal mechanism to ensure user complaints regarding safety, content violations, or other serious issues are addressed promptly and effectively.
+                In accordance with applicable laws, including Information Technology rules, Creatify AI provides a robust grievance redressal mechanism to ensure user complaints regarding safety, content violations, or other serious issues are addressed promptly and effectively.
               </p>
             </section>
 
@@ -105,7 +105,7 @@ export default function GrievanceRedressalPage() {
               </p>
               <div className="mt-6 p-6 bg-slate-50 border border-slate-200 rounded-xl">
                 <ul className="list-none space-y-4 text-slate-700">
-                  <li><strong>Email:</strong> <a href="mailto:eromify.in@gmail.com" className="text-[#1736cf]">eromify.in@gmail.com</a> (Please include "Grievance" in the subject line)</li>
+                  <li><strong>Email:</strong> <a href="mailto:creatifyai.in@gmail.com" className="text-[#1736cf]">creatifyai.in@gmail.com</a> (Please include "Grievance" in the subject line)</li>
                 </ul>
               </div>
             </section>

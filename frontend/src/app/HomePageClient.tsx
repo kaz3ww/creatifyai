@@ -24,11 +24,11 @@ import { useAnalytics } from "@/lib/useAnalytics";
 
 // ── Cloudinary CDN video URLs (served with auto quality + format) ────────────
 const CLD = {
-  seefour: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748158/eromify/homepage/seefour.mp4",
-  seedancesix: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748167/eromify/homepage/seedancesix.mp4",
-  seedance: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748179/eromify/homepage/seedance.mp4",
-  sedanc: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748190/eromify/homepage/sedanc.mp4",
-  seedancesss: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748200/eromify/homepage/seedancesss.mp4",
+  seefour: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748158/Creatify AI/homepage/seefour.mp4",
+  seedancesix: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748167/Creatify AI/homepage/seedancesix.mp4",
+  seedance: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748179/Creatify AI/homepage/seedance.mp4",
+  sedanc: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748190/Creatify AI/homepage/sedanc.mp4",
+  seedancesss: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748200/Creatify AI/homepage/seedancesss.mp4",
   reel218: "/video/288bc2e5acb546f49d5d7cc82fc579a4.mp4",
   reel420: "/video/33f2ca62194a4c84b5d7053759dfa639.mp4",
   reel480: "/video/37344a8a6bf6480eb50595c350d7764b.mp4",
@@ -36,19 +36,19 @@ const CLD = {
 };
 
 const FAQS = [
-  { q: "What is Eromify?", a: "Eromify is an advanced all-in-one AI platform designed to help you create stunning AI images, cinematic videos, and AI influencers." },
+  { q: "What is Creatify AI?", a: "Creatify AI is an advanced all-in-one AI platform designed to help you create stunning AI images, cinematic videos, and AI influencers." },
   { q: "What is an AI image generator?", a: "An AI Image Generator (or AI Image Creator) uses artificial intelligence to turn text descriptions into high-quality visual art, photos, and graphics in seconds." },
   { q: "What is an AI video generator?", a: "An AI Video Generator is a powerful Text to Video AI tool that transforms your written prompts into realistic, high-definition videos instantly." },
   { q: "What is an AI influencer generator?", a: "An AI Influencer Generator (or AI Influencer Creator) lets you design and generate consistent virtual personalities and models for social media content." },
-  { q: "What can I create with Eromify?", a: "With Eromify, you can create hyper-realistic AI Images, breathtaking AI Videos, and consistent AI Influencers to build your brand or audience." },
+  { q: "What can I create with Creatify AI?", a: "With Creatify AI, you can create hyper-realistic AI Images, breathtaking AI Videos, and consistent AI Influencers to build your brand or audience." },
   { q: "Which AI models are available?", a: "We offer a wide range of state-of-the-art models including Seedance, Veo, Kling, FLUX, and GPT Image to ensure the highest quality results." },
-  { q: "Is Eromify free?", a: "Eromify offers affordable options and acts as a Free AI Generator for select basic features, with premium upgrades available for professional use." },
-  { q: "How does Eromify pricing work?", a: "Our AI Generator Pricing is based on a simple Credits system. You purchase or earn credits, which are then consumed based on the complexity of your generations." },
+  { q: "Is Creatify AI free?", a: "Creatify AI offers affordable options and acts as a Free AI Generator for select basic features, with premium upgrades available for professional use." },
+  { q: "How does Creatify AI pricing work?", a: "Our AI Generator Pricing is based on a simple Credits system. You purchase or earn credits, which are then consumed based on the complexity of your generations." },
   { q: "Which AI model should I choose?", a: "For still visuals, FLUX is often considered the Best AI Image Generator. For motion, models like Kling and Veo rank as the Best AI Video Generator options." },
   { q: "Can I use AI-generated images and videos commercially?", a: "Yes, you can use Commercial AI Images generated on our platform. However, AI Copyright laws vary by region, so we advise checking local regulations for trademarking." },
   { q: "Can I create AI influencers for Instagram, TikTok, and YouTube?", a: "Absolutely! Our platform is perfect for creating an AI Influencer Instagram model or an AI Influencer TikTok personality with consistent appearances across posts." },
-  { q: "How long does AI generation take?", a: "Eromify is built as a Fast AI Generator. Most images are created in seconds, while high-quality videos may take just a few minutes depending on the model." },
-  { q: "Do I need design experience?", a: "Not at all. Eromify is a Beginner AI Generator designed to be intuitive. If you can type a text prompt, you can create professional media." },
+  { q: "How long does AI generation take?", a: "Creatify AI is built as a Fast AI Generator. Most images are created in seconds, while high-quality videos may take just a few minutes depending on the model." },
+  { q: "Do I need design experience?", a: "Not at all. Creatify AI is a Beginner AI Generator designed to be intuitive. If you can type a text prompt, you can create professional media." },
   { q: "What should I do if my generation fails?", a: "If an AI Image Failed or an AI Video Failed to generate, your credits are automatically refunded. You can try tweaking your prompt or selecting a different model." },
   { q: "How can I contact support?", a: "If you need AI Support or have any questions about your account, you can reach out to us via our contact form or support email directly from your dashboard." },
 ];
@@ -79,7 +79,7 @@ export default function HomePage() {
 
   useEffect(() => {
     const checkPro = () => {
-      const pro = localStorage.getItem("eromify_pro");
+      const pro = localStorage.getItem("Creatify AI_pro");
       setIsUserPro(pro === "true");
     };
 
@@ -94,9 +94,9 @@ export default function HomePage() {
         .catch(() => setHasErosAccess(false));
     }
 
-    window.addEventListener("eromify_pro_updated", checkPro);
+    window.addEventListener("Creatify AI_pro_updated", checkPro);
     return () =>
-      window.removeEventListener("eromify_pro_updated", checkPro);
+      window.removeEventListener("Creatify AI_pro_updated", checkPro);
   }, [status]);
 
   useEffect(() => {
@@ -477,9 +477,9 @@ export default function HomePage() {
               {(
                 [
                   { title: "Create Image", img: "/loginlayout/logind.webp", link: "/tools/creator/image-generator", isNew: false },
-                  { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/eromify/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/video-generation", isNew: false },
-                  { title: "Seedance 2.0", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351810/eromify/homepage/preview_3ad9020c086148d99d34e70bd171333b.webp", link: "/video-generation", isNew: true },
-                  { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/eromify/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/video-generation", isNew: false },
+                  { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/Creatify AI/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/video-generation", isNew: false },
+                  { title: "Seedance 2.0", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351810/Creatify AI/homepage/preview_3ad9020c086148d99d34e70bd171333b.webp", link: "/video-generation", isNew: true },
+                  { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/Creatify AI/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/video-generation", isNew: false },
                 ] as { title: string; img?: string; video?: string; link: string; isNew: boolean }[]
               ).map((tool, i) => (
                 <Link
@@ -889,7 +889,7 @@ export default function HomePage() {
         <section className="mb-10 mt-16 max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-black text-slate-900 mb-3">Frequently Asked Questions</h2>
-            <p className="text-slate-500">Everything you need to know about Eromify AI.</p>
+            <p className="text-slate-500">Everything you need to know about Creatify AI AI.</p>
           </div>
 
           <div className="space-y-4">
@@ -920,9 +920,9 @@ export default function HomePage() {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "FAQPage",
-                "name": "Eromify – Frequently Asked Questions",
-                "description": "Common questions about Eromify, the all-in-one AI media generation platform for creators and brands.",
-                "url": "https://www.eromify.in",
+                "name": "Creatify AI – Frequently Asked Questions",
+                "description": "Common questions about Creatify AI, the all-in-one AI media generation platform for creators and brands.",
+                "url": "https://www.creatifyai.in",
                 "mainEntity": FAQS.map(faq => ({
                   "@type": "Question",
                   "name": faq.q,

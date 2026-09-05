@@ -4,15 +4,15 @@ import ErosClient from "./ErosClient";
 export const metadata: Metadata = {
   title: "Eros — FLUX 2 Pro Image Studio",
   description:
-    "Generate stunning, photorealistic AI images with FLUX 2 Pro from Black Forest Labs. Eros is Eromify's premium image generation studio — cinematic, fantasy, portraits and more.",
+    "Generate stunning, photorealistic AI images with FLUX 2 Pro from Black Forest Labs. Eros is Creatify AI's premium image generation studio — cinematic, fantasy, portraits and more.",
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Eros — FLUX 2 Pro Image Studio | Eromify",
+    title: "Eros — FLUX 2 Pro Image Studio | Creatify AI",
     description:
       "The most powerful AI image generator powered by FLUX 2 Pro. Create cinematic portraits, fantasy landscapes, and photorealistic visuals in seconds.",
-    siteName: "Eromify",
+    siteName: "Creatify AI",
     type: "website",
-    url: "https://www.eromify.in/eros",
+    url: "https://www.creatifyai.in/eros",
   },
 };
 

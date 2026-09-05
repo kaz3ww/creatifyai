@@ -222,13 +222,13 @@ function AuthContent() {
             {/* Logo + heading */}
             <div className="mb-8">
               <div className="w-10 h-10 relative mb-5">
-                <Image src="/eromifylogo.png" alt="Eromify" fill className="object-contain" />
+                <Image src="/Creatify AIlogo.png" alt="Creatify AI" fill className="object-contain" />
               </div>
               <h1 className="text-2xl font-black text-white mb-1">
                 {tab === "login" ? "Welcome back" : "Create your account"}
               </h1>
               <p className="text-sm text-white/40 font-medium">
-                {tab === "login" ? "Sign in to continue to Eromify" : "Start generating for free today"}
+                {tab === "login" ? "Sign in to continue to Creatify AI" : "Start generating for free today"}
               </p>
             </div>
 
@@ -364,7 +364,7 @@ function AuthContent() {
 
             {/* Legal */}
             <p className="mt-5 text-center text-[11px] text-white/20 leading-relaxed">
-              By continuing, you agree to Eromify&apos;s{" "}
+              By continuing, you agree to Creatify AI&apos;s{" "}
               <Link href="/terms" className="underline hover:text-white/50 transition-colors">Terms</Link> and{" "}
               <Link href="/privacy" className="underline hover:text-white/50 transition-colors">Privacy Policy</Link>.
             </p>

@@ -1,7 +1,7 @@
 /**
  * mcp-auth.ts
  *
- * Resolves an inbound MCP request to a full Eromify User document.
+ * Resolves an inbound MCP request to a full Creatify AI User document.
  *
  * Accepts TWO types of Bearer tokens:
  *   1. API keys  — start with "emcp_"  → looked up via SHA-256 hash in User.mcpApiKeys
@@ -40,7 +40,7 @@ export interface McpAuthResult {
 }
 
 /**
- * Resolves an MCP request to an Eromify user.
+ * Resolves an MCP request to an Creatify AI user.
  * Returns null if the token is missing, invalid, revoked, or expired.
  */
 export async function resolveMcpUser(

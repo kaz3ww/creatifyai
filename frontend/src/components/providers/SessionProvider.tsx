@@ -12,17 +12,17 @@ function ProSyncer({ children }: { children: React.ReactNode }) {
         .then((res) => res.json())
         .then((data) => {
           if (data.isPro) {
-            localStorage.setItem("eromify_pro", "true");
-            window.dispatchEvent(new Event("eromify_pro_updated"));
+            localStorage.setItem("Creatify AI_pro", "true");
+            window.dispatchEvent(new Event("Creatify AI_pro_updated"));
           } else {
-            localStorage.removeItem("eromify_pro");
-            window.dispatchEvent(new Event("eromify_pro_updated"));
+            localStorage.removeItem("Creatify AI_pro");
+            window.dispatchEvent(new Event("Creatify AI_pro_updated"));
           }
         })
         .catch(() => {});
     } else if (status === "unauthenticated") {
-      localStorage.removeItem("eromify_pro");
-      window.dispatchEvent(new Event("eromify_pro_updated"));
+      localStorage.removeItem("Creatify AI_pro");
+      window.dispatchEvent(new Event("Creatify AI_pro_updated"));
     }
   }, [status]);
 

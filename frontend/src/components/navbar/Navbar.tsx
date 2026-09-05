@@ -53,11 +53,11 @@ export function Navbar() {
 
   // Re-sync when another component fires credits_updated (e.g. after purchase)
   useEffect(() => {
-    // Listen to both event names — dispatchers use "eromify_credits_updated"
-    window.addEventListener("eromify_credits_updated", fetchCredits);
+    // Listen to both event names — dispatchers use "Creatify AI_credits_updated"
+    window.addEventListener("Creatify AI_credits_updated", fetchCredits);
     window.addEventListener("credits_updated", fetchCredits);
     return () => {
-      window.removeEventListener("eromify_credits_updated", fetchCredits);
+      window.removeEventListener("Creatify AI_credits_updated", fetchCredits);
       window.removeEventListener("credits_updated", fetchCredits);
     };
   }, [fetchCredits]);
@@ -82,7 +82,7 @@ export function Navbar() {
 
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <div className="w-16 h-16 relative">
-              <Image src="/eromifylogo.png" alt="Eromify Logo" fill className="object-contain" priority />
+              <Image src="/Creatify AIlogo.png" alt="Creatify AI Logo" fill className="object-contain" priority />
             </div>
           </Link>
         </div>

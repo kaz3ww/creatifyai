@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Male Influencer Generator – Create Virtual Male Models | Eromify",
+  title: "AI Male Influencer Generator – Create Virtual Male Models | Creatify AI",
   description: "Generate photorealistic AI male influencers for fashion, fitness, lifestyle, and brand campaigns. Create consistent male AI models for any niche or platform.",
   keywords: "AI male influencer generator, AI male model, virtual male influencer, create male AI influencer, AI man model generator",
   alternates: { canonical: "/ai-male-influencer-generator" },
@@ -25,7 +25,7 @@ export default function AIMaleInfluencerPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-[1.1]">AI Male Influencer Generator</h1>
           <p className="text-xl text-slate-300 mb-4 font-medium">Create photorealistic AI male influencers for any niche, platform, or campaign.</p>
           <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-            Generate consistent, photorealistic AI male models for fashion, fitness, lifestyle, luxury, and tech content. Eromify&apos;s AI male influencer generator supports diverse ethnicities, ages, body types, and styles — all with identity-locked consistency.
+            Generate consistent, photorealistic AI male models for fashion, fitness, lifestyle, luxury, and tech content. Creatify AI&apos;s AI male influencer generator supports diverse ethnicities, ages, body types, and styles — all with identity-locked consistency.
           </p>
           <Link href="/tools/creator" className="inline-flex items-center gap-2 px-10 py-5 bg-blue-600 hover:bg-blue-500 text-white font-black rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">
             👨 Generate Male AI Influencer

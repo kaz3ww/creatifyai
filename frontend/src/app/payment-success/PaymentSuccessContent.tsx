@@ -13,11 +13,11 @@ export default function PaymentSuccessContent() {
     fetch("/api/user/sync-pro")
       .then((r) => r.json())
       .then((data) => {
-        if (data.isPro) localStorage.setItem("eromify_pro", "true");
+        if (data.isPro) localStorage.setItem("Creatify AI_pro", "true");
         window.dispatchEvent(
-          new CustomEvent("eromify_credits_updated", { detail: { credits: data.credits } })
+          new CustomEvent("Creatify AI_credits_updated", { detail: { credits: data.credits } })
         );
-        window.dispatchEvent(new Event("eromify_pro_updated"));
+        window.dispatchEvent(new Event("Creatify AI_pro_updated"));
       })
       .catch(() => {});
   }, []);

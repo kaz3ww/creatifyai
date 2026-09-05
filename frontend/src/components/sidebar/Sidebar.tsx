@@ -108,7 +108,7 @@ export function Sidebar({ mobile = false, onNavigate }: SidebarProps) {
 
   useEffect(() => {
     const checkPro = () => {
-      const pro = localStorage.getItem("eromify_pro");
+      const pro = localStorage.getItem("Creatify AI_pro");
       setIsUserPro(pro === "true");
     };
 
@@ -129,15 +129,15 @@ export function Sidebar({ mobile = false, onNavigate }: SidebarProps) {
         .catch(() => { setHasErosAccess(false); setHasMotionControlAccess(false); });
     }
 
-    window.addEventListener("eromify_pro_updated", checkPro);
-    return () => window.removeEventListener("eromify_pro_updated", checkPro);
+    window.addEventListener("Creatify AI_pro_updated", checkPro);
+    return () => window.removeEventListener("Creatify AI_pro_updated", checkPro);
   }, [status]);
 
   const content = (
     <div className="flex flex-col h-full bg-white border-r border-slate-200 p-4">
       {mobile && (
         <div className="flex items-center gap-2 px-2 py-3 mb-4">
-          <span className="text-lg font-bold text-slate-900">Eromify</span>
+          <span className="text-lg font-bold text-slate-900">Creatify AI</span>
         </div>
       )}
 

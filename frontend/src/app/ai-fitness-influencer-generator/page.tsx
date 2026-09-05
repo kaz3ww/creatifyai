@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Fitness Influencer Generator – Create Virtual Gym & Wellness Models | Eromify",
+  title: "AI Fitness Influencer Generator – Create Virtual Gym & Wellness Models | Creatify AI",
   description: "Generate photorealistic AI fitness influencers for gyms, wellness brands, and health content. Create consistent AI personal trainers and fitness models in any setting.",
   keywords: "AI fitness influencer generator, AI gym model, virtual fitness influencer, AI personal trainer model, AI wellness influencer",
   alternates: { canonical: "/ai-fitness-influencer-generator" },
@@ -75,7 +75,7 @@ export default function AIFitnessInfluencerPage() {
       <section className="py-24 px-4 bg-gradient-to-br from-orange-700 to-emerald-700 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Build Your AI Fitness Influencer</h2>
-          <p className="text-orange-100 text-lg mb-10">Gyms, supplement brands, and fitness creators are already using Eromify. Join them.</p>
+          <p className="text-orange-100 text-lg mb-10">Gyms, supplement brands, and fitness creators are already using Creatify AI. Join them.</p>
           <Link href="/tools/creator" className="inline-flex items-center gap-3 px-10 py-5 bg-white text-orange-700 font-black rounded-2xl hover:scale-105 transition-all shadow-2xl text-lg">
             💪 Start Generating →
           </Link>

@@ -85,7 +85,7 @@ export async function POST(request: Request) {
 
     const isValid = receivedHash === computedHash;
 
-    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.eromify.in";
+    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.creatifyai.in";
 
     if (!isValid) {
       console.error("[payu/verify] Hash mismatch for txnid:", txnid);
@@ -157,7 +157,7 @@ export async function POST(request: Request) {
   } catch (error: unknown) {
     const msg = error instanceof Error ? error.message : String(error);
     console.error("PayU verification error:", msg);
-    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.eromify.in";
+    const baseUrl = process.env.NEXTAUTH_URL ?? "https://www.creatifyai.in";
     return NextResponse.redirect(
       new URL("/payment-failed?reason=server_error", baseUrl)
     );

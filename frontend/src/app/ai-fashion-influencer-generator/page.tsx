@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Fashion Influencer Generator – Create Virtual Fashion Models | Eromify",
+  title: "AI Fashion Influencer Generator – Create Virtual Fashion Models | Creatify AI",
   description: "Generate stunning AI fashion influencers for Instagram, lookbooks, and brand campaigns. Create photorealistic AI models wearing any outfit, in any setting.",
   keywords: "AI fashion influencer generator, AI fashion model, virtual fashion influencer, create AI fashion model, AI clothing model generator",
   alternates: { canonical: "/ai-fashion-influencer-generator" },
@@ -25,7 +25,7 @@ export default function AIFashionInfluencerPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-[1.1]">AI Fashion Influencer Generator</h1>
           <p className="text-xl text-slate-300 mb-4 font-medium">Generate photorealistic AI fashion models for any brand, style, or campaign.</p>
           <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-            Create AI fashion influencers that showcase your clothing line, accessories, or fashion brand — in any setting, with any aesthetic. From editorial couture to street style, Eromify generates consistent AI fashion models at scale.
+            Create AI fashion influencers that showcase your clothing line, accessories, or fashion brand — in any setting, with any aesthetic. From editorial couture to street style, Creatify AI generates consistent AI fashion models at scale.
           </p>
           <Link href="/tools/creator" className="inline-flex items-center gap-2 px-10 py-5 bg-pink-500 hover:bg-pink-400 text-white font-black rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">
             👗 Generate Fashion Influencer
@@ -62,7 +62,7 @@ export default function AIFashionInfluencerPage() {
             {[
               { step:"Step 1", title:"Describe Your Fashion Influencer", desc:"Specify appearance: skin tone, hair style, body type, height. Then add fashion details: the exact outfit, brand, style era, accessories, footwear." },
               { step:"Step 2", title:"Set the Scene", desc:"Choose your environment: studio white background, Paris streets, luxury apartment, outdoor festival, runway stage. Lighting and mood are fully customizable." },
-              { step:"Step 3", title:"Generate & Iterate", desc:"Eromify produces HD fashion influencer images in seconds. Adjust your prompt, regenerate, and build a complete content library." },
+              { step:"Step 3", title:"Generate & Iterate", desc:"Creatify AI produces HD fashion influencer images in seconds. Adjust your prompt, regenerate, and build a complete content library." },
             ].map((s) => (
               <div key={s.step} className="flex gap-6 bg-white rounded-2xl p-6 border border-slate-200">
                 <div className="shrink-0 w-24 text-[#1736cf] font-black text-sm pt-1">{s.step}</div>

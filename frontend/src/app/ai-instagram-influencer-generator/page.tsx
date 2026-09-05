@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Instagram Influencer Generator – Create Virtual IG Models | Eromify",
+  title: "AI Instagram Influencer Generator – Create Virtual IG Models | Creatify AI",
   description: "Generate AI influencers optimized for Instagram — perfect portrait formats, lifestyle aesthetics, and photorealistic quality. Build your IG AI persona today.",
   keywords: "AI Instagram influencer generator, AI Instagram model, virtual Instagram influencer, AI IG influencer, create AI Instagram persona, AI model Instagram",
   alternates: { canonical: "/ai-instagram-influencer-generator" },
@@ -57,11 +57,11 @@ export default function AIInstagramInfluencerPage() {
 
       <section className="py-20 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-black text-slate-900 mb-12 text-center">Why Instagram Creators Choose Eromify</h2>
+          <h2 className="text-3xl font-black text-slate-900 mb-12 text-center">Why Instagram Creators Choose Creatify AI</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title:"Grid Consistency", desc:"Maintain a cohesive Instagram grid aesthetic — same AI influencer, consistent style, across every post. Perfect for professional creator accounts." },
-              { title:"Daily Content Volume", desc:"Instagram rewards frequent posting. Eromify lets you generate 10–100+ posts per day, solving the content production bottleneck forever." },
+              { title:"Daily Content Volume", desc:"Instagram rewards frequent posting. Creatify AI lets you generate 10–100+ posts per day, solving the content production bottleneck forever." },
               { title:"Niche Flexibility", desc:"Switch your AI influencer's outfit, location, and style in seconds. Explore fashion, beauty, travel, food, and fitness — all with the same persona." },
               { title:"Commercial-Grade Quality", desc:"Generate images at quality levels that compete with professional photography — not blurry, artificial-looking AI output." },
             ].map((f) => (

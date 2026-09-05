@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 /**
  * GET /api/auth/meta
  * Redirects the user to the Meta (Facebook) OAuth login page.
- * The user must be signed into Eromify before hitting this — the state param
+ * The user must be signed into Creatify AI before hitting this — the state param
  * carries their session userId so we can link the IG account after callback.
  */
 export async function GET(request: Request) {

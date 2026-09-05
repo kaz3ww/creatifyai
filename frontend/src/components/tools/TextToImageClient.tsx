@@ -190,7 +190,7 @@ export default function TextToImageClient() {
   const handleDownload = (img: GeneratedImage) => {
     const a = document.createElement("a");
     a.href = img.url;
-    a.download = `eromify-tti-${img.id}.jpg`;
+    a.download = `Creatify AI-tti-${img.id}.jpg`;
     a.click();
   };
 

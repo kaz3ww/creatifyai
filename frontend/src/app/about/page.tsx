@@ -18,27 +18,27 @@ import {
    SEO METADATA
 ───────────────────────────────────────────── */
 export const metadata: Metadata = {
-  title: "About Eromify — All in One AI Creator Platform",
+  title: "About Creatify AI — All in One AI Creator Platform",
   description:
-    "Eromify is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible for creators and brands.",
+    "Creatify AI is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible for creators and brands.",
   keywords:
-    "what is Eromify, AI media generation platform, AI influencer creator, AI UGC generator, AI video generator, affordable AI content creation, all in one AI creator platform, AI content platform for brands, Akash Rana",
-  alternates: { canonical: "https://www.eromify.in/about" },
+    "what is Creatify AI, AI media generation platform, AI influencer creator, AI UGC generator, AI video generator, affordable AI content creation, all in one AI creator platform, AI content platform for brands, Akash Rana",
+  alternates: { canonical: "https://www.creatifyai.in/about" },
   openGraph: {
-    title: "About Eromify — The All-in-One AI Media Platform",
+    title: "About Creatify AI — The All-in-One AI Media Platform",
     description:
       "Build consistent AI characters, generate cinematic videos, create premium AI images, and scale content production.",
-    url: "https://www.eromify.in/about",
-    siteName: "Eromify",
+    url: "https://www.creatifyai.in/about",
+    siteName: "Creatify AI",
     type: "website",
-    images: [{ url: "/eromifylogo.png", width: 512, height: 512, alt: "Eromify — AI Media Platform" }],
+    images: [{ url: "/Creatify AIlogo.png", width: 512, height: 512, alt: "Creatify AI — AI Media Platform" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Eromify — AI Media Generation Platform",
+    title: "About Creatify AI — AI Media Generation Platform",
     description:
       "Create stunning AI influencers, cinematic videos, and high-quality digital content in seconds.",
-    images: ["/eromifylogo.png"],
+    images: ["/Creatify AIlogo.png"],
   },
 };
 
@@ -48,24 +48,24 @@ export const metadata: Metadata = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "name": "About Eromify – Frequently Asked Questions",
-  "description": "Frequently asked questions about Eromify, the all-in-one AI media generation platform.",
-  "url": "https://www.eromify.in/about",
+  "name": "About Creatify AI – Frequently Asked Questions",
+  "description": "Frequently asked questions about Creatify AI, the all-in-one AI media generation platform.",
+  "url": "https://www.creatifyai.in/about",
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is Eromify?",
+      name: "What is Creatify AI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Eromify is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple subscriptions, Eromify brings AI image, video, and influencer generation into one platform.",
+        text: "Creatify AI is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple subscriptions, Creatify AI brings AI image, video, and influencer generation into one platform.",
       },
     },
     {
       "@type": "Question",
-      name: "Who created Eromify?",
+      name: "Who created Creatify AI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Eromify was created by Akash Rana to provide creators with a powerful, accessible platform for AI media generation.",
+        text: "Creatify AI was created by Akash Rana to provide creators with a powerful, accessible platform for AI media generation.",
       },
     },
     {
@@ -73,15 +73,15 @@ const faqSchema = {
       name: "Can I create a consistent AI influencer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes! Eromify specializes in maintaining character consistency across different styles and formats, from images to motion-tracked videos.",
+        text: "Yes! Creatify AI specializes in maintaining character consistency across different styles and formats, from images to motion-tracked videos.",
       },
     },
     {
       "@type": "Question",
-      name: "Is Eromify free?",
+      name: "Is Creatify AI free?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "While Eromify is not completely free, it is widely considered one of the best low-budget options for creating high-quality, ultimate AI media. Our premium tools give you professional-grade cinematic videos and AI influencers at a fraction of the cost.",
+        text: "While Creatify AI is not completely free, it is widely considered one of the best low-budget options for creating high-quality, ultimate AI media. Our premium tools give you professional-grade cinematic videos and AI influencers at a fraction of the cost.",
       },
     },
   ],
@@ -90,10 +90,10 @@ const faqSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Eromify",
-  url: "https://www.eromify.in",
+  name: "Creatify AI",
+  url: "https://www.creatifyai.in",
   description:
-    "Eromify is an all-in-one AI media generation platform for creators and brands.",
+    "Creatify AI is an all-in-one AI media generation platform for creators and brands.",
   founder: {
     "@type": "Person",
     name: "Akash Rana",
@@ -136,20 +136,20 @@ const tools = [
 
 const faqs = [
   {
-    q: "What is Eromify?",
-    a: "Eromify is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple subscriptions, Eromify brings AI image, video, and influencer generation into one platform.",
+    q: "What is Creatify AI?",
+    a: "Creatify AI is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple subscriptions, Creatify AI brings AI image, video, and influencer generation into one platform.",
   },
   {
     q: "Can I create a consistent AI influencer?",
-    a: "Yes! Eromify's biggest advantage is consistency. You can create a character once and generate infinite content while keeping the exact same facial identity.",
+    a: "Yes! Creatify AI's biggest advantage is consistency. You can create a character once and generate infinite content while keeping the exact same facial identity.",
   },
   {
-    q: "Who is Eromify for?",
+    q: "Who is Creatify AI for?",
     a: "Digital creators, content marketers, agencies, startups, ecommerce brands, and personal brands who want to create high-quality AI content fast.",
   },
   {
-    q: "Is Eromify free?",
-    a: "While Eromify is not completely free, it is widely considered one of the best low-budget options for creating high-quality, ultimate AI media. Our premium tools give you professional-grade cinematic videos and AI influencers at a fraction of the cost.",
+    q: "Is Creatify AI free?",
+    a: "While Creatify AI is not completely free, it is widely considered one of the best low-budget options for creating high-quality, ultimate AI media. Our premium tools give you professional-grade cinematic videos and AI influencers at a fraction of the cost.",
   },
 ];
 
@@ -174,7 +174,7 @@ export default function AboutPage() {
 
           <div className="relative max-w-5xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-blue-300 text-sm font-bold mb-6">
-              <Zap className="w-4 h-4" /> About Eromify
+              <Zap className="w-4 h-4" /> About Creatify AI
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6 text-white leading-tight">
               The All-in-One AI Media Generation Platform for <br/>
@@ -184,7 +184,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10">
-              The world of content creation is changing fast. We built Eromify to power the future of content.
+              The world of content creation is changing fast. We built Creatify AI to power the future of content.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -218,7 +218,7 @@ export default function AboutPage() {
                 </ul>
               </div>
               <p>
-                Costs stack up quickly. Workflows become complicated. Creativity slows down. That is exactly why Eromify was created.
+                Costs stack up quickly. Workflows become complicated. Creativity slows down. That is exactly why Creatify AI was created.
               </p>
             </div>
           </div>
@@ -228,10 +228,10 @@ export default function AboutPage() {
         <section className="py-24 px-6 bg-slate-50 dark:bg-slate-900/40">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-6">
-              What is Eromify?
+              What is Creatify AI?
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              Eromify is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple AI subscriptions, Eromify brings everything creators need into one platform.
+              Creatify AI is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible. Instead of paying for multiple AI subscriptions, Creatify AI brings everything creators need into one platform.
             </p>
           </div>
           
@@ -259,10 +259,10 @@ export default function AboutPage() {
         <section className="py-24 px-6 bg-white dark:bg-[#070c20]">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black mb-8 text-slate-900 dark:text-white">
-              Why Eromify Exists
+              Why Creatify AI Exists
             </h2>
             <div className="space-y-6 text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
-              <p>Eromify was built around a simple idea:</p>
+              <p>Creatify AI was built around a simple idea:</p>
               <p className="text-2xl font-black text-slate-900 dark:text-white border-l-4 border-[#1736cf] pl-6 py-2">
                 High-quality AI content should not be expensive.
               </p>
@@ -270,7 +270,7 @@ export default function AboutPage() {
                 The future of content is AI-powered: UGC content, creator ads, virtual influencers, branded short videos, digital models, AI product shoots, cinematic visual storytelling, personalized creator content, and scalable social media production.
               </p>
               <p>
-                But many platforms charge high subscription fees for every piece of the workflow. That model is broken. Creators deserve access to professional tools without needing enterprise budgets. Eromify makes advanced AI creation affordable for everyone — from solo creators to growing brands.
+                But many platforms charge high subscription fees for every piece of the workflow. That model is broken. Creators deserve access to professional tools without needing enterprise budgets. Creatify AI makes advanced AI creation affordable for everyone — from solo creators to growing brands.
               </p>
             </div>
           </div>
@@ -309,7 +309,7 @@ export default function AboutPage() {
             {/* Why Choose */}
             <div>
               <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-8">
-                Why Creators Choose Eromify
+                Why Creators Choose Creatify AI
               </h2>
               <div className="space-y-6">
                 {[
@@ -337,10 +337,10 @@ export default function AboutPage() {
             {/* Who is it for */}
             <div>
               <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-8">
-                Who Eromify Is For
+                Who Creatify AI Is For
               </h2>
               <p className="text-slate-600 dark:text-slate-400 mb-6 text-lg">
-                Whether you create for yourself, clients, or brands — Eromify helps you scale. We are built for:
+                Whether you create for yourself, clients, or brands — Creatify AI helps you scale. We are built for:
               </p>
               <div className="grid grid-cols-2 gap-3">
                 {[
@@ -366,7 +366,7 @@ export default function AboutPage() {
               Our mission is simple: Make high-quality AI media creation affordable, accessible, and powerful for everyone.
             </p>
             <p className="text-lg text-slate-500 dark:text-slate-500 mb-12">
-              We believe the future belongs to creators who move fast, create consistently, and scale intelligently. Eromify is built to help them do exactly that.
+              We believe the future belongs to creators who move fast, create consistently, and scale intelligently. Creatify AI is built to help them do exactly that.
             </p>
             
             <div className="p-8 rounded-3xl bg-gradient-to-r from-[#1736cf] to-[#4f46e5] text-white shadow-xl">

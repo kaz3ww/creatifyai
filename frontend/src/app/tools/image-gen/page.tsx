@@ -3,11 +3,11 @@ import { Suspense } from "react";
 import ImageGenClient from "@/components/tools/ImageGenClient";
 
 export const metadata: Metadata = {
-  title: "AI Image Generator — Stable Diffusion 3.5 & Ultra | Eromify",
+  title: "AI Image Generator — Stable Diffusion 3.5 & Ultra | Creatify AI",
   description:
     "Generate stunning AI images from text prompts using Stability AI's Stable Diffusion 3.5 Large and Ultra models. Free, fast, no watermarks.",
   openGraph: {
-    title: "AI Image Generator | Eromify",
+    title: "AI Image Generator | Creatify AI",
     description:
       "Turn your ideas into stunning visuals with Stable Diffusion 3.5 & Ultra.",
     url: "/tools/image-gen",

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Realistic AI Influencer Generator – Photorealistic Virtual Models | Eromify",
-  description: "Generate ultra-realistic AI influencers with lifelike skin, natural expressions, and photorealistic lighting. Eromify produces the most realistic AI influencer images online.",
+  title: "Realistic AI Influencer Generator – Photorealistic Virtual Models | Creatify AI",
+  description: "Generate ultra-realistic AI influencers with lifelike skin, natural expressions, and photorealistic lighting. Creatify AI produces the most realistic AI influencer images online.",
   keywords: "realistic AI influencer generator, photorealistic AI influencer, realistic virtual influencer, lifelike AI model, realistic AI person generator",
   alternates: { canonical: "/realistic-ai-influencer-generator" },
   openGraph: {
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { q: "How realistic can AI influencers look?", a: "With Eromify's advanced diffusion models like FLUX and GPT Image 2, AI influencers are virtually indistinguishable from real photographs when generated with detailed prompts and proper settings." },
-  { q: "What makes Eromify's AI more realistic than other tools?", a: "Eromify uses multiple state-of-the-art foundation models trained on photographic data, combined with identity consistency technology that maintains realistic facial proportions across all outputs." },
+  { q: "How realistic can AI influencers look?", a: "With Creatify AI's advanced diffusion models like FLUX and GPT Image 2, AI influencers are virtually indistinguishable from real photographs when generated with detailed prompts and proper settings." },
+  { q: "What makes Creatify AI's AI more realistic than other tools?", a: "Creatify AI uses multiple state-of-the-art foundation models trained on photographic data, combined with identity consistency technology that maintains realistic facial proportions across all outputs." },
   { q: "Can I control specific realistic details like skin texture?", a: "Yes. You can prompt for specific skin tones, textures, pore visibility, lighting types (flash, natural, studio), expressions, and environmental realism — giving you full control over how lifelike the result appears." },
-  { q: "Will the same AI influencer look consistent across images?", a: "Absolutely. Eromify's identity-lock system ensures the same face, proportions, and style appear across every generation — critical for building a believable, realistic AI influencer brand." },
+  { q: "Will the same AI influencer look consistent across images?", a: "Absolutely. Creatify AI's identity-lock system ensures the same face, proportions, and style appear across every generation — critical for building a believable, realistic AI influencer brand." },
 ];
 
 export default function RealisticAIInfluencerPage() {
@@ -32,7 +32,7 @@ export default function RealisticAIInfluencerPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-[1.1]">Realistic AI Influencer Generator</h1>
           <p className="text-xl text-slate-300 mb-4 font-medium">Generate AI influencers so realistic, they look like real photographs.</p>
           <p className="text-slate-400 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-            Eromify uses cutting-edge diffusion models — FLUX, GPT Image 2, FLUX Kontext — tuned for maximum photorealism. Visible skin texture, lifelike eyes, natural lighting, and studio-quality output. The most realistic AI influencer generator available.
+            Creatify AI uses cutting-edge diffusion models — FLUX, GPT Image 2, FLUX Kontext — tuned for maximum photorealism. Visible skin texture, lifelike eyes, natural lighting, and studio-quality output. The most realistic AI influencer generator available.
           </p>
           <Link href="/tools/creator" className="inline-flex items-center gap-2 px-10 py-5 bg-white text-slate-900 font-black rounded-2xl transition-all hover:scale-105 shadow-xl text-lg">
             📷 Generate Realistic AI Influencer
@@ -43,7 +43,7 @@ export default function RealisticAIInfluencerPage() {
       {/* Realism features */}
       <section className="py-20 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 text-center">Why Eromify Produces the Most Realistic Results</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 text-center">Why Creatify AI Produces the Most Realistic Results</h2>
           <p className="text-slate-500 text-lg text-center mb-14">Every generation is optimized for photographic realism — not cartoon or illustration aesthetics.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[

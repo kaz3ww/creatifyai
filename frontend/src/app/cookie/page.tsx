@@ -132,7 +132,7 @@ export default function CookiePolicyPage() {
                       Privacy is our priority
                     </h3>
                     <p className="text-sm text-slate-600 leading-relaxed">
-                      This Cookie Policy explains how Eromify uses cookies and
+                      This Cookie Policy explains how Creatify AI uses cookies and
                       similar technologies to recognize you when you visit our
                       website. It explains what these technologies are and why we
                       use them, as well as your rights to control our use of them.
@@ -158,7 +158,7 @@ export default function CookiePolicyPage() {
                   more efficiently, as well as to provide reporting information.
                 </p>
                 <p className="mt-4 text-slate-600 leading-relaxed">
-                  Cookies set by the website owner (in this case, Eromify) are
+                  Cookies set by the website owner (in this case, Creatify AI) are
                   called &quot;first-party cookies&quot;. Cookies set by parties other than
                   the website owner are called &quot;third-party cookies&quot;.
                 </p>
@@ -250,7 +250,7 @@ export default function CookiePolicyPage() {
                     <tbody className="divide-y divide-slate-100">
                       <tr>
                         <td className="px-6 py-4 text-sm font-medium text-slate-900">
-                          _eromify_session
+                          _Creatify AI_session
                         </td>
                         <td className="px-6 py-4 text-sm text-slate-600">
                           Maintains active session security
@@ -354,9 +354,9 @@ export default function CookiePolicyPage() {
                 </p>
                 <a
                   className="inline-flex items-center gap-2 text-[#1736cf] font-semibold hover:underline"
-                  href="mailto:eromify.in@gmail.com"
+                  href="mailto:creatifyai.in@gmail.com"
                 >
-                  eromify.in@gmail.com
+                  creatifyai.in@gmail.com
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                 </a>
               </div>

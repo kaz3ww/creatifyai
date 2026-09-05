@@ -31,7 +31,7 @@ export function ProGate({ children }: ProGateProps) {
 
   useEffect(() => {
     const checkPro = () => {
-      const pro = localStorage.getItem("eromify_pro");
+      const pro = localStorage.getItem("Creatify AI_pro");
       setIsUserPro(pro === "true");
     };
 
@@ -41,8 +41,8 @@ export function ProGate({ children }: ProGateProps) {
       checkPro();
     }
 
-    window.addEventListener("eromify_pro_updated", checkPro);
-    return () => window.removeEventListener("eromify_pro_updated", checkPro);
+    window.addEventListener("Creatify AI_pro_updated", checkPro);
+    return () => window.removeEventListener("Creatify AI_pro_updated", checkPro);
   }, [status]);
 
   const handleUpgrade = async () => {
@@ -71,7 +71,7 @@ export function ProGate({ children }: ProGateProps) {
         key: keyId || process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount,
         currency,
-        name: "Eromify",
+        name: "Creatify AI",
         description: "Pro Plan — Unlock All Premium Tools",
         order_id: orderId,
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -92,9 +92,9 @@ export function ProGate({ children }: ProGateProps) {
             if (!verifyRes.ok) throw new Error("Verification failed");
             const data = await verifyRes.json();
             if (data.success) {
-              localStorage.setItem("eromify_pro", "true");
+              localStorage.setItem("Creatify AI_pro", "true");
               localStorage.setItem(
-                "eromify_pro_payment_id",
+                "Creatify AI_pro_payment_id",
                 response.razorpay_payment_id
               );
               setIsUserPro(true);

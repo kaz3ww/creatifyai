@@ -6,7 +6,7 @@ import { ContactMessage } from '@/models/ContactMessage';
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.SMTP_USER || 'eromify.in@gmail.com',
+    user: process.env.SMTP_USER || 'creatifyai.in@gmail.com',
     pass: process.env.SMTP_PASS || 'dsts vlia twof cimq', // App password
   },
 });
@@ -36,8 +36,8 @@ export async function POST(request: NextRequest) {
 
     // 1. Notification to Admin
     const adminMailOptions = {
-      from: `"Eromify Contact Form" <${process.env.SMTP_USER || 'eromify.in@gmail.com'}>`,
-      to: process.env.SMTP_USER || 'eromify.in@gmail.com',
+      from: `"Creatify AI Contact Form" <${process.env.SMTP_USER || 'creatifyai.in@gmail.com'}>`,
+      to: process.env.SMTP_USER || 'creatifyai.in@gmail.com',
       replyTo: email,
       subject: `New Contact Request: ${subject}`,
       html: `
@@ -55,20 +55,20 @@ export async function POST(request: NextRequest) {
 
     // 2. Auto-reply to User
     const userMailOptions = {
-      from: `"Eromify Support" <${process.env.SMTP_USER || 'eromify.in@gmail.com'}>`,
+      from: `"Creatify AI Support" <${process.env.SMTP_USER || 'creatifyai.in@gmail.com'}>`,
       to: email,
       subject: `We received your message: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px;">
           <div style="text-align: center; margin-bottom: 20px;">
-            <h1 style="color: #1736cf;">Eromify Support</h1>
+            <h1 style="color: #1736cf;">Creatify AI Support</h1>
           </div>
           <p>Hi ${name},</p>
           <p>Thank you for reaching out! We have received your message regarding <strong>"${subject}"</strong>.</p>
           <p>Our support team is reviewing your request and will get back to you as soon as possible, usually within 24-48 hours.</p>
           <br />
           <p>Best regards,</p>
-          <p><strong>The Eromify Team</strong></p>
+          <p><strong>The Creatify AI Team</strong></p>
         </div>
       `,
     };

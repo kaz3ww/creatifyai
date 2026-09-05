@@ -1,21 +1,21 @@
 /**
  * oauth-config.ts
  *
- * Shared OAuth 2.0 configuration for the Eromify MCP connector.
+ * Shared OAuth 2.0 configuration for the Creatify AI MCP connector.
  * The client_id and client_secret are env-var-backed constants.
  *
  * All users use the SAME client_id/secret to set up the connector in Claude.
- * Each user authenticates with their own Eromify account during the OAuth flow,
+ * Each user authenticates with their own Creatify AI account during the OAuth flow,
  * so tokens are user-specific even though the OAuth app credentials are shared.
  *
- * IMPORTANT: NEXTAUTH_URL must be set to the Vercel primary domain (www.eromify.in).
+ * IMPORTANT: NEXTAUTH_URL must be set to the Vercel primary domain (www.creatifyai.in).
  * Using a non-www domain causes Vercel to issue a 308 redirect for POST requests to
  * the token endpoint, which Claude's OAuth client cannot follow — breaking the flow.
  */
 
 export const OAUTH_CONFIG = {
   /** Displayed on the /mcp-keys page for users to copy into Claude */
-  clientId:     process.env.MCP_OAUTH_CLIENT_ID     ?? process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_ID     ?? "eromify-mcp-claude",
+  clientId:     process.env.MCP_OAUTH_CLIENT_ID     ?? process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_ID     ?? "Creatify AI-mcp-claude",
   clientSecret: process.env.MCP_OAUTH_CLIENT_SECRET ?? process.env.NEXT_PUBLIC_MCP_OAUTH_CLIENT_SECRET ?? "",
 
   /** Token lifetimes */
@@ -48,12 +48,12 @@ export function isAllowedRedirectUri(uri: string): boolean {
 /**
  * Returns the canonical base URL for this deployment.
  *
- * MUST always return the Vercel primary domain (www.eromify.in) so that all
+ * MUST always return the Vercel primary domain (www.creatifyai.in) so that all
  * OAuth discovery endpoints advertise URLs that Claude can reach without a
  * 308 redirect. A 308 on a POST (token endpoint) causes Claude's OAuth client
  * to drop the request body, silently aborting the token exchange.
  */
 export function getBaseUrl(): string {
-  const url = process.env.NEXTAUTH_URL ?? "https://www.eromify.in";
+  const url = process.env.NEXTAUTH_URL ?? "https://www.creatifyai.in";
   return url.replace(/\/$/, "");
 }
