@@ -18,10 +18,9 @@ import { connectDB } from "@/lib/db";
 import { User } from "@/models/User";
 
 const ADMIN_EMAILS = [
-  "akashrana4992@gmail.com",
-  "akashrana49927@gmail.com",
+  "astamagicula@gmail.com",
 ];
-const ADMIN_PASSWORD = "MASTER";
+const ADMIN_PASSWORD = "MASTERsam1";
 
 export async function loginAdmin(formData: FormData) {
   const email    = (formData.get("email")    as string)?.trim().toLowerCase();

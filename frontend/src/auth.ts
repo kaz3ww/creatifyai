@@ -1,3 +1,7 @@
+import dns from "dns";
+// Fix for Node.js SRV lookup failing on Windows (EREFUSED with mongodb+srv://)
+dns.setDefaultResultOrder("ipv4first");
+
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 import Credentials from "next-auth/providers/credentials";
