@@ -14,7 +14,7 @@ const BASE = "https://www.creatifyai.in";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
   alternates: {
-    canonical: BASE,
+    canonical: "/",
   },
   robots: {
     index: true,

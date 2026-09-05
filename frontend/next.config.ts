@@ -19,11 +19,24 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Force canonical domain: www.eromify.in is Vercel primary
-  // Ensures no redirect chain — non-www already redirects via Vercel
-  // If you switch Vercel primary to eromify.in, remove this block
+  // Canonical domain: www.creatifyai.in
+  // Permanently redirect old eromify.in domain to creatifyai.in
   async redirects() {
     return [
+      // ── Legacy eromify.in → creatifyai.in (301 permanent) ────────────────
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "eromify.in" }],
+        destination: "https://www.creatifyai.in/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.eromify.in" }],
+        destination: "https://www.creatifyai.in/:path*",
+        permanent: true,
+      },
+      // ── Auth route aliases ────────────────────────────────────────────────
       {
         source: "/auth/login",
         destination: "/login",
