@@ -300,7 +300,7 @@ export default function FreeAIInfluencerGeneratorPage() {
                 { href: "/ai-influencer-generator", label: "AI Influencer Generator" },
                 { href: "/ai-influencer-studio", label: "AI Influencer Studio" },
                 { href: "/realistic-ai-influencer-generator", label: "Realistic AI Influencer" },
-                { href: "/blog/Creatify AI-alternative", label: "Creatify AI Alternative" },
+                { href: "/blog/creatifyai-alternative", label: "Creatify AI Alternative" },
                 { href: "/ai-instagram-influencer-generator", label: "Instagram AI Influencer" },
                 { href: "/pricing", label: "Pricing" },
               ].map((l) => (

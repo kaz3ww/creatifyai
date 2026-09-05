@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     "Looking for an Creatify AI alternative? We compared ZenCreator, CelebMakerAI, JoggAI and more. See why creatifyai.in is the best AI influencer generator — free tier, more models, no limits.",
   keywords:
     "Creatify AI alternative, Creatify AI alternatives 2026, best Creatify AI alternative, Creatify AI vs zencreator, Creatify AI vs celebmakerai, AI influencer generator alternative, Creatify AI free alternative",
-  alternates: { canonical: `${BASE}/blog/Creatify AI-alternative` },
+  alternates: { canonical: `${BASE}/blog/creatifyai-alternative` },
   openGraph: {
     title: "Best Creatify AI Alternative 2026 — creatifyai.in vs ZenCreator vs CelebMakerAI",
     description:
       "Full comparison of Creatify AI alternatives. See which AI influencer generator gives you the most for free in 2026.",
-    url: `${BASE}/blog/Creatify AI-alternative`,
+    url: `${BASE}/blog/creatifyai-alternative`,
     siteName: "Creatify AI",
     type: "article",
     images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Creatify AI Alternative Comparison" }],
@@ -114,7 +114,7 @@ const blogPostingSchema = {
   headline: "Best Creatify AI Alternative in 2026 — Why creatifyai.in is the Top Choice",
   description:
     "Full comparison of Creatify AI alternatives including ZenCreator, CelebMakerAI, JoggAI and ImagineArt. Find out why creatifyai.in is the best free AI influencer generator.",
-  url: `${BASE}/blog/Creatify AI-alternative`,
+  url: `${BASE}/blog/creatifyai-alternative`,
   datePublished: "2026-01-01",
   dateModified: new Date().toISOString().split("T")[0],
   author: { "@type": "Person", name: "Alex" },
@@ -124,7 +124,7 @@ const blogPostingSchema = {
     logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
   },
   image: `${BASE}/Creatify AIlogo.png`,
-  mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/Creatify AI-alternative` },
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/creatifyai-alternative` },
   keywords: "Creatify AI alternative, AI influencer generator, Creatify AI vs zencreator, free AI influencer",
   articleSection: "AI Tools Comparison",
 };
@@ -134,7 +134,7 @@ const faqSchema = {
   "@type": "FAQPage",
   name: "Creatify AI Alternative — Frequently Asked Questions",
   description: "Common questions about Creatify AI alternatives and how creatifyai.in compares.",
-  url: `${BASE}/blog/Creatify AI-alternative`,
+  url: `${BASE}/blog/creatifyai-alternative`,
   mainEntity: faqs.map((f) => ({
     "@type": "Question",
     name: f.q,
@@ -148,11 +148,11 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: BASE },
     { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE}/blog` },
-    { "@type": "ListItem", position: 3, name: "Creatify AI Alternative", item: `${BASE}/blog/Creatify AI-alternative` },
+    { "@type": "ListItem", position: 3, name: "Creatify AI Alternative", item: `${BASE}/blog/creatifyai-alternative` },
   ],
 };
 
-export default function Creatify AIAlternativePage() {
+export default function CreatifyAIAlternativePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />

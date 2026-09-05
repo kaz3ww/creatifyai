@@ -95,7 +95,7 @@ const platformPillars = [
   },
 ];
 
-export default function WhatIsCreatify AIBlogPost() {
+export default function WhatIsCreatifyAIBlogPost() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
