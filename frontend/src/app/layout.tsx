@@ -175,7 +175,7 @@ export default function RootLayout({
         <Script
           id="gtag-script"
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-KLT8K1QBQM"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HVL4GHQ10K"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -183,7 +183,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-KLT8K1QBQM');
+            gtag('config', 'G-HVL4GHQ10K');
           `}
         </Script>
         {/* Global structured data on every page */}
