@@ -195,7 +195,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Blog posts ────────────────────────────────────────────────────────────
     {
-      url: `${baseUrl}/blog/what-is-eromify-future-ai-influencer-ugc-creation`,
+      url: `${baseUrl}/blog/what-is-creatifyai-future-ai-influencer-ugc-creation`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -219,7 +219,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/blog/eromify-alternative`,
+      url: `${baseUrl}/blog/creatifyai-alternative`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.65,

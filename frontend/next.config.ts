@@ -62,6 +62,17 @@ const nextConfig: NextConfig = {
         destination: "/video-generation",
         permanent: true,
       },
+      // ── Old eromify blog slugs → new creatifyai slugs (301 permanent) ──────
+      {
+        source: "/blog/what-is-eromify-future-ai-influencer-ugc-creation",
+        destination: "/blog/what-is-creatifyai-future-ai-influencer-ugc-creation",
+        permanent: true,
+      },
+      {
+        source: "/blog/eromify-alternative",
+        destination: "/blog/creatifyai-alternative",
+        permanent: true,
+      },
     ];
   },
   /**

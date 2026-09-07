@@ -3,7 +3,7 @@ import { AvatarProfileClient } from "@/components/avatar/AvatarProfileClient";
 import { use } from "react";
 
 export const metadata: Metadata = {
-  title: "AI Avatar Profile - Eromify",
+  title: "AI Avatar Profile - Creatify AI",
   description: "View and manage your AI avatar profile.",
 };
 
