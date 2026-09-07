@@ -6,7 +6,14 @@ import { authConfig } from '@/auth.config';
 const { auth } = NextAuth(authConfig);
 export default auth((req) => {
   const { pathname } = req.nextUrl;
+  const host = req.headers.get('host') || '';
   const isAuthenticated = !!req.auth;
+
+  // ── CANONICAL DOMAIN: redirect creatifyai.in → www.creatifyai.in ─────────
+  if (host === 'creatifyai.in') {
+    const url = `https://www.creatifyai.in${pathname}${req.nextUrl.search}`;
+    return NextResponse.redirect(url, { status: 301 });
+  }
 
   // ── REGION BLOCKING (disabled — re-enable for production if needed) ────────
   // const country = req.headers.get('x-vercel-ip-country') || req.headers.get('cf-ipcountry');

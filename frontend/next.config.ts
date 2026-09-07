@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
         destination: "https://www.creatifyai.in/:path*",
         permanent: true,
       },
+      // ── Non-www → www (canonical domain consolidation) ───────────────────
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "creatifyai.in" }],
+        destination: "https://www.creatifyai.in/:path*",
+        permanent: true,
+      },
       // ── Auth route aliases ────────────────────────────────────────────────
       {
         source: "/auth/login",
