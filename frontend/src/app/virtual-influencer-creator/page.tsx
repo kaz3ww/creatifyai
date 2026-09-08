@@ -3,14 +3,23 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Virtual Influencer Creator – Design & Launch AI Virtual Personas | Creatify AI",
-  description: "Create and launch your own virtual influencer with Creatify AI. Design realistic AI personas, generate content, and build a digital brand without a real person.",
-  keywords: "virtual influencer creator, create virtual influencer, AI virtual persona, digital influencer creator, virtual model creator, synthetic influencer",
-  alternates: { canonical: "/virtual-influencer-creator" },
+  title: "Virtual Influencer Creator — Launch Your AI-Powered Digital Brand | Creatify AI",
+  description: "Build and monetize your own virtual influencer with Creatify AI. Design jaw-dropping AI personas, generate daily content, secure brand deals & earn money — without ever appearing on camera.",
+  keywords: "virtual influencer creator, create virtual influencer, AI virtual persona, digital influencer creator, virtual model creator, synthetic influencer, make money as virtual influencer, AI influencer brand deals, launch AI influencer, create digital persona",
+  alternates: { canonical: "https://www.creatifyai.in/virtual-influencer-creator" },
   openGraph: {
-    title: "Virtual Influencer Creator – Design & Launch AI Virtual Personas",
-    description: "Create and launch your own virtual influencer. Design realistic AI personas and build a digital brand.",
-    url: "/virtual-influencer-creator",
+    title: "Virtual Influencer Creator — Launch Your AI-Powered Digital Brand | Creatify AI",
+    description: "Design stunning AI personas, generate viral content & monetize your virtual influencer. No camera needed. Start free on Creatify AI.",
+    url: "https://www.creatifyai.in/virtual-influencer-creator",
+    siteName: "Creatify AI",
+    type: "website",
+    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "Virtual Influencer Creator" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Virtual Influencer Creator — No Camera Needed | Creatify AI",
+    description: "Build a profitable virtual influencer persona. No camera, no skills needed. Free credits on signup.",
+    images: ["https://www.creatifyai.in/creatifyailogo.png"],
   },
 };
 

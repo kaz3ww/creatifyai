@@ -18,20 +18,20 @@ import {
    SEO METADATA
 ───────────────────────────────────────────── */
 export const metadata: Metadata = {
-  title: "About Creatify AI — All in One AI Creator Platform",
+  title: "About Creatify AI — India's #1 AI Influencer Platform Built for Creators",
   description:
-    "Creatify AI is an all-in-one AI media generation platform built to make premium content creation affordable, fast, and accessible for creators and brands.",
+    "Learn how Creatify AI is revolutionizing content creation for 10,000+ creators. 15+ AI models, cinematic video, zero watermarks — all at a fraction of the cost. Built by creators, for creators.",
   keywords:
-    "what is Creatify AI, AI media generation platform, AI influencer creator, AI UGC generator, AI video generator, affordable AI content creation, all in one AI creator platform, AI content platform for brands, Akash Rana",
+    "about Creatify AI, Creatify AI story, best AI influencer platform India, AI content creation platform, AI model generator, who made Creatify AI, Akash Rana, AI influencer tool for creators, Indian AI startup",
   alternates: { canonical: "https://www.creatifyai.in/about" },
   openGraph: {
-    title: "About Creatify AI — The All-in-One AI Media Platform",
+    title: "About Creatify AI — India's #1 AI Influencer Platform",
     description:
-      "Build consistent AI characters, generate cinematic videos, create premium AI images, and scale content production.",
+      "10,000+ creators trust Creatify AI to build virtual influencers, generate cinematic AI videos & scale content production. 15+ models. Zero watermarks.",
     url: "https://www.creatifyai.in/about",
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: "/Creatify AIlogo.png", width: 512, height: 512, alt: "Creatify AI — AI Media Platform" }],
+    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "About Creatify AI" }],
   },
   twitter: {
     card: "summary_large_image",

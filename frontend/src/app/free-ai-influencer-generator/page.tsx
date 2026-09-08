@@ -6,15 +6,15 @@ import { CheckCircle2, ArrowRight, Zap, Star } from "lucide-react";
 const BASE = "https://www.creatifyai.in";
 
 export const metadata: Metadata = {
-  title: "Free AI Influencer Generator — Create Virtual Influencers Free | Creatify AI",
+  title: "Free AI Influencer Generator 2026 — No Credit Card, No Watermarks | Creatify AI",
   description:
-    "The best free AI influencer generator in 2026. Create photorealistic virtual influencers free with signup credits — no credit card, no watermarks. Best for Instagram, TikTok & Reels.",
+    "Create stunning photorealistic AI influencers 100% FREE. Get free credits on signup — no credit card, no watermarks, no limits. The best free AI influencer generator for TikTok, Instagram & YouTube Shorts.",
   keywords:
-    "free AI influencer generator, free ai influencer generator for instagram, AI influencer video generator free, best free ai influencer generator, create AI influencer free, free virtual influencer maker, AI influencer generator prompt, AI influencer studio free",
+    "free AI influencer generator, free AI influencer generator no credit card, best free AI influencer generator 2026, create AI influencer free, AI influencer generator free trial, free virtual influencer maker, free AI influencer for TikTok, free AI influencer for Instagram, AI influencer without watermark",
   alternates: { canonical: `${BASE}/free-ai-influencer-generator` },
   openGraph: {
-    title: "Free AI Influencer Generator — No Credit Card | Creatify AI",
-    description: "Create photorealistic AI influencers free on Creatify AI. Free credits on signup. No watermarks. Best for Instagram, TikTok & Reels.",
+    title: "Free AI Influencer Generator 2026 — No Credit Card, No Watermarks | Creatify AI",
+    description: "Get free credits and create stunning photorealistic AI influencers instantly. No watermarks. No credit card. Best free AI influencer generator for TikTok & Instagram.",
     url: `${BASE}/free-ai-influencer-generator`,
     siteName: "Creatify AI",
     type: "website",

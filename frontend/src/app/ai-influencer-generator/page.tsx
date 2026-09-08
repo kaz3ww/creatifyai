@@ -3,15 +3,23 @@ import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Influencer Generator – Create Realistic Virtual Influencers Free | Creatify AI",
-  description: "Generate photorealistic AI influencers for Instagram, YouTube & brand campaigns in seconds. No design skills needed. Try Creatify AI's AI Influencer Generator free today.",
-  keywords: "AI influencer generator, create AI influencer, virtual influencer generator, AI influencer maker, realistic AI influencer, free AI influencer tool",
-  alternates: { canonical: "/ai-influencer-generator" },
+  title: "Best AI Influencer Generator 2026 — Create Viral Virtual Influencers Free",
+  description: "The #1 AI Influencer Generator trusted by 10,000+ creators. Create photorealistic virtual influencers for Instagram, TikTok, YouTube & brand deals in seconds. Free credits. No credit card. No watermarks.",
+  keywords: "best AI influencer generator 2026, AI influencer generator free, create AI influencer, virtual influencer generator, AI influencer maker, realistic AI influencer, free AI influencer tool, AI influencer for TikTok, AI influencer for Instagram, AI model generator, make money with AI influencer",
+  alternates: { canonical: "https://www.creatifyai.in/ai-influencer-generator" },
   openGraph: {
-    title: "AI Influencer Generator – Create Realistic Virtual Influencers Free",
-    description: "Generate photorealistic AI influencers for Instagram, YouTube & brand campaigns in seconds.",
-    url: "/ai-influencer-generator",
+    title: "Best AI Influencer Generator 2026 — Create Viral Virtual Influencers Free | Creatify AI",
+    description: "Join 10,000+ creators. Create stunning AI influencers for Instagram, TikTok & brand deals in seconds. Free credits on signup. No credit card.",
+    url: "https://www.creatifyai.in/ai-influencer-generator",
+    siteName: "Creatify AI",
     type: "website",
+    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "Best AI Influencer Generator 2026" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best AI Influencer Generator 2026 — Free, No Watermarks | Creatify AI",
+    description: "Create jaw-dropping AI influencers for TikTok & Instagram in seconds. Free credits on signup.",
+    images: ["https://www.creatifyai.in/creatifyailogo.png"],
   },
 };
 

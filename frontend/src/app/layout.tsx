@@ -24,15 +24,15 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  // ── Keyword-rich title matching what Google expects for brand searches ──
+  // ── High-CTR, keyword-rich titles for maximum Google click-through ──
   title: {
-    default: "Create AI Influencers, Images & Videos | Creatify AI",
+    default: "#1 AI Influencer Generator — Create Virtual Influencers Free | Creatify AI",
     template: "%s | Creatify AI",
   },
   description:
-    "Creatify AI is the #1 AI Influencer Generator. Create photorealistic AI models, cinematic AI videos, and consistent virtual influencers in seconds. No limits. No watermarks. Start free.",
+    "Creatify AI is India's #1 AI Influencer Generator. Create jaw-dropping photorealistic AI influencers, cinematic AI videos & viral content in seconds. Free credits on signup. No watermarks. No credit card.",
   keywords:
-    "Creatify AI, creatifyai, AI influencer generator, create AI influencer, AI model generator, virtual influencer creator, AI image generation, AI video generation, AI media platform, AI UGC generator, consistent AI character, digital avatar creator, AI content creation",
+    "AI influencer generator, create AI influencer free, best AI influencer generator 2026, virtual influencer creator, AI model generator, free AI influencer generator for TikTok, AI influencer for Instagram, AI video generator, AI UGC generator, AI character generator, digital avatar creator, AI content creator, make money with AI influencer, creatifyai, Creatify AI",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -44,19 +44,19 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Creatify AI — AI Influencer Generator | Create AI Models, Images & Videos",
+    title: "Creatify AI — #1 Free AI Influencer Generator | Create AI Models, Videos & Go Viral",
     description:
-      "Create photorealistic AI influencers, cinematic videos, and premium AI images in seconds. The all-in-one AI media platform for creators and brands.",
+      "Join 10,000+ creators building profitable virtual influencers with Creatify AI. Photorealistic AI models, cinematic videos, TikTok-ready content — all free to start. No credit card required.",
     siteName: "Creatify AI",
     type: "website",
     url: BASE,
-    images: [{ url: `${BASE}/creatifyailogo.png`, width: 512, height: 512, alt: "Creatify AI — AI Influencer Generator" }],
+    images: [{ url: `${BASE}/creatifyailogo.png`, width: 512, height: 512, alt: "Creatify AI — #1 Free AI Influencer Generator" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Creatify AI — AI Influencer Generator | Create AI Models & Videos",
+    title: "Creatify AI — #1 Free AI Influencer Generator for TikTok & Instagram",
     description:
-      "Create photorealistic AI influencers, cinematic videos, and premium AI content in seconds. Start free on Creatify AI.",
+      "Create photorealistic AI influencers, viral AI videos & consistent virtual personas in seconds. Free credits on signup. Start now on Creatify AI.",
     images: [`${BASE}/creatifyailogo.png`],
   },
 };
