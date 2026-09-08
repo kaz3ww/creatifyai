@@ -222,7 +222,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/blog/creatifyai-alternative`,
       lastModified: now,
       changeFrequency: 'monthly',
-      priority: 0.65,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/how-to-create-ai-influencer-tiktok-make-money`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.75,
     },
 
     // ── Legal & Policy pages ──────────────────────────────────────────────────

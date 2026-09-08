@@ -1,10 +1,11 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://www.creatifyai.in/sitemap.xml
+# Block private API routes
+Disallow: /api/payment/
+Disallow: /api/admin/
+Disallow: /api/user/
+Disallow: /api/generate-image/
 
-# Block specific paths (if needed)
-Disallow: /api/*
-Disallow: /_next/*
-Disallow: /static/*
+# Sitemap
+Sitemap: https://www.creatifyai.in/sitemap.xml
