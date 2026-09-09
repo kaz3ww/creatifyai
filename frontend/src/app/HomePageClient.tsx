@@ -24,11 +24,11 @@ import { useAnalytics } from "@/lib/useAnalytics";
 
 // ── Cloudinary CDN video URLs (served with auto quality + format) ────────────
 const CLD = {
-  seefour: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748158/Creatify AI/homepage/seefour.mp4",
-  seedancesix: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748167/Creatify AI/homepage/seedancesix.mp4",
-  seedance: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748179/Creatify AI/homepage/seedance.mp4",
-  sedanc: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748190/Creatify AI/homepage/sedanc.mp4",
-  seedancesss: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748200/Creatify AI/homepage/seedancesss.mp4",
+  seefour: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748158/Creatify%20AI/homepage/seefour.mp4",
+  seedancesix: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748167/Creatify%20AI/homepage/seedancesix.mp4",
+  seedance: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748179/Creatify%20AI/homepage/seedance.mp4",
+  sedanc: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748190/Creatify%20AI/homepage/sedanc.mp4",
+  seedancesss: "https://res.cloudinary.com/z6nizbkh/video/upload/q_auto,f_auto/v1778748200/Creatify%20AI/homepage/seedancesss.mp4",
   reel218: "/video/288bc2e5acb546f49d5d7cc82fc579a4.mp4",
   reel420: "/video/33f2ca62194a4c84b5d7053759dfa639.mp4",
   reel480: "/video/37344a8a6bf6480eb50595c350d7764b.mp4",
@@ -477,9 +477,9 @@ export default function HomePage() {
               {(
                 [
                   { title: "Create Image", img: "/loginlayout/logind.webp", link: "/tools/creator/image-generator", isNew: false },
-                  { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/Creatify AI/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/video-generation", isNew: false },
-                  { title: "Seedance 2.0", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351810/Creatify AI/homepage/preview_3ad9020c086148d99d34e70bd171333b.webp", link: "/video-generation", isNew: true },
-                  { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/Creatify AI/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/video-generation", isNew: false },
+                  { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/Creatify%20AI/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/video-generation", isNew: false },
+                  { title: "Seedance 2.0", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351810/Creatify%20AI/homepage/preview_3ad9020c086148d99d34e70bd171333b.webp", link: "/video-generation", isNew: true },
+                  { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/Creatify%20AI/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/video-generation", isNew: false },
                 ] as { title: string; img?: string; video?: string; link: string; isNew: boolean }[]
               ).map((tool, i) => (
                 <Link
