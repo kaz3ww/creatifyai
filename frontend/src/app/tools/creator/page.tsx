@@ -66,8 +66,7 @@ export default function CreatorHub() {
               className="group block rounded-2xl overflow-hidden border border-slate-200 hover:border-violet-400 hover:shadow-2xl transition-all duration-300 shadow-md bg-white"
             >
               <div className="h-60 w-full relative overflow-hidden">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/couple.webp" alt="AI Influencer Creator" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <Image src="/couple.webp" alt="AI Influencer Creator" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                 <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 55%)" }} />
                 {/* Transparent action overlay icon */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -107,8 +106,7 @@ export default function CreatorHub() {
           ) : (
             <div className="block rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-white opacity-80">
               <div className="h-60 w-full relative overflow-hidden">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/couple.webp" alt="AI Influencer Creator" className="w-full h-full object-cover" />
+                <Image src="/couple.webp" alt="AI Influencer Creator" fill className="object-cover" />
                 <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 55%)" }} />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center"

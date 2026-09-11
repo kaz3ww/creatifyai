@@ -13,6 +13,7 @@ import {
   X,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Footer } from "@/components/footer/Footer";
 import LineWaves from "@/components/ui/LineWaves";
 import StarBorder from "@/components/ui/StarBorder";
@@ -344,8 +345,7 @@ export default function HomePage() {
                       {/* Claude response */}
                       <div className="flex gap-3 items-start">
                         <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src="/claude-color.webp" alt="" className="w-5 h-5 object-contain" />
+                          <Image src="/claude-color.webp" alt="" width={20} height={20} className="object-contain" />
                         </div>
                         <div className="flex-1 text-sm text-slate-300 leading-relaxed">
                           <p className="mb-3">
@@ -362,11 +362,12 @@ export default function HomePage() {
                               "/modie/sofi.png",
                               "/modie/sturm.png",
                             ].map((src, i) => (
-                              /* eslint-disable-next-line @next/next/no-img-element */
-                              <img
+                              <Image
                                 key={i}
                                 src={src}
                                 alt={`Generated portrait ${i + 1}`}
+                                width={300}
+                                height={375}
                                 className="w-full aspect-[4/5] object-cover rounded-md"
                               />
                             ))}
@@ -491,8 +492,7 @@ export default function HomePage() {
                     {tool.video ? (
                       <video src={tool.video} autoPlay loop muted playsInline className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     ) : (
-                      /* eslint-disable-next-line @next/next/no-img-element */
-                      <img src={tool.img} alt={tool.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                      <Image src={tool.img || ""} alt={tool.title} fill className="object-cover group-hover:scale-110 transition-transform duration-500" sizes="(max-width: 640px) 160px, 180px" />
                     )}
                     {tool.isNew && (
                       <span className="absolute top-2 left-2 bg-[#ccff00] text-black text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider">
@@ -698,11 +698,12 @@ export default function HomePage() {
                   `}</style>
                   {/* Thumbnail */}
                   <div className="relative h-40 overflow-hidden bg-zinc-900">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                       src={model.img}
                       alt={model.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
                     />
                     {/* Gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#111]/80 via-transparent to-transparent" />
@@ -739,10 +740,11 @@ export default function HomePage() {
             {/* Left Side: Image with Overlay Button */}
             <div className="w-full lg:w-[35%] flex justify-center lg:justify-start relative z-10 shrink-0">
               <div className="relative inline-block w-full max-w-[320px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src="/seedacepro.webp"
                   alt="Seedance 2.0"
+                  width={320}
+                  height={320}
                   className="w-full h-auto object-contain"
                 />
 
