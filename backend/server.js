@@ -11,10 +11,8 @@ const PORT = process.env.PORT || 3001;
 // ── CORS ─────────────────────────────────────────────────────────────────────
 // Allow requests from your Vercel frontend only
 const allowedOrigins = [
-  "https://eromify.in",
-  "https://www.eromify.in",
-  "https://eromify.com",
-  "https://www.eromify.com",
+  "https://creatifyai.in",
+  "https://www.creatifyai.in",
   "http://localhost:3000",
 ];
 

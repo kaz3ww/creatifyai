@@ -1,8 +1,8 @@
 {
-  "name": "ai-video-backend",
+  "name": "creatifyai-backend",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Express backend for Eromify AI video generation — runs on Render (no timeout limits)",
+  "description": "Express backend for CreatifyAI video generation — runs on Render (no timeout limits)",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {

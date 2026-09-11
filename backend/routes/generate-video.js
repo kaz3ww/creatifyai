@@ -81,7 +81,7 @@ async function uploadImageToCloudinary(base64DataUri) {
     throw new Error("Cloudinary not configured");
   }
   const timestamp = Math.floor(Date.now() / 1000);
-  const folder = "eromify-video-refs";
+  const folder = "creatifyai-video-refs";
   const sigStr = `folder=${folder}&timestamp=${timestamp}${CLOUDINARY_API_SECRET}`;
   const signature = crypto.createHash("sha1").update(sigStr).digest("hex");
 
@@ -230,7 +230,7 @@ router.post("/", async (req, res) => {
     // 11. Send video back to frontend
     res.set({
       "Content-Type": "video/mp4",
-      "Content-Disposition": `attachment; filename="eromify-video-${Date.now()}.mp4"`,
+      "Content-Disposition": `attachment; filename="creatifyai-video-${Date.now()}.mp4"`,
       "X-Credits-Deducted": String(VIDEO_CREDIT_COST),
       "X-Credits-Remaining": String(currentCredits - VIDEO_CREDIT_COST),
     });

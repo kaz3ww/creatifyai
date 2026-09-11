@@ -45,7 +45,7 @@ async function uploadToCloudinary(dataUri, resourceType) {
     throw new Error("Cloudinary not configured");
 
   const timestamp = Math.floor(Date.now() / 1000);
-  const folder    = "eromify-motion-control";
+  const folder    = "creatifyai-motion-control";
   const sigStr    = `folder=${folder}&timestamp=${timestamp}${CLOUDINARY_API_SECRET}`;
   const signature = crypto.createHash("sha1").update(sigStr).digest("hex");
 

@@ -43,7 +43,7 @@ async function uploadVideoToCloudinary(videoBuffer) {
   }
 
   const timestamp  = Math.floor(Date.now() / 1000);
-  const folder     = "eromify-mcp-videos";
+  const folder     = "creatifyai-mcp-videos";
   const publicId   = `mcp-video-${Date.now()}`;
 
   // Build SHA-1 signature

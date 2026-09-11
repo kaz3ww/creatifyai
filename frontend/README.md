@@ -1,6 +1,6 @@
-# Eromify
+# CreatifyAI
 
-Eromify is an all-in-one AI media platform and creator toolkit designed for building AI-generated virtual influencers, generating high-fidelity cinematic videos, and managing high-security, OTP-protected file transfers.
+CreatifyAI is an all-in-one AI media platform and creator toolkit designed for building AI-generated virtual influencers, generating high-fidelity cinematic videos, and managing high-security, OTP-protected file transfers.
 
 ## Key Modules and Features
 
