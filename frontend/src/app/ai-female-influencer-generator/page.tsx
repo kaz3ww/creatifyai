@@ -92,6 +92,24 @@ export default function AIFemaleInfluencerPage() {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-slate-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-black text-slate-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "How do I create a female AI influencer?", a: "In Creatify AI, use the prompt generator to describe your ideal female influencer—including age, ethnicity, style, and setting. The AI instantly generates a photorealistic model." },
+              { q: "Can I make my female AI influencer look consistent?", a: "Yes. By using the same descriptive prompt and leveraging our face-lock AI features, your female AI influencer will look identical across all photos and videos." },
+              { q: "What niches are best for female AI influencers?", a: "Popular niches include beauty, fashion, fitness, lifestyle, travel, and luxury content. Female AI models perform exceptionally well on Instagram and TikTok." }
+            ].map((faq) => (
+              <div key={faq.q} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-2">{faq.q}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 px-4 bg-gradient-to-br from-rose-600 to-[#1736cf] text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Create Your AI Female Influencer</h2>
@@ -101,6 +119,16 @@ export default function AIFemaleInfluencerPage() {
           </Link>
         </div>
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "How do I create a female AI influencer?", acceptedAnswer: { "@type": "Answer", text: "In Creatify AI, use the prompt generator to describe your ideal female influencer—including age, ethnicity, style, and setting. The AI instantly generates a photorealistic model." } },
+          { "@type": "Question", name: "Can I make my female AI influencer look consistent?", acceptedAnswer: { "@type": "Answer", text: "Yes. By using the same descriptive prompt and leveraging our face-lock AI features, your female AI influencer will look identical across all photos and videos." } },
+          { "@type": "Question", name: "What niches are best for female AI influencers?", acceptedAnswer: { "@type": "Answer", text: "Popular niches include beauty, fashion, fitness, lifestyle, travel, and luxury content. Female AI models perform exceptionally well on Instagram and TikTok." } }
+        ]
+      }) }} />
+
       <Footer />
     </div>
   );

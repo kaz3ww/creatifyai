@@ -165,13 +165,15 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4692600238249678"
-          crossOrigin="anonymous"
-        />
+        {/* AdSense is now loaded lazily using next/script below instead of blocking the head */}
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <Script
+          id="adsense"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4692600238249678"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
         {/* External Scripts via next/script */}
         <Script
           id="gtag-script"

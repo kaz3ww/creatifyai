@@ -72,6 +72,24 @@ export default function AIMaleInfluencerPage() {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-slate-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-black text-slate-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "How do I create a male AI influencer?", a: "Enter a prompt in Creatify AI describing the male model's age, facial features, body type, style, and setting. The AI will generate a highly realistic image based on your exact specifications." },
+              { q: "Can I generate consistent AI male models?", a: "Yes. By using the same prompt structure and enabling our face-lock feature, your AI male influencer will look identical across all your generated images and videos." },
+              { q: "What are the best niches for male AI influencers?", a: "Top niches include men's fashion, fitness, grooming, business/finance coaching, and luxury lifestyle content." }
+            ].map((faq) => (
+              <div key={faq.q} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-2">{faq.q}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 px-4 bg-gradient-to-br from-blue-800 to-[#1736cf] text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Create Your AI Male Influencer</h2>
@@ -81,6 +99,16 @@ export default function AIMaleInfluencerPage() {
           </Link>
         </div>
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "How do I create a male AI influencer?", acceptedAnswer: { "@type": "Answer", text: "Enter a prompt in Creatify AI describing the male model's age, facial features, body type, style, and setting. The AI will generate a highly realistic image based on your exact specifications." } },
+          { "@type": "Question", name: "Can I generate consistent AI male models?", acceptedAnswer: { "@type": "Answer", text: "Yes. By using the same prompt structure and enabling our face-lock feature, your AI male influencer will look identical across all your generated images and videos." } },
+          { "@type": "Question", name: "What are the best niches for male AI influencers?", acceptedAnswer: { "@type": "Answer", text: "Top niches include men's fashion, fitness, grooming, business/finance coaching, and luxury lifestyle content." } }
+        ]
+      }) }} />
+
       <Footer />
     </div>
   );

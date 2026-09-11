@@ -91,6 +91,24 @@ export default function AIInstagramInfluencerPage() {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-white">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-black text-slate-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Can I grow an Instagram following with an AI influencer?", a: "Yes, many creators have built accounts with hundreds of thousands of followers using AI influencers. The key is consistent visual identity and high-quality, engaging content." },
+              { q: "What aspect ratio should I use for Instagram AI influencers?", a: "For Instagram feed posts, generate your AI influencer in a 4:5 portrait ratio or 1:1 square ratio. For Instagram Stories and Reels, use a 9:16 vertical ratio." },
+              { q: "Is the AI influencer generator free to use for Instagram?", a: "Creatify AI offers free credits upon signup, allowing you to generate AI influencers for Instagram immediately without a credit card." }
+            ].map((faq) => (
+              <div key={faq.q} className="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-2">{faq.q}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 px-4 bg-gradient-to-br from-purple-700 to-pink-600 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black mb-6">Build Your AI Instagram Influencer</h2>
@@ -100,6 +118,16 @@ export default function AIInstagramInfluencerPage() {
           </Link>
         </div>
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: [
+          { "@type": "Question", name: "Can I grow an Instagram following with an AI influencer?", acceptedAnswer: { "@type": "Answer", text: "Yes, many creators have built accounts with hundreds of thousands of followers using AI influencers. The key is consistent visual identity and high-quality, engaging content." } },
+          { "@type": "Question", name: "What aspect ratio should I use for Instagram AI influencers?", acceptedAnswer: { "@type": "Answer", text: "For Instagram feed posts, generate your AI influencer in a 4:5 portrait ratio or 1:1 square ratio. For Instagram Stories and Reels, use a 9:16 vertical ratio." } },
+          { "@type": "Question", name: "Is the AI influencer generator free to use for Instagram?", acceptedAnswer: { "@type": "Answer", text: "Creatify AI offers free credits upon signup, allowing you to generate AI influencers for Instagram immediately without a credit card." } }
+        ]
+      }) }} />
+
       <Footer />
     </div>
   );
