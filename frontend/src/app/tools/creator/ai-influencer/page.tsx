@@ -381,8 +381,17 @@ function AIInfluencerInner() {
             )}
 
             {/* Prompt */}
-            <div className="space-y-2">
-              <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Prompt</p>
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Prompt</p>
+                {mode === "text2img" && (
+                  <div className="flex gap-2">
+                    <button onClick={() => setPrompt("Photorealistic fitness model in a modern gym, wearing premium activewear, dramatic studio lighting, 8k")} className="text-[10px] bg-emerald-50 text-emerald-600 border border-emerald-200 px-2 py-0.5 rounded-md hover:bg-emerald-100 transition">Fitness</button>
+                    <button onClick={() => setPrompt("High fashion editorial portrait of a model in Paris, wearing haute couture, soft morning lighting, shot on 35mm")} className="text-[10px] bg-rose-50 text-rose-600 border border-rose-200 px-2 py-0.5 rounded-md hover:bg-rose-100 transition">Fashion</button>
+                    <button onClick={() => setPrompt("Casual lifestyle shot of an influencer holding a coffee cup in a cozy aesthetic cafe, warm golden hour lighting")} className="text-[10px] bg-amber-50 text-amber-600 border border-amber-200 px-2 py-0.5 rounded-md hover:bg-amber-100 transition">Lifestyle</button>
+                  </div>
+                )}
+              </div>
               <textarea value={prompt} onChange={(e) => handlePromptChange(e.target.value)} placeholder="Describe your AI influencer… (or tag @sofia above)" rows={4}
                 className="w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder-slate-300 outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-100 transition" />
               <div className="space-y-1">

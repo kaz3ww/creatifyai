@@ -17,6 +17,30 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Ultimate Guide to Making Money with AI Influencers (2026)",
+    description: "The complete step-by-step guide to monetizing AI influencers in 2026. Learn about brand deals, YouTube Shorts, and affiliate marketing for virtual creators.",
+    slug: "ultimate-guide-making-money-ai-influencers-2026",
+    date: "2026-09-11",
+    tag: "Monetization",
+    tagColor: "bg-emerald-100 text-emerald-700",
+  },
+  {
+    title: "How to Maintain AI Character Consistency Across Images and Video",
+    description: "The definitive guide to keeping your AI influencer's face and style consistent across Midjourney, FLUX, and video generation tools.",
+    slug: "maintain-ai-character-consistency-images-video",
+    date: "2026-09-11",
+    tag: "Technical",
+    tagColor: "bg-violet-100 text-violet-700",
+  },
+  {
+    title: "Growing an AI Influencer from 0 to 100k Followers (2026)",
+    description: "The step-by-step viral strategy for growing a virtual AI influencer on Instagram and TikTok from scratch.",
+    slug: "growing-ai-influencer-from-0-to-100k",
+    date: "2026-09-11",
+    tag: "Growth",
+    tagColor: "bg-rose-100 text-rose-700",
+  },
+  {
     title: "AI Influencer Monetization Strategies 2026: Make $10K+/Month",
     description: "Discover the 6 proven strategies top virtual creators use to earn $10,000+ per month — brand deals, affiliate marketing, digital products, and more.",
     slug: "ai-influencer-monetization-strategies-2026",
