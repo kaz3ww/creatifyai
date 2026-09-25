@@ -479,7 +479,6 @@ export default function HomePage() {
                 [
                   { title: "Create Image", img: "/loginlayout/logind.webp", link: "/tools/creator/image-generator", isNew: false },
                   { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/Creatify AI/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/video-generation", isNew: false },
-                  { title: "Seedance 2.0", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351810/Creatify AI/homepage/preview_3ad9020c086148d99d34e70bd171333b.webp", link: "/video-generation", isNew: true },
                   { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/Creatify AI/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/video-generation", isNew: false },
                 ] as { title: string; img?: string; video?: string; link: string; isNew: boolean }[]
               ).map((tool, i) => (
@@ -760,33 +759,24 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right Side: Responsive Video Grid */}
-            <div className="w-full lg:w-[65%] relative z-10">
-              <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-2 lg:gap-3">
-                {[
-                  CLD.seefour, CLD.seedancesix, CLD.seedance, CLD.sedanc,
-                  CLD.seedancesss, CLD.seefour, CLD.seedance, CLD.seedancesix
-                ].map((src, idx) => (
-                  <div key={idx} className="relative aspect-[4/3] rounded-lg overflow-hidden bg-[#1a1d24] border border-white/5 group shadow-lg">
-                    <video
-                      src={src}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer"
-                    />
-                  </div>
-                ))}
-              </div>
-
-              {/* Overlay Button */}
-              <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 z-20 pointer-events-none">
+            {/* Right Side: Promotional Text */}
+            <div className="w-full lg:w-[65%] relative z-10 flex flex-col justify-center px-4 lg:px-12 py-8">
+              <h3 className="text-3xl lg:text-5xl font-black text-white mb-6 leading-tight">
+                Experience Cinematic <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
+                  Video Generation
+                </span>
+              </h3>
+              <p className="text-slate-300 text-lg lg:text-xl leading-relaxed max-w-2xl mb-8">
+                Transform your ideas into stunning reality. Get unprecedented control over motion, cinematic camera angles, and hyper-realistic lighting in just seconds.
+              </p>
+              
+              <div className="flex gap-4">
                 <Link
                   href="/video-generation"
-                  className="bg-[#ccff00]/90 hover:bg-[#ccff00] text-black font-bold py-1.5 px-4 md:py-2 md:px-5 rounded-lg text-xs md:text-sm transition-all shadow-lg flex items-center gap-1.5 md:gap-2 backdrop-blur-md pointer-events-auto"
+                  className="bg-[#ccff00]/90 hover:bg-[#ccff00] text-black font-bold py-3 px-6 rounded-xl transition-all shadow-lg flex items-center gap-2 backdrop-blur-md hover:scale-105 w-fit"
                 >
-                  View all <ArrowRight className="w-3 h-3 md:w-4 md:h-4" />
+                  Explore features <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
