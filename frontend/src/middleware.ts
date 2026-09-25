@@ -35,11 +35,11 @@ export default auth((req) => {
   const isProtectedRoute = protectedRoutes.some((route) => pathname.startsWith(route));
 
   if (isProtectedRoute && !isAuthenticated) {
-    return NextResponse.redirect(new URL('/login', req.url));
+    return NextResponse.redirect(new URL('/auth/login', req.url));
   }
 
   // ── LOGIN REDIRECT ────────────────────────────────────────────────────────
-  if (pathname === '/login' && isAuthenticated) {
+  if (pathname === '/auth/login' && isAuthenticated) {
     return NextResponse.redirect(new URL('/dashboard', req.url));
   }
 

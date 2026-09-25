@@ -345,7 +345,7 @@ export default function GenAIGuideBlogPost() {
                   &quot;The gap between having an idea and shipping a product has never been smaller.&quot;
                 </h4>
                 <Link
-                  href="/tools"
+                  href="/tools/creator"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-[#1736cf] rounded-xl font-bold hover:bg-[#1430b8] transition-all"
                 >
                   Explore AI Tools <ArrowLeft className="h-4 w-4 rotate-180" />

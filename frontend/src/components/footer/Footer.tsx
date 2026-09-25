@@ -202,9 +202,9 @@ export function Footer() {
             © {new Date().getFullYear()} Creatify AI Online Tools. All rights reserved.
           </p>
           <div className="flex items-center gap-5 text-xs text-slate-400">
-            <Link href="/tools/image-to-webp" className="flex items-center gap-1 text-slate-500 hover:text-white transition-colors">
+            <Link href="/tools/creator/image-editor" className="flex items-center gap-1 text-slate-500 hover:text-white transition-colors">
               <ArrowRight className="h-3 w-3" />
-              Image to WebP
+              Image Editor
             </Link>
             <span className="flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-full border border-white/5">
               <span className="relative flex h-2 w-2">

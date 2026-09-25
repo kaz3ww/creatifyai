@@ -197,7 +197,7 @@ export function Navbar() {
               className="relative overflow-hidden group bg-gradient-to-r from-[#1736cf] to-[#4b61db] hover:from-[#1430b8] hover:to-[#3e53c4] text-white font-bold cursor-pointer shadow-md transition-all hover:shadow-[0_0_20px_rgba(23,54,207,0.4)] hover:-translate-y-0.5 border-0"
               size="sm"
             >
-              <Link href="/login" className="flex items-center">
+              <Link href="/auth/login" className="flex items-center">
                 <span className="relative z-10">Start Creating</span>
                 <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] transition-transform duration-1000 ease-in-out group-hover:translate-x-[200%] bg-gradient-to-r from-transparent via-white/40 to-transparent z-0 w-1/2 -skew-x-12" />
               </Link>
