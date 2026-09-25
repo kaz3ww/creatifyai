@@ -18,7 +18,7 @@ const SEED_TEMPLATES = [
   { templateId: "9",  file: "gg.png",     name: "Emily Clark",      category: "Female", sortOrder: 9  },
   { templateId: "10", file: "sweedy.png", name: "Chloe Evans",      category: "Female", sortOrder: 10 },
   { templateId: "11", file: "sturm.png",  name: "Hannah Miller",    category: "Female", sortOrder: 11 },
-  { templateId: "12", file: "akash.png",  name: "Arjun Sharma",     category: "Male",   sortOrder: 12 },
+
 ];
 
 /**

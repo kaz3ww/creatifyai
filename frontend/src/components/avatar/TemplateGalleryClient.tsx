@@ -21,7 +21,7 @@ const MOCK_TEMPLATES = [
   { id: '10', src: `${CLOUDINARY}/sweedy.png`, name: 'Chloe Evans', category: 'Female' },
   { id: '11', src: `${CLOUDINARY}/sturm.png`, name: 'Hannah Miller', category: 'Female' },
   // ── Male Template ──
-  { id: '12', src: `${CLOUDINARY}/akash.png`, name: 'Arjun Sharma', category: 'Male' },
+
 ];
 
 export function TemplateGalleryClient() {
