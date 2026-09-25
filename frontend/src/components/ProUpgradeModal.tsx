@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { X, Crown, Zap, Check, Lock, Sparkles, Star } from "lucide-react";
-import { useSession, signIn } from "next-auth/react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 interface ProUpgradeModalProps {
   isOpen: boolean;
@@ -60,14 +61,14 @@ export function ProUpgradeModal({
 }: ProUpgradeModalProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
+  const router = useRouter();
   const { data: session, status } = useSession();
 
   if (!isOpen) return null;
 
   const handleUpgrade = async () => {
     if (status === "unauthenticated") {
-      signIn("google");
+      router.push("/auth/login?callbackUrl=" + window.location.pathname);
       return;
     }
 

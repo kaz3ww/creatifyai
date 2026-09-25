@@ -167,7 +167,7 @@ export default function ErosClient() {
           <h1 className="text-2xl font-black text-white mb-3">Sign in to access Eros</h1>
           <p className="text-white/50 text-sm mb-6 leading-relaxed">Eros is exclusive to Professional Pack subscribers. Sign in to verify your access.</p>
           <button
-            onClick={() => signIn("google", { callbackUrl: "/eros" })}
+            onClick={() => router.push("/auth/login?callbackUrl=/eros")}
             className="w-full py-3.5 rounded-2xl font-black text-white text-sm flex items-center justify-center gap-2"
             style={{ background: "linear-gradient(135deg,#7c3aed,#4f46e5)", boxShadow: "0 0 30px rgba(124,58,237,0.4)" }}
           >

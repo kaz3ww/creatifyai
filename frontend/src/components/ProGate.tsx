@@ -3,7 +3,8 @@
 import { useEffect, useState, ReactNode } from "react";
 import { Crown, Lock, Sparkles, Check, Zap, Star } from "lucide-react";
 import Script from "next/script";
-import { useSession, signIn } from "next-auth/react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 interface ProGateProps {
   children: ReactNode;
@@ -23,6 +24,7 @@ declare global {
 }
 
 export function ProGate({ children }: ProGateProps) {
+  const router = useRouter();
   const [isUserPro, setIsUserPro] = useState<boolean | null>(null); // null = loading
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -47,7 +49,7 @@ export function ProGate({ children }: ProGateProps) {
 
   const handleUpgrade = async () => {
     if (status === "unauthenticated") {
-      signIn("google");
+      router.push("/auth/login?callbackUrl=" + window.location.pathname);
       return;
     }
 

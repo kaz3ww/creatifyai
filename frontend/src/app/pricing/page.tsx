@@ -8,7 +8,8 @@
 //   3. Delete /api/payment/create-order/route.ts if obsolete
 
 import { useState, useEffect, useRef } from "react";
-import { useSession, signIn } from "next-auth/react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { useAnalytics } from "@/lib/useAnalytics";
 import {
   Check, Lock, Zap, Crown, Star, Sparkles, Shield,
@@ -166,6 +167,7 @@ function submitToPayU(fields: Record<string, string>, payuUrl: string) {
 
 /* ─── main component ────────────────────────────────────────────────────── */
 export default function PricingPage() {
+  const router = useRouter();
   const { data: session, status } = useSession();
   const [loading, setLoading] = useState<string | null>(null);
   const [toast, setToast] = useState<{ msg: string; ok: boolean } | null>(null);
@@ -199,7 +201,7 @@ export default function PricingPage() {
   // ── PayU checkout handler ──────────────────────────────────────────────────────────
   const handlePurchase = async (plan: (typeof PLANS)[0]) => {
     if (!plan.available) return;
-    if (status === "unauthenticated") { signIn("google"); return; }
+    if (status === "unauthenticated") { router.push("/auth/login?callbackUrl=/pricing"); return; }
 
     setLoading(plan.id);
 

@@ -6,7 +6,8 @@ import {
   X, Zap, Check, Shield, Sparkles, Star, Flame, Layers, Video,
   type LucideIcon,
 } from "lucide-react";
-import { useSession, signIn } from "next-auth/react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 interface ImageGenPayModalProps {
   isOpen: boolean;
@@ -79,6 +80,7 @@ function submitToPayU(fields: Record<string, string>, payuUrl: string) {
 
 /* ─── Main Modal ─────────────────────────────────────────────────────────── */
 export function ImageGenPayModal({ isOpen, onClose, onSuccess, mode }: ImageGenPayModalProps) {
+  const router = useRouter();
   const [selectedPackId, setSelectedPackId] = useState("value");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -87,7 +89,7 @@ export function ImageGenPayModal({ isOpen, onClose, onSuccess, mode }: ImageGenP
   if (!isOpen) return null;
 
   const selectedPack = PACKS.find((p) => p.id === selectedPackId)!;
-  const handleLogin = () => signIn("google", { callbackUrl: "/tools/creator/image-generator" });
+  const handleLogin = () => router.push("/auth/login?callbackUrl=/tools/creator/image-generator");
   const handleClose = () => { onClose(); };
 
   const handlePayNow = async () => {
