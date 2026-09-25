@@ -45,6 +45,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/realistic-ai-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/free-ai-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/virtual-influencer-creator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/ai-persona-prompt-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/eros`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/mcp`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/galary`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // ── Legal & Policy pages ──────────────────────────────────────────────────
     { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
