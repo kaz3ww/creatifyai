@@ -478,8 +478,9 @@ export default function HomePage() {
               {(
                 [
                   { title: "Create Image", img: "/loginlayout/logind.webp", link: "/tools/creator/image-generator", isNew: false },
-                  { title: "Create Video", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351808/Creatify AI/homepage/preview_1c8ef6b2072e48b88282397dc50faf03.webp", link: "/tools/creator/kling-video", isNew: false },
-                  { title: "Wan 2.7", img: "https://res.cloudinary.com/z6nizbkh/image/upload/v1785351811/Creatify AI/homepage/preview_52566067c1f946cd8890ce1eaed5e634.webp", link: "/tools/creator/kling-video", isNew: false },
+                  { title: "Create Video", img: "/loginlayout/loginc.webp", link: "/tools/creator/kling-video", isNew: false },
+                  { title: "Seedance 2.0", img: "/loginlayout/loginb.webp", link: "/tools/creator/kling-video", isNew: true },
+                  { title: "Wan 2.7", img: "/loginlayout/logina.webp", link: "/tools/creator/kling-video", isNew: false },
                 ] as { title: string; img?: string; video?: string; link: string; isNew: boolean }[]
               ).map((tool, i) => (
                 <Link
