@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 import { useAnalytics } from "@/lib/useAnalytics";
 import {
   Check, Lock, Zap, Crown, Star, Sparkles, Shield,
-  ChevronDown, Flame, Layers, Video, type LucideIcon,
+  ChevronDown, Flame, Layers, Video, Timer, type LucideIcon,
 } from "lucide-react";
 
 /* ─── plan data ─────────────────────────────────────────────────────────── */
@@ -147,6 +147,89 @@ function Counter({ value, prefix = "" }: { value: number; prefix?: string }) {
     return () => cancelAnimationFrame(raf.current);
   }, [value]);
   return <>{prefix}{display}</>;
+}
+
+/* ─── sale timer ────────────────────────────────────────────────────────── */
+function SaleTimer() {
+  const [timeLeft, setTimeLeft] = useState({ h: 0, m: 0, s: 0 });
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const getEndTime = () => {
+      const stored = localStorage.getItem('flash_sale_end');
+      const now = new Date().getTime();
+      if (stored && now < parseInt(stored)) {
+        return parseInt(stored);
+      }
+      const duration = (Math.floor(Math.random() * 2) + 1) * 60 * 60 * 1000 + Math.floor(Math.random() * 60) * 60 * 1000; 
+      const newEnd = now + duration;
+      localStorage.setItem('flash_sale_end', newEnd.toString());
+      return newEnd;
+    };
+
+    let endTime = getEndTime();
+
+    const update = () => {
+      const now = new Date().getTime();
+      let distance = endTime - now;
+
+      if (distance < 0) {
+        endTime = now + (Math.floor(Math.random() * 2) + 1) * 60 * 60 * 1000 + Math.floor(Math.random() * 60) * 60 * 1000;
+        localStorage.setItem('flash_sale_end', endTime.toString());
+        distance = endTime - now;
+      }
+
+      setTimeLeft({
+        h: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+        m: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+        s: Math.floor((distance % (1000 * 60)) / 1000)
+      });
+    };
+
+    update();
+    const interval = setInterval(update, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  if (!mounted) return null;
+
+  return (
+    <div className="relative mx-auto max-w-3xl mb-12 rounded-2xl overflow-hidden p-[1px] shadow-2xl" style={{ background: "linear-gradient(90deg, #ef4444, #f43f5e, #be123c, #ef4444)", backgroundSize: "300% 100%", animation: "shimmer 3s infinite linear" }}>
+      <div className="bg-[#0a0a1a] rounded-2xl p-4 sm:px-8 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="flex items-center gap-5 text-center sm:text-left">
+          <div className="w-14 h-14 shrink-0 rounded-full flex items-center justify-center shadow-lg" style={{ background: "rgba(244,63,94,0.15)", border: "1px solid rgba(244,63,94,0.3)" }}>
+            <Timer className="w-7 h-7 text-rose-500" style={{ animation: "glow-pulse 2s infinite" }} />
+          </div>
+          <div>
+            <h3 className="font-black text-white text-xl md:text-2xl tracking-tight uppercase flex items-center gap-2 justify-center sm:justify-start">
+              Flash Sale Active <span className="text-rose-500 text-lg">🔥</span>
+            </h3>
+            <p className="text-sm md:text-base font-semibold mt-1" style={{ color: "rgba(255,255,255,0.6)" }}>
+              Prices revert to normal soon. Don't miss out!
+            </p>
+          </div>
+        </div>
+        
+        <div className="flex items-center gap-3">
+          {[
+            { label: 'HRS', value: timeLeft.h },
+            { label: 'MIN', value: timeLeft.m },
+            { label: 'SEC', value: timeLeft.s },
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col items-center">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center rounded-xl backdrop-blur-sm" style={{ background: "rgba(244,63,94,0.12)", border: "1px solid rgba(244,63,94,0.3)" }}>
+                <span className="text-2xl sm:text-3xl font-black text-rose-400 font-mono tracking-tighter" style={{ textShadow: "0 0 20px rgba(244,63,94,0.7)" }}>
+                  {item.value.toString().padStart(2, '0')}
+                </span>
+              </div>
+              <span className="text-[11px] font-black uppercase mt-2 tracking-wider" style={{ color: "rgba(244,63,94,0.9)" }}>{item.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 /* ─── PayU form POST helper ──────────────────────────────────────────────────────── */
@@ -334,6 +417,7 @@ export default function PricingPage() {
 
           {/* ── Header ── */}
           <div className={`text-center mb-16 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+            <SaleTimer />
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold mb-6 border" style={{ background: "rgba(168,85,247,0.08)", borderColor: "rgba(168,85,247,0.25)", color: "#c084fc" }}>
               <Sparkles className="h-3 w-3" />
               TRANSPARENT PRICING · NO SUBSCRIPTIONS
