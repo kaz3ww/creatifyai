@@ -386,12 +386,12 @@ export default function TopAiInfluencerBlogIdeasPage() {
                   <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">AI Influencer Creator</h3>
                   <p className="text-sm text-slate-600 mt-1">Build virtual creator visuals and keep your AI persona aligned with a niche.</p>
                 </Link>
-                <Link href="/video-generation" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
+                <Link href="/tools/creator/kling-video" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
                   <Video className="h-6 w-6 text-[#1736cf] mb-3" />
                   <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">AI Video Generator</h3>
                   <p className="text-sm text-slate-600 mt-1">Convert ideas into cinematic short-form assets for social campaigns.</p>
                 </Link>
-                <Link href="/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
+                <Link href="/blog/what-is-creatifyai-future-ai-influencer-ugc-creation" className="group rounded-2xl border border-slate-200 p-5 hover:border-[#1736cf] hover:bg-[#1736cf]/5 transition-all">
                   <Sparkles className="h-6 w-6 text-[#1736cf] mb-3" />
                   <h3 className="font-black text-slate-900 group-hover:text-[#1736cf]">What is Creatify AI?</h3>
                   <p className="text-sm text-slate-600 mt-1">Introduce readers to the full AI creator platform and its workflow.</p>

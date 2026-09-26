@@ -156,6 +156,7 @@ export function Footer() {
                 { name: "Virtual Influencer Creator", href: "/virtual-influencer-creator" },
                 { name: "AI Influencer Maker", href: "/ai-influencer-maker" },
                 { name: "Realistic AI Influencer", href: "/realistic-ai-influencer-generator" },
+                { name: "AI Video Generator", href: "/ai-video-generator" },
               ].map((item) => (
                 <li key={item.name}>
                   <Link

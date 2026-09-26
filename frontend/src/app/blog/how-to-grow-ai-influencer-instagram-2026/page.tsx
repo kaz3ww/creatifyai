@@ -290,7 +290,7 @@ export default function GrowAIInfluencerInstagramPage() {
                 { href: "/blog/best-ai-influencer-niches-2026", label: "Best AI Influencer Niches" },
                 { href: "/ai-instagram-influencer-generator", label: "Instagram AI Generator" },
                 { href: "/blog/ai-influencer-monetization-strategies-2026", label: "Monetization Strategies" },
-                { href: "/virtual-influencer-creator", label: "Virtual Influencer Creator" },
+                { href: "/ai-video-generator", label: "AI Video Generator" },
                 { href: "/blog", label: "All Blog Posts" },
               ].map((l) => (
                 <Link

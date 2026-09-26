@@ -750,7 +750,7 @@ export default function HomePage() {
                 {/* Create Button Overlaying the Image */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[80%]">
                   <Link
-                    href="/video-generation"
+                    href="/tools/creator/kling-video"
                     className="block w-full bg-gradient-to-r from-blue-400 to-cyan-400 hover:from-blue-300 hover:to-cyan-300 text-black font-bold py-2.5 px-6 rounded-lg text-center shadow-[0_0_20px_rgba(56,189,248,0.4)] transition-all hover:scale-105"
                   >
                     Create

@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/ai-influencer-maker`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/ai-female-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/ai-male-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/ai-video-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/ai-fashion-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/ai-fitness-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/ai-instagram-influencer-generator`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

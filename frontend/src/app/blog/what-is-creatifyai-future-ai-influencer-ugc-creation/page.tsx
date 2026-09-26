@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "What is Creatify AI? The Future of AI Influencer & UGC Creation",
     description:
       "Creatify AI is an AI creator platform for building AI influencers, UGC-style visuals, cinematic videos, and scalable brand content from one workspace.",
-    url: "/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
+    url: "/blog/what-is-creatifyai-future-ai-influencer-ugc-creation",
     siteName: "Creatify AI",
     type: "article",
     publishedTime: "2026-05-03T00:00:00.000Z",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     images: ["/influencer.webp"],
   },
   alternates: {
-    canonical: "/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
+    canonical: "/blog/what-is-creatifyai-future-ai-influencer-ugc-creation",
   },
 };
 
@@ -115,7 +115,7 @@ export default function WhatIsCreatifyAIBlogPost() {
     dateModified: "2026-05-03",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://www.creatifyai.in/blog/what-is-Creatify AI-future-ai-influencer-ugc-creation",
+      "@id": "https://www.creatifyai.in/blog/what-is-creatifyai-future-ai-influencer-ugc-creation",
     },
     keywords:
       "Creatify AI, AI influencer creator, UGC creation, AI media generation, AI image generator, AI video generator, virtual influencer platform",

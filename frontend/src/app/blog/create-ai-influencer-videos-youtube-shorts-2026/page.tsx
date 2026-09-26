@@ -170,7 +170,7 @@ export default function AIInfluencerYouTubeShortsPage() {
               <span>🎬 Video Production</span>
             </div>
             <Link
-              href="/tools/creator/kling-video"
+              href="/ai-video-generator"
               className="inline-flex items-center gap-2 px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-black rounded-2xl transition-all hover:scale-105 shadow-lg"
             >
               <Video className="w-5 h-5" /> Generate AI Videos Free
@@ -295,7 +295,7 @@ export default function AIInfluencerYouTubeShortsPage() {
               Use Creatify AI&apos;s video generation tools to produce YouTube Shorts for your AI influencer today. Free credits, no watermarks.
             </p>
             <Link
-              href="/tools/creator/kling-video"
+              href="/ai-video-generator"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-red-600 font-black rounded-2xl hover:scale-105 transition-all shadow-xl"
             >
               <Zap className="w-5 h-5" /> Generate AI Videos Free
@@ -310,7 +310,7 @@ export default function AIInfluencerYouTubeShortsPage() {
                 { href: "/blog/how-to-create-ai-influencer-tiktok-make-money", label: "Create AI Influencer for TikTok" },
                 { href: "/blog/how-to-grow-ai-influencer-instagram-2026", label: "Grow on Instagram" },
                 { href: "/blog/ai-influencer-monetization-strategies-2026", label: "Monetization Strategies" },
-                { href: "/tools/creator/kling-video", label: "Kling AI Video Tool" },
+                { href: "/ai-video-generator", label: "AI Video Generator" },
                 { href: "/ai-influencer-generator", label: "AI Influencer Generator" },
                 { href: "/blog", label: "All Blog Posts" },
               ].map((l) => (
