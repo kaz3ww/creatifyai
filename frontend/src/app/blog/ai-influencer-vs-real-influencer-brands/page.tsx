@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { Footer } from "@/components/footer/Footer";
-import { Zap, Crown, CheckCircle2, TrendingUp, Users, ArrowRight } from "lucide-react";
+import { Zap, Crown, CheckCircle2, TrendingUp, Users, ArrowRight, Sparkles } from "lucide-react";
 
 const BASE = "https://www.creatifyai.in";
 
