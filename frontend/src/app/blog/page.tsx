@@ -17,6 +17,46 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "How to Create an AI Influencer for Free in 2026 (Step-by-Step)",
+    description: "Learn how to create a stunning AI influencer for free in 2026. This step-by-step guide covers persona generation, image creation, and scaling.",
+    slug: "how-to-create-ai-influencer-free-2026",
+    date: "2026-10-04",
+    tag: "Tutorial",
+    tagColor: "bg-blue-100 text-blue-700",
+  },
+  {
+    title: "AI Influencers vs Real Influencers: Which is Better for Brands? (2026)",
+    description: "An in-depth comparison of AI influencers vs real human influencers. Discover the pros, cons, ROI, and why top brands are shifting to virtual creators.",
+    slug: "ai-influencer-vs-real-influencer-brands",
+    date: "2026-10-04",
+    tag: "Analysis",
+    tagColor: "bg-purple-100 text-purple-700",
+  },
+  {
+    title: "Top 5 AI Influencer Generators in 2026 (Compared & Reviewed)",
+    description: "Discover the best AI influencer generators of 2026. We compare features, pricing, and output quality to help you pick the right tool.",
+    slug: "top-5-ai-influencer-generators-2026",
+    date: "2026-10-04",
+    tag: "Reviews",
+    tagColor: "bg-amber-100 text-amber-700",
+  },
+  {
+    title: "The Future of AI Influencers: Predictions for 2027 and Beyond",
+    description: "Explore the future of AI influencers. We predict trends in hyper-personalization, live streaming, real-time interactions, and multi-modal virtual creators.",
+    slug: "future-of-ai-influencers-2027",
+    date: "2026-10-04",
+    tag: "Trends",
+    tagColor: "bg-cyan-100 text-cyan-700",
+  },
+  {
+    title: "AI Influencer Studio: The Ultimate Setup Guide for Beginners",
+    description: "Learn how to set up your own AI Influencer Studio from scratch. A complete guide to the best tools, software stack, and workflows.",
+    slug: "ai-influencer-studio-setup-guide",
+    date: "2026-10-04",
+    tag: "Tutorial",
+    tagColor: "bg-emerald-100 text-emerald-700",
+  },
+  {
     title: "Ultimate Guide to Making Money with AI Influencers (2026)",
     description: "The complete step-by-step guide to monetizing AI influencers in 2026. Learn about brand deals, YouTube Shorts, and affiliate marketing for virtual creators.",
     slug: "ultimate-guide-making-money-ai-influencers-2026",
