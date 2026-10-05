@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     url: `${BASE}/ai-influencer-studio`,
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: `${BASE}/creatifyailogo.png`, width: 512, height: 512, alt: "AI Influencer Studio" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "AI Influencer Studio" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Influencer Studio — Thousands of AI Creator Templates | Creatify AI",
     description: "Browse, copy & remix stunning AI influencer prompts. Generate your own virtual creator in seconds.",
-    images: [`${BASE}/creatifyailogo.png`],
+    images: [`${BASE}/logo.png`],
   },
 };
 

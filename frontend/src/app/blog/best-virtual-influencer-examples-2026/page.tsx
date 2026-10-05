@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/best-virtual-influencer-examples-2026`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Best Virtual Influencer Examples 2026" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Best Virtual Influencer Examples 2026" }],
   },
 };
 
@@ -35,9 +35,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/best-virtual-influencer-examples-2026` },
   keywords: "virtual influencer examples, best AI influencers, most successful virtual influencers 2026",
   articleSection: "Case Studies & Insights",

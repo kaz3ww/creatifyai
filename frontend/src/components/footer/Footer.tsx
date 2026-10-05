@@ -65,7 +65,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-6 group w-fit">
               <div className="w-12 h-12 relative bg-white/5 rounded-xl p-2 border border-white/10 transition-colors group-hover:bg-white/10">
                 <Image
-                  src="/Creatify AIlogo.png"
+                  src="/logo.png"
                   alt="Creatify AI Logo"
                   fill
                   className="object-contain p-1"

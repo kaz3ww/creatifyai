@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     url: `${BASE}/free-ai-influencer-generator`,
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Free AI Influencer Generator" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Free AI Influencer Generator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Free AI Influencer Generator | Creatify AI",
     description: "Create photorealistic AI influencers free. No card. No watermarks.",
-    images: [`${BASE}/Creatify AIlogo.png`],
+    images: [`${BASE}/logo.png`],
   },
 };
 
@@ -135,8 +135,8 @@ const articleSchema = {
   datePublished: "2026-01-01",
   dateModified: new Date().toISOString().split("T")[0],
   author: { "@type": "Person", name: "Akash Rana" },
-  publisher: { "@type": "Organization", name: "Creatify AI", logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` } },
-  image: `${BASE}/Creatify AIlogo.png`,
+  publisher: { "@type": "Organization", name: "Creatify AI", logo: { "@type": "ImageObject", url: `${BASE}/logo.png` } },
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: `${BASE}/free-ai-influencer-generator`,
 };
 

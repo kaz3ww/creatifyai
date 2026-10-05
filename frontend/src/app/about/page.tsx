@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     url: "https://www.creatifyai.in/about",
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "About Creatify AI" }],
+    images: [{ url: "https://www.creatifyai.in/logo.png", width: 512, height: 512, alt: "About Creatify AI" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Creatify AI — AI Media Generation Platform",
     description:
       "Create stunning AI influencers, cinematic videos, and high-quality digital content in seconds.",
-    images: ["/Creatify AIlogo.png"],
+    images: ["/logo.png"],
   },
 };
 

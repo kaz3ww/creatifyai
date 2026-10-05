@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/ai-influencer-brand-deals-how-to-land-sponsorship-2026`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "AI Influencer Brand Deals" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "AI Influencer Brand Deals" }],
   },
 };
 
@@ -35,9 +35,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/ai-influencer-brand-deals-how-to-land-sponsorship-2026` },
   keywords: "AI influencer brand deals, virtual influencer sponsorship, get brand deals AI creator",
   articleSection: "Business & Brand Partnerships",

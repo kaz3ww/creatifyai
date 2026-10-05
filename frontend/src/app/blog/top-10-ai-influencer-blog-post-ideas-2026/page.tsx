@@ -180,7 +180,7 @@ export default function TopAiInfluencerBlogIdeasPage() {
       url: "https://www.creatifyai.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.creatifyai.in/Creatify AIlogo.png",
+        url: "https://www.creatifyai.in/logo.png",
       },
     },
     image: "https://www.creatifyai.in/influencer.webp",

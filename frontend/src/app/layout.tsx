@@ -50,14 +50,14 @@ export const metadata: Metadata = {
     siteName: "Creatify AI",
     type: "website",
     url: BASE,
-    images: [{ url: `${BASE}/creatifyailogo.png`, width: 512, height: 512, alt: "Creatify AI — #1 Free AI Influencer Generator" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Creatify AI — #1 Free AI Influencer Generator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Creatify AI — #1 Free AI Influencer Generator for TikTok & Instagram",
     description:
       "Create photorealistic AI influencers, viral AI videos & consistent virtual personas in seconds. Free credits on signup. Start now on Creatify AI.",
-    images: [`${BASE}/creatifyailogo.png`],
+    images: [`${BASE}/logo.png`],
   },
 };
 
@@ -70,7 +70,7 @@ const organizationSchema = {
   url: BASE,
   logo: {
     "@type": "ImageObject",
-    url: `${BASE}/creatifyailogo.png`,
+    url: `${BASE}/logo.png`,
     width: 512,
     height: 512,
   },

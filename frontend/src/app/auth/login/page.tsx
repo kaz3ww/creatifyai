@@ -222,7 +222,7 @@ function AuthContent() {
             {/* Logo + heading */}
             <div className="mb-8">
               <div className="w-10 h-10 relative mb-5">
-                <Image src="/Creatify AIlogo.png" alt="Creatify AI" fill className="object-contain" />
+                <Image src="/logo.png" alt="Creatify AI" fill className="object-contain" />
               </div>
               <h1 className="text-2xl font-black text-white mb-1">
                 {tab === "login" ? "Welcome back" : "Create your account"}

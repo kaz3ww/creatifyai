@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     url: "https://www.creatifyai.in/virtual-influencer-creator",
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "Virtual Influencer Creator" }],
+    images: [{ url: "https://www.creatifyai.in/logo.png", width: 512, height: 512, alt: "Virtual Influencer Creator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Virtual Influencer Creator — No Camera Needed | Creatify AI",
     description: "Build a profitable virtual influencer persona. No camera, no skills needed. Free credits on signup.",
-    images: ["https://www.creatifyai.in/creatifyailogo.png"],
+    images: ["https://www.creatifyai.in/logo.png"],
   },
 };
 

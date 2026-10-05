@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     url: "https://www.creatifyai.in/ai-influencer-generator",
     siteName: "Creatify AI",
     type: "website",
-    images: [{ url: "https://www.creatifyai.in/creatifyailogo.png", width: 512, height: 512, alt: "Best AI Influencer Generator 2026" }],
+    images: [{ url: "https://www.creatifyai.in/logo.png", width: 512, height: 512, alt: "Best AI Influencer Generator 2026" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best AI Influencer Generator 2026 — Free, No Watermarks | Creatify AI",
     description: "Create jaw-dropping AI influencers for TikTok & Instagram in seconds. Free credits on signup.",
-    images: ["https://www.creatifyai.in/creatifyailogo.png"],
+    images: ["https://www.creatifyai.in/logo.png"],
   },
 };
 

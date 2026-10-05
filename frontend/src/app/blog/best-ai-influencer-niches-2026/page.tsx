@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/best-ai-influencer-niches-2026`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Best AI Influencer Niches 2026" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Best AI Influencer Niches 2026" }],
   },
 };
 
@@ -35,9 +35,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/best-ai-influencer-niches-2026` },
   keywords: "best AI influencer niches, virtual influencer niche ideas, AI influencer categories 2026",
   articleSection: "Strategy & Planning",

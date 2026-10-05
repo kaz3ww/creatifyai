@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/how-to-build-consistent-ai-influencer-persona-2026`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Build AI Influencer Persona" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Build AI Influencer Persona" }],
   },
 };
 
@@ -35,9 +35,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/how-to-build-consistent-ai-influencer-persona-2026` },
   keywords: "AI influencer persona design, virtual influencer character consistency, build AI influencer identity",
   articleSection: "Character Design & Branding",

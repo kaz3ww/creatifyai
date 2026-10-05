@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/future-of-ai-influencers-2027`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Future of AI Influencers" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Future of AI Influencers" }],
   },
 };
 
@@ -35,9 +35,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/future-of-ai-influencers-2027` },
   keywords: "future of ai influencers, ai influencer trends 2027",
   articleSection: "Trends",

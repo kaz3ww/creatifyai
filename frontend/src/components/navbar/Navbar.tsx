@@ -82,7 +82,7 @@ export function Navbar() {
 
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <div className="w-16 h-16 relative">
-              <Image src="/Creatify AIlogo.png" alt="Creatify AI Logo" fill className="object-contain" priority />
+              <Image src="/logo.png" alt="Creatify AI Logo" fill className="object-contain" priority />
             </div>
           </Link>
         </div>

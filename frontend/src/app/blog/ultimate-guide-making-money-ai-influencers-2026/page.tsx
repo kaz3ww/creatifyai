@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${BASE}/blog/ultimate-guide-making-money-ai-influencers-2026`,
     siteName: "Creatify AI",
     type: "article",
-    images: [{ url: `${BASE}/Creatify AIlogo.png`, width: 512, height: 512, alt: "Making Money with AI Influencers" }],
+    images: [{ url: `${BASE}/logo.png`, width: 512, height: 512, alt: "Making Money with AI Influencers" }],
   },
 };
 
@@ -36,9 +36,9 @@ const blogPostingSchema = {
   publisher: {
     "@type": "Organization",
     name: "Creatify AI",
-    logo: { "@type": "ImageObject", url: `${BASE}/Creatify AIlogo.png` },
+    logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
   },
-  image: `${BASE}/Creatify AIlogo.png`,
+  image: `${BASE}/logo.png`,
   mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/ultimate-guide-making-money-ai-influencers-2026` },
   keywords: "how to make money with ai influencers, monetize virtual influencer",
   articleSection: "Guides & Tutorials",
