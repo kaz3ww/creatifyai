@@ -66,25 +66,44 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 2. Dynamic Blog Pages
   let blogPages: MetadataRoute.Sitemap = [];
   try {
-    const blogDir = path.join(process.cwd(), 'src/app/blog');
-    const entries = fs.readdirSync(blogDir, { withFileTypes: true });
-    
-    // Find all directories inside /blog that have a page.tsx
-    const blogSlugs = entries
-      .filter((entry) => entry.isDirectory())
-      .map((entry) => entry.name)
-      .filter((slug) => fs.existsSync(path.join(blogDir, slug, 'page.tsx')) || fs.existsSync(path.join(blogDir, slug, 'page.jsx')));
+    const blogDir = path.join(process.cwd(), 'src/content/blog');
+    if (fs.existsSync(blogDir)) {
+      const entries = fs.readdirSync(blogDir);
+      const blogSlugs = entries
+        .filter((file) => file.endsWith('.md'))
+        .map((file) => file.replace(/\.md$/, ''));
 
-    blogPages = blogSlugs.map((slug) => ({
-      url: `${baseUrl}/blog/${slug}`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.75, // Standard priority for all blog posts
-    }));
+      blogPages = blogSlugs.map((slug) => ({
+        url: `${baseUrl}/blog/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+      }));
+    }
   } catch (error) {
     console.error('Error generating dynamic blog sitemap:', error);
-    // Fallback to empty array if directory read fails
   }
 
-  return [...staticPages, ...blogPages];
+  // 3. Dynamic Model Pages
+  let modelPages: MetadataRoute.Sitemap = [];
+  try {
+    const modelDir = path.join(process.cwd(), 'src/content/models');
+    if (fs.existsSync(modelDir)) {
+      const entries = fs.readdirSync(modelDir);
+      const modelSlugs = entries
+        .filter((file) => file.endsWith('.md'))
+        .map((file) => file.replace(/\.md$/, ''));
+
+      modelPages = modelSlugs.map((slug) => ({
+        url: `${baseUrl}/models/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      }));
+    }
+  } catch (error) {
+    console.error('Error generating dynamic models sitemap:', error);
+  }
+
+  return [...staticPages, ...blogPages, ...modelPages];
 }
