@@ -84,7 +84,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
   } catch (error) {
     console.error('Error generating dynamic blog sitemap:', error);
     // Fallback to empty array if directory read fails
+  // 3. Dynamic Markdown Content (New Blogs & Models)
+  let mdPages: MetadataRoute.Sitemap = [];
+  try {
+    const mdBlogDir = path.join(process.cwd(), 'src/content/blog');
+    if (fs.existsSync(mdBlogDir)) {
+      const entries = fs.readdirSync(mdBlogDir);
+      const slugs = entries.filter((file) => file.endsWith('.md')).map((file) => file.replace(/\.md$/, ''));
+      mdPages.push(...slugs.map((slug) => ({
+        url: `${baseUrl}/blog/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly' as const,
+        priority: 0.75,
+      })));
+    }
+
+    const mdModelDir = path.join(process.cwd(), 'src/content/models');
+    if (fs.existsSync(mdModelDir)) {
+      const entries = fs.readdirSync(mdModelDir);
+      const slugs = entries.filter((file) => file.endsWith('.md')).map((file) => file.replace(/\.md$/, ''));
+      mdPages.push(...slugs.map((slug) => ({
+        url: `${baseUrl}/models/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      })));
+    }
+  } catch (error) {
+    console.error('Error generating markdown sitemap:', error);
   }
 
-  return [...staticPages, ...blogPages];
+  return [...staticPages, ...blogPages, ...mdPages];
 }
