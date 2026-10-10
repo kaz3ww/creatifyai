@@ -84,6 +84,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   } catch (error) {
     console.error('Error generating dynamic blog sitemap:', error);
     // Fallback to empty array if directory read fails
+  }
+
   // 3. Dynamic Markdown Content (New Blogs & Models)
   let mdPages: MetadataRoute.Sitemap = [];
   try {

@@ -17,6 +17,14 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Creatify AI: Official Website, Features, AI Influencer Creation & Complete Guide (2026)",
+    description: "Discover Creatify AI at CreatifyAI.in. Explore AI influencer creation, available features, how-to guides, and tools for digital content creation.",
+    slug: "creatify-ai",
+    date: "2026-10-10",
+    tag: "Official Guide",
+    tagColor: "bg-[#1736cf]/10 text-[#1736cf]",
+  },
+  {
     title: "How to Create an AI Influencer for Free in 2026 (Step-by-Step)",
     description: "Learn how to create a stunning AI influencer for free in 2026. This step-by-step guide covers persona generation, image creation, and scaling.",
     slug: "how-to-create-ai-influencer-free-2026",
